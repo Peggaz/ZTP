@@ -1,17 +1,34 @@
 import Library
 import DamerauDistance
-def TextCorection(src_corect_text):
+import threading, queue
+import datetime
+import multiprocessing
+import EasyThread
+
+def MainTextCorection(src_corect_text):
     in_text = "ala ma kotz"#input().lower()
-    correct_dic = Library.ReadClearText(src_corect_text).split(" ")
-    ret = ""
+    text_correct = Library.ReadClearText(src_corect_text)
     d_distance = DamerauDistance.DamerauDistance()
+    ret = ""
+    #test przygotowany, rozpoczęcie korekty
+    Library.Log("Zakończono czyszczenie tekstu, rozpoczęto korektę")
+    task = []
     for word in in_text.split(" "):
-        if word in correct_dic:
+        task.append(word, d_distance, text_correct)
+    for it in EasyThread.EasyThread(task, TextCorection):
+        ret += it
+def TextCorection(*args):
+    try:
+        word = args[0]
+        d_distance = args[1]
+        text_correct = args[2]
+        ret = ""
+        if word in text_correct:
             ret += " " + word
         else:
             correct_word= ""
             correct_weight = 100
-            for it in correct_dic:
+            for it in text_correct:
                 weight = d_distance.MakeAndGetDistance(word, it)
                 if correct_weight > weight:
                     correct_weight = weight
@@ -20,9 +37,11 @@ def TextCorection(src_corect_text):
                     correct_word = it
                     break
             ret += correct_word
-    print(ret)
+        return ret
+    except:
+        pass
 
 
     print("hellow word")
 
-TextCorection("../teksty/odm.txt")
+print(MainTextCorection("../teksty/odm.txt"))

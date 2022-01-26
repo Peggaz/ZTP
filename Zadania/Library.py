@@ -1,4 +1,6 @@
 import math
+import datetime
+
 
 CLP_ON = False
 if CLP_ON:
@@ -73,25 +75,30 @@ def OnlyLetter(s):
     :return: zwraca przyjęty tekst zawierający jedynie litery oraz pojedyńcze spacje
     entery są zamienione na pojedyńcze spacje
     '''
+    if type(s) == list:
+        new_s = ""
+        for it in s:
+            new_s += it
+        s = new_s
     ret = ""
     s = s.replace("\n", " ")
-    while "  " in s:
+    while "  " in s:#usuwam puste spacje
         s = s.replace("  ", " ")
     for x in s:
-        if OrALetter(x) or x == " ":
+        if x == " " or OrALetter(x):
             ret += x
     return ret
 
 
 def OrALetter(ch):
     '''
+    Sprawdza czy litera należy do języka polskiego
     :param ch: znak(mała litera) do analizy polskiego alfabetu
     :return: wartość binarna czy znak należy do polskiego alfabetu
     '''
-    z = ord(ch)
     if ch in "ąćęłńóśźż":
         return True
-
+    z = ord(ch)
     if z >= ord("a") and z <= ord("z"):
         return True
     return False
@@ -374,6 +381,16 @@ def Transcription(src_text, transliteriation_src):
         else:
             text_out += c
     return text_out
+
+def Log(message):
+    '''
+    Funkcja odpowiadająca za zalogowanie czynności o danym czasie
+    :param self:
+    :param message:
+    :return:
+    '''
+    now = datetime.datetime.now().strftime("%H:%M:%S")
+    print ("%s %s" % (now, message))
 # endregion
 
 #region Old Damerau
