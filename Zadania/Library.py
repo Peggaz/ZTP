@@ -1,9 +1,18 @@
 import math
 import datetime
-import ClpEasy
 CLP_ON = False#Bardzo ważna zmienna określa czy użwać słownika CLP działa on poprawnie jedynie na wierzbie
-
-
+if CLP_ON:
+    from clp3 import clp
+    import clp_settings
+#region clp
+def CLPBasicWord(s):
+    id = clp(s)
+    if len(id) > 0:
+        list_p = clp.forms(id[0])
+        if len(list_p) > 0:
+            s = list_p[0]
+    return s
+#endregion
 
 
 # region Cezar
@@ -206,7 +215,7 @@ def AttendanceListCLP(string, attendance_list):
     for word in string.split(" "):
         if (word != ""):
             if (CLP_ON):
-                ClpEasy.CLPBasicWord(word)
+                CLPBasicWord(word)
             if word in attendance_list:
                 attendance_list[word] += 1
             else:
