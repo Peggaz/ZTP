@@ -14,7 +14,7 @@ def MainTextCorection(src_corect_text):
     Library.Log("Zakończono czyszczenie tekstu, rozpoczęto korektę")
     task = []
     for word in in_text.split(" "):
-        task.append(word, d_distance, text_correct)
+        task.append((word, d_distance, text_correct))
     for it in EasyThread.EasyThread(task, TextCorection):
         ret += it
 def TextCorection(*args):
