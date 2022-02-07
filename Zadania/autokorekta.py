@@ -13,7 +13,7 @@ def korekta(sentenc, src_file):
     '''
     Zmienia pierwszy znak słowa na wielką litere
     :param sentenc:sentencja do korekty
-    :param src_file:scieżka do pliku
+ ads   :param src_file:scieżka do pliku
     :return: słowo z wielką pierwszą literą
     '''
     file = Library.ReadClearText(src_file).split('\n')
@@ -22,13 +22,13 @@ def korekta(sentenc, src_file):
     ifDot = True
     zdanie = ""
     new_word = ""
-    result = 100
+
     _damerau = DamerauDistance.DamerauDistance()
     for it in sentenc:
-        old_result = 1.5
+        result = 100
+        old_result = 100
         word = ""
         punctuation = ""
-        nowe_slowo = ""
         if not Library.OrALetter(it[len(it)-1]):
             punctuation = it[len(it)-1]
             word = it[:-1]
@@ -42,23 +42,26 @@ def korekta(sentenc, src_file):
             zdanie += word + punctuation + " "
             continue
         else:
-            for it1 in file:
-                if abs(len(word) - len(it1)) >= 3:
-                    continue
-                if result < 0.5 : continue
-                result = _damerau.MakeAndGetDistance(word, it1)
+            for line in file:
+                br = False
+                for it1 in line.split(" "):
+                    if abs(len(word) - len(it1)) >= 3:
+                        continue
+                    result = _damerau.MakeAndGetDistance(word, it1)
 
-                if old_result > result:
-                    old_result = result
-                    new_word = it1
-                    if result <= 0.5:
-                        break
+                    if old_result > result:
+                        old_result = result
+                        new_word = it1
+                        if result <= 0.5:
+                            br = True
+                            break
+                if br: break
         if ifDot:
             ifDot = False
-            new_word = BigFirstChar(nowe_slowo)
-        sentenc += nowe_slowo + punctuation + " "
+            new_word = BigFirstChar(new_word)
+        zdanie += new_word + punctuation + " "
         if punctuation == ".": ifDot = True
     return zdanie
 print("tekst przygotowany")
-print(korekta("Koty to fajne zfieszęta", "../teksty/odm.txt"))
-print(korekta("Smiehc to zdrowie. Ptaki mają pieże. Chóśtawka nie ytlko lda zdieic. Robic zlośliwosci.", "../teksty/odm.txt"))
+print(korekta("Koty to fajne zfieszęta", "../teksty/test.txt"))
+print(korekta("Smiehc to zdrowie. Ptaki mają pieże. Chóśtawka nie ytlko lda zdieic. Robic zlośliwosci.", "../teksty/test.txt"))
