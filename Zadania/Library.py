@@ -172,8 +172,10 @@ def Cosinusowa(x_gram, y_gram):
             x = x_gram[itr]
             y = y_gram[itr]
             licznik += x * y
-    return 1 - (licznik / (len(x_gram) * len(y_gram)))
-
+    try:
+        return 1 - (licznik / (len(x_gram) * len(y_gram)))
+    except:
+        return -1
 
 def nGram(s, n):
     '''
@@ -182,7 +184,7 @@ def nGram(s, n):
     @:return słownik zaiwerający ngram i jego ilość
     '''
     _nGram = {}
-    for x in range(len(s) - n):
+    for x in range(len(s) - (n-1)):
         _nGram[s[x:x + n]] = _nGram.get(s[x:x + n], 0) + 1
     return _nGram
 
@@ -204,7 +206,7 @@ def LoadText(s):
     return open(s, "r", encoding="utf-8").read()
 
 
-def AttendanceListCLP(string, attendance_list):
+def AttendanceListCLP(string, attendance_list = None):
     '''
     :param string: ciąg znaków do analizy
     :param attendance_list: lista frkefencyjna domyślnie pusta zawierająca
@@ -215,7 +217,7 @@ def AttendanceListCLP(string, attendance_list):
     for word in string.split(" "):
         if (word != ""):
             if (CLP_ON):
-                CLPBasicWord(word)
+                word = CLPBasicWord(word)
             if word in attendance_list:
                 attendance_list[word] += 1
             else:
@@ -242,7 +244,29 @@ def LevenshteinDistance(s ,t):
                            ret[i-1][j-1] + r)  #zamiana
     return ret[m-1][n-1]
 
+def Atergo(file):
+    ret = []
+    for line in file.split("\n"):
+        for it in line.split(" "):
+            ret.append(it)
+    def RevertWord(word):
+        return word[::-1]
+    ret.sort(key = RevertWord)
+    return ret[::-1]
 
+def SaveFile(list, name, location = "../wyniki/"):
+    '''
+    Zapisuje do domyslnej wartości location
+    @:param ist - lista elementów
+    @:param name - nazwa zapisanego pliku
+    @:param location - scieża zapisu domyślnie: "../wyniki"
+    '''
+    f = open(location + name, "w")  # otwarcie pliku
+    for it in list:
+        try:
+            f.write(it + " ")
+        except:
+            print("błąd w zapisie")
 
 # endregion
 

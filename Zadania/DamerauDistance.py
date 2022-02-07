@@ -62,7 +62,7 @@ class DamerauDistance:
 
     def MakeAndGetDistance(self, s ,t):
         '''
-        Funkcja metryki cosinusowej ze wzoru odleglosc n-gramów
+        tworzy i zwraca wagę różnicy
         @:param s - słowo porównywane
         @:param t - słowo do porównania
         @:return - ilosc operacji które są wymagane do korekty

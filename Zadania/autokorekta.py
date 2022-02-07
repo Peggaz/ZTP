@@ -1,10 +1,21 @@
 import Library
 import DamerauDistance
 def BigFirstChar(word):
+    '''
+    Zmienia pierwszy znak słowa na wielką litere
+    :param word:słowo do edycji
+    :return: słowo z wielką pierwszą literą
+    '''
     if len(word) > 0:
         return word[0].upper() + word[1:]
     return word
 def korekta(sentenc, src_file):
+    '''
+    Zmienia pierwszy znak słowa na wielką litere
+    :param sentenc:sentencja do korekty
+    :param src_file:scieżka do pliku
+    :return: słowo z wielką pierwszą literą
+    '''
     file = Library.ReadClearText(src_file).split('\n')
     sentenc = sentenc.lower()
     sentenc = sentenc.split(" ")
