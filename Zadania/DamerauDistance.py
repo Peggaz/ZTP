@@ -1,3 +1,6 @@
+import math
+
+
 class DamerauDistance:
     def __init__(self):
         '''
@@ -71,6 +74,8 @@ class DamerauDistance:
         t = t.lower()
         n = len(t)
         m = len(s)
+        if math.fabs(n-m) > n or math.fabs(n-m) > m:
+            return max(m, n)
         ret = [[0] * n for i in range(m)]
         for i in range(m):
             for j in range(n):

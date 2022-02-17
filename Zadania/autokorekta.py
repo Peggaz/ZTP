@@ -34,13 +34,17 @@ def korekta(sentenc, src_file):
             word = it[:-1]
         else:
             word = it
-        if word in file:
-            if ifDot:
-                ifDot = False
-                word = BigFirstChar(word)
-            if punctuation == ".": ifDot = True
-            zdanie += word + punctuation + " "
-            continue
+        if_continue = False
+        for line in file:
+            if word in line:
+                if ifDot:
+                    ifDot = False
+                    word = BigFirstChar(word)
+                if punctuation == ".": ifDot = True
+                zdanie += word + punctuation + " "
+                if_continue = True
+                break
+        if if_continue: continue
         else:
             for line in file:
                 br = False
@@ -48,7 +52,6 @@ def korekta(sentenc, src_file):
                     if abs(len(word) - len(it1)) >= 3:
                         continue
                     result = _damerau.MakeAndGetDistance(word, it1)
-
                     if old_result > result:
                         old_result = result
                         new_word = it1

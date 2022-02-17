@@ -123,7 +123,7 @@ def Euklidesowa(x_gram, y_gram):
         if itr in y_gram:
             x = x_gram[itr]
             y = y_gram[itr]
-            licznik += ((x - y) * (x - y))
+            licznik += (x - y) ** 2
     return math.sqrt(licznik)
 
 
@@ -166,14 +166,19 @@ def Cosinusowa(x_gram, y_gram):
     @:param y_gram - drugi słownik do porównania
     @:return - wynik w postaci int
     '''
+    len1 = 0
+    len2 = 0
     licznik = 0
     for itr in x_gram:
+        len1 += x_gram[itr] ** 2
         if itr in y_gram:
             x = x_gram[itr]
             y = y_gram[itr]
             licznik += x * y
+    for b in  y_gram.keys():
+        len2 += y_gram[b] ** 2
     try:
-        return 1 - (licznik / (len(x_gram) * len(y_gram)))
+        return 1 - (licznik / (math.sqrt(len1) * math.sqrt(len2)))
     except:
         return -1
 
@@ -194,8 +199,7 @@ def SortDic(dic):
     :param dic: słownik
     :return: posortowany słownik po kluczu
     '''
-    def key_sort(e):  # definicja klucza sortujacego https://www.w3schools.com/python/ref_list_sort.asp
-        return e.licznik
+    return sorted(dic.items(), key=lambda kv: kv[1], reverse=True)
 
 
 def LoadText(s):
