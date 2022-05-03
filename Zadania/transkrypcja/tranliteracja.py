@@ -1,4 +1,4 @@
-import Library
+import Zadania.Library.Library as Library
 
 
 print(Library.Transliteration("../ru.txt", "../transliteracja_ru.txt") + '\n================\n')

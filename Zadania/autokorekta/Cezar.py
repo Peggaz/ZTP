@@ -1,5 +1,5 @@
 #by Jakub Nowocień
-import Library
+import Zadania.Library.Library as Library
 
 
 def main():

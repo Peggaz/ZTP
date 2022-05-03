@@ -1,18 +1,19 @@
-import Library
+from Zadania.Library import Library
 import threading, queue
 import datetime
 import multiprocessing
 import math
 
+
 class TFIDF:
     def __Log(self, message):
         now = datetime.datetime.now().strftime("%H:%M:%S")
-        print ("%s %s" % (now, message))
+        print("%s %s" % (now, message))
 
     class __TFThread(threading.Thread):
-        '''
+        """
         Klasa obsługująca wątek wyliczający tf dla każdego tekstu
-        '''
+        """
 
         def __init__(self, id, tasks, log):
             '''
@@ -41,9 +42,9 @@ class TFIDF:
             return TF_for_words
 
         def run(self):
-            '''
+            """
             funkcja główna startująca wątek
-            '''
+            """
             while True:
                 req = self.tasks.get()
                 if req == None:
@@ -58,17 +59,17 @@ class TFIDF:
                 self.tasks.task_done()
 
     def __init__(self, src):
-        '''
+        """
             koństruktor
-        '''
+        """
         self.__file = Library.LoadText(src).lower()
         self.__file = self.__file.split("#0")
 
     def MakeAndSaveTFIDF(self):
-        '''
+        """
            wczutuję tekst i dzieli go po # jest to specyfika pliku wsadowego
            :param s: ściężka do pliku domyślnie "pop.txt"
-       '''
+       """
         self.TF_list = []
         self.__Log("Przygotowano " + str(len(self.__file)) + " do analizy")
         request_queue = queue.Queue()
@@ -99,9 +100,9 @@ class TFIDF:
         self.__Log("zakończono zapis IDF")
 
     def __IDF(self, TF_list):
-        '''
+        """
         :return: słownik IDF gdzie do każdego słowa przypisana jest wartość jego IDF dla całego zbioru tekstów
-        '''
+        """
         dict1 = {}
         IDF_dict = {}
         for it in TF_list:
@@ -112,9 +113,9 @@ class TFIDF:
         return IDF_dict
 
     def NewSentence(self):
-        '''
+        """
         Funkcja pozwala na dodanie nowego słowa bądź słów i obliczenie TF i idf dla danej senctecji
-        '''
+        """
         TFIDF_dicts_list = []
         for TF_dict in self.TF_list:
             TFIDF_dict_for_file = {}
@@ -158,7 +159,7 @@ class TFIDF:
         return False
 
     def __SaveTF(self, TF_list):
-        out_file = open('../wyniki/' + "TF" + '.txt', 'w', encoding='utf-8', newline='')
+        out_file = open('../../wyniki/' + "TF" + '.txt', 'w', encoding='utf-8', newline='')
         numer_plikow = 0
         for it in TF_list:
             out_file.write("slowo\t\t\t\t\t| TF\n")
@@ -174,5 +175,6 @@ class TFIDF:
         for it in slownikIDF:
             tresc.write(it + "\t\t\t\t\t| " + str(slownikIDF[it]) + "\n")
 
-tf = TFIDF("../teksty/papk.txt")
+
+tf = TFIDF("../../teksty/papk.txt")
 tf.MakeAndSaveTFIDF()

@@ -98,17 +98,3 @@ class DamerauDistance:
                                ret[i][j-1] + 1,    #wstawianie
                                ret[i-1][j-1] + r)  #zamian
         return ret[m-1][n-1]
-
-
-    def Test(self):
-        ret = True
-        ret &= self.MakeAndGetDistance('pierze', 'pieże') == 0.5
-        ret &= self.MakeAndGetDistance('smiech', 'śmiech') == 0.2
-        ret &= self.MakeAndGetDistance('piora', 'piórą') == 0.4
-        ret &= self.MakeAndGetDistance('piura', 'pióra') == 0.5
-        ret &= self.MakeAndGetDistance('człowiek', 'cłzoiwek') == 1.0
-        ret &= self.MakeAndGetDistance('zrobić', 'rzobić') == 0.5
-        ret &= self.MakeAndGetDistance('zima', 'źima') == 0.2
-        ret &= self.MakeAndGetDistance('prosiłem', 'prsoilem') == 0.7
-        ret &= self.MakeAndGetDistance('ćwok', 'wciok') == 1.2 #Godny coś pojebał
-        return ret

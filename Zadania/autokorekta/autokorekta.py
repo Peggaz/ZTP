@@ -1,4 +1,4 @@
-import Library
+import Zadania.Library.Library as Library
 import DamerauDistance
 def BigFirstChar(word):
     '''
@@ -9,7 +9,9 @@ def BigFirstChar(word):
     if len(word) > 0:
         return word[0].upper() + word[1:]
     return word
-def korekta(sentenc, src_file):
+
+
+def Korekta(sentenc, src_file):
     '''
     Zmienia pierwszy znak słowa na wielką litere
     :param sentenc:sentencja do korekty
@@ -29,7 +31,7 @@ def korekta(sentenc, src_file):
         old_result = 100
         word = ""
         punctuation = ""
-        if not Library.OrALetter(it[len(it)-1]):
+        if not Library.OrALetter(it[len(it) - 1]):
             punctuation = it[len(it)-1]
             word = it[:-1]
         else:
@@ -65,6 +67,6 @@ def korekta(sentenc, src_file):
         zdanie += new_word + punctuation + " "
         if punctuation == ".": ifDot = True
     return zdanie
-print("tekst przygotowany")
-print(korekta("Koty to fajne zfieszęta", "../teksty/test.txt"))
-print(korekta("Smiehc to zdrowie. Ptaki mają pieże. Chóśtawka nie ytlko lda zdieic. Robic zlośliwosci.", "../teksty/test.txt"))
+#print("tekst przygotowany")
+#print(Korekta("Koty to fajne zfieszęta", "../teksty/test.txt"))
+#print(korekta("Smiehc to zdrowie. Ptaki mają pieże. Chóśtawka nie ytlko lda zdieic. Robic zlośliwosci.", "../teksty/test.txt"))

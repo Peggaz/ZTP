@@ -1,12 +1,9 @@
-import Library
-import DamerauDistance
-import threading, queue
-import datetime
-import multiprocessing
-import EasyThread
+import Zadania.Library.Library as Library
+from Zadania.autokorekta import DamerauDistance
+from Zadania.Library import EasyThread
 
-def MainTextCorection(src_corect_text):
-    in_text = "Smiehc to zdrowie. Ptaki mają pieże. Chóśtawka nie ytlko lda zdieic. Robic zlośliwosci."#input().lower()
+
+def MainTextCorection(sentence, src_corect_text):
     Library.Log("rozpoczynanie wczytania oraz czyszczenia słownika")
     text_correct = Library.ReadClearText(src_corect_text).split(" ")
     print(text_correct)
@@ -16,7 +13,7 @@ def MainTextCorection(src_corect_text):
     Library.Log("Zakończono czyszczenie tekstu, rozpoczęto korektę")
     task = []
     id = 0
-    for word in in_text.split(" "):
+    for word in sentence.split(" "):
         task.append((id, word, d_distance, text_correct))
         id += 1
     dic_correct = {}
@@ -63,9 +60,3 @@ def TextCorection(args):
         return ret, args[0]
     except:
         pass
-
-
-    #print("hellow word")
-
-
-#print(MainTextCorection("../teksty/test.txt"))

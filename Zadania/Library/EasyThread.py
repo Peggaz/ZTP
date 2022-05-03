@@ -2,6 +2,7 @@ import threading, queue
 import datetime
 import multiprocessing
 
+
 class OnVariableThread(threading.Thread):
     '''
     SKUP SIĘ
@@ -13,6 +14,7 @@ class OnVariableThread(threading.Thread):
             z listy argumentow na operacyjne
             PATRZ wywołanie w "test"
     '''
+
     def __init__(self, id, tasks, function):
         '''
         koństruktor klasy dzołającej na wątku która analizuje tekst i wywołuje pojedyńczą funkcję z jedną zmienną
@@ -42,6 +44,7 @@ class OnVariableThread(threading.Thread):
             ret = self.function(varible)
             ret_queue.put(ret)
             self.tasks.task_done()
+
 
 def EasyThread(list, function):
     '''

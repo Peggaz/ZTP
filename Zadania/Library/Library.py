@@ -1,10 +1,13 @@
 import math
 import datetime
-CLP_ON = False#Bardzo ważna zmienna określa czy użwać słownika CLP działa on poprawnie jedynie na wierzbie
+
+CLP_ON = True  # Bardzo ważna zmienna określa czy użwać słownika CLP działa on poprawnie jedynie na wierzbie
 if CLP_ON:
     from clp3 import clp
     import clp_settings
-#region clp
+
+
+# region clp
 def CLPBasicWord(s):
     id = clp(s)
     if len(id) > 0:
@@ -12,10 +15,15 @@ def CLPBasicWord(s):
         if len(list_p) > 0:
             s = list_p[0]
     return s
-#endregion
+
+
+# endregion
 
 
 # region Cezar
+
+
+
 def DecodingCezar(text, x):
     ret = ""
     for c in text:
@@ -81,7 +89,7 @@ def OnlyLetter(s):
         s = new_s
     ret = ""
     s = s.replace("\n", " ")
-    while "  " in s:#usuwam puste spacje
+    while "  " in s:  # usuwam puste spacje
         s = s.replace("  ", " ")
     for x in s:
         if x == " " or OrALetter(x):
@@ -175,12 +183,13 @@ def Cosinusowa(x_gram, y_gram):
             x = x_gram[itr]
             y = y_gram[itr]
             licznik += x * y
-    for b in  y_gram.keys():
+    for b in y_gram.keys():
         len2 += y_gram[b] ** 2
     try:
         return 1 - (licznik / (math.sqrt(len1) * math.sqrt(len2)))
     except:
         return -1
+
 
 def nGram(s, n):
     '''
@@ -189,7 +198,7 @@ def nGram(s, n):
     @:return słownik zaiwerający ngram i jego ilość
     '''
     _nGram = {}
-    for x in range(len(s) - (n-1)):
+    for x in range(len(s) - (n - 1)):
         _nGram[s[x:x + n]] = _nGram.get(s[x:x + n], 0) + 1
     return _nGram
 
@@ -210,7 +219,7 @@ def LoadText(s):
     return open(s, "r", encoding="utf-8").read()
 
 
-def AttendanceListCLP(string, attendance_list = None):
+def AttendanceListCLP(string, attendance_list=None):
     '''
     :param string: ciąg znaków do analizy
     :param attendance_list: lista frkefencyjna domyślnie pusta zawierająca
@@ -228,7 +237,8 @@ def AttendanceListCLP(string, attendance_list = None):
                 attendance_list[word] = 1
     return attendance_list
 
-def LevenshteinDistance(s ,t):
+
+def LevenshteinDistance(s, t):
     '''
     Funkcja metryki cosinusowej ze wzoru odleglosc n-gramów
     @:param s - słowo porównywane
@@ -243,22 +253,26 @@ def LevenshteinDistance(s ,t):
             r = 1
             if s[i] == t[j]:
                 r = 0
-            ret[i][j] = min(ret[i-1][j] + 1,   #usuwanie liter
-                           ret[i][j-1] + 1,    #wstawianie
-                           ret[i-1][j-1] + r)  #zamiana
-    return ret[m-1][n-1]
+            ret[i][j] = min(ret[i - 1][j] + 1,  # usuwanie liter
+                            ret[i][j - 1] + 1,  # wstawianie
+                            ret[i - 1][j - 1] + r)  # zamiana
+    return ret[m - 1][n - 1]
+
 
 def Atergo(file):
     ret = []
     for line in file.split("\n"):
         for it in line.split(" "):
             ret.append(it)
+
     def RevertWord(word):
         return word[::-1]
-    ret.sort(key = RevertWord)
+
+    ret.sort(key=RevertWord)
     return ret[::-1]
 
-def SaveFile(list, name, location = "../wyniki/"):
+
+def SaveFile(list, name, location="../wyniki/"):
     '''
     Zapisuje do domyslnej wartości location
     @:param ist - lista elementów
@@ -272,46 +286,49 @@ def SaveFile(list, name, location = "../wyniki/"):
         except:
             print("błąd w zapisie")
 
+
 # endregion
 
 # region transcription
 vowels = ['a', 'e', 'i', 'o', 'u', 'ó', 'y', 'ą', 'ę', 'a', 'o', 'и', 'у', 'ы', 'э']
+
+
 def MakeTranscriptionDic():
     '''
     :return: zwraca słownik transkrypcji alfabetu - cyrylica -> polski
     '''
     transcriptionDic = {
-            'б': 'b',
-            'в': 'w',
-            'г': 'g',
-            'д': 'd',
-            'e': (('je', 1, ['S', 'ъ', 'ь'], [], 0), ('e', 0, ['ж', 'л', 'ц', 'ч', 'ш', 'щ'], [], 0), ['ie']),
-            'ё': (('jo', 1, ['S', 'ъ', 'ь'], [], 0), ('o', 0, ['ж', 'л', 'ч', 'ш', 'щ'], [], 0), ['io']),
-            'ж': 'ż',
-            'з': 'z',
-            'и': (('ji', 0, ['ь'], [], 0), ('y', 0, ['ж', 'ц', 'ш'], [], 0), ['i']),
-            'й': 'j',
-            'к': 'k',
-            'л': (('l', 0, [], ['е', 'ё', 'и', 'ь', 'ю', 'я'], 0), ['ł']),
-            'м': 'm',
-            'н': 'n',
-            'о': 'o',
-            'п': 'p',
-            'р': 'r',
-            'с': 's',
-            'т': 't',
-            'у': 'u',
-            'ф': 'f',
-            'х': 'ch',
-            'ц': 'c',
-            'ч': 'cz',
-            'ш': 'sz',
-            'щ': 'szcz',
-            'ъ': '',
-            'ь': (('', 0, ['ж', 'ш', 'ч', 'щ'], ['S'], 0), ['´']),
-            'э': 'e',
-            'ю': (('u', 0, ['л'], [], 0), ('ju', 1, ['S', 'ъ', 'ь'], [], 0), ['iu']),
-            'я': (('ja', 1, ['S', 'ъ', 'ь'], [], 0), ('a', 0, ['л'], [], 0), ['ia'])}
+        'б': 'b',
+        'в': 'w',
+        'г': 'g',
+        'д': 'd',
+        'e': (('je', 1, ['S', 'ъ', 'ь'], [], 0), ('e', 0, ['ж', 'л', 'ц', 'ч', 'ш', 'щ'], [], 0), ['ie']),
+        'ё': (('jo', 1, ['S', 'ъ', 'ь'], [], 0), ('o', 0, ['ж', 'л', 'ч', 'ш', 'щ'], [], 0), ['io']),
+        'ж': 'ż',
+        'з': 'z',
+        'и': (('ji', 0, ['ь'], [], 0), ('y', 0, ['ж', 'ц', 'ш'], [], 0), ['i']),
+        'й': 'j',
+        'к': 'k',
+        'л': (('l', 0, [], ['е', 'ё', 'и', 'ь', 'ю', 'я'], 0), ['ł']),
+        'м': 'm',
+        'н': 'n',
+        'о': 'o',
+        'п': 'p',
+        'р': 'r',
+        'с': 's',
+        'т': 't',
+        'у': 'u',
+        'ф': 'f',
+        'х': 'ch',
+        'ц': 'c',
+        'ч': 'cz',
+        'ш': 'sz',
+        'щ': 'szcz',
+        'ъ': '',
+        'ь': (('', 0, ['ж', 'ш', 'ч', 'щ'], ['S'], 0), ['´']),
+        'э': 'e',
+        'ю': (('u', 0, ['л'], [], 0), ('ju', 1, ['S', 'ъ', 'ь'], [], 0), ['iu']),
+        'я': (('ja', 1, ['S', 'ъ', 'ь'], [], 0), ('a', 0, ['л'], [], 0), ['ia'])}
     return transcriptionDic
 
 
@@ -409,6 +426,7 @@ def Transcription(src_text, transliteriation_src):
             text_out += c
     return text_out
 
+
 def Log(message):
     '''
     Funkcja odpowiadająca za zalogowanie czynności o danym czasie
@@ -417,10 +435,12 @@ def Log(message):
     :return:
     '''
     now = datetime.datetime.now().strftime("%H:%M:%S")
-    print ("%s %s" % (now, message))
+    print("%s %s" % (now, message))
+
+
 # endregion
 
-#region Old Damerau
+# region Old Damerau
 def MakeDamerauDic(self):
     ret = {}
     pol = "acelnosz"
@@ -429,6 +449,7 @@ def MakeDamerauDic(self):
         ret[lat[it]] = pol[it]
     ret["ż"] = "z"
     return ret
+
 
 def CheckDamerauOrthographyOld(s1, s2, id1, id2):
     try:
@@ -450,12 +471,14 @@ def CheckDamerauOrthographyOld(s1, s2, id1, id2):
         pass
     return False
 
+
 def PolishChar(self, c, c2):
     if c in self._polishDic and self._polishDic[c] == c2:
         return True
     elif c2 in self._polishDic and self._polishDic[c2] == c:
         return True
     return False
+
 
 def DamerauOld(s, t):
     ret = 0.0
@@ -494,5 +517,4 @@ def DamerauOld(s, t):
         else:
             ret += 0.5
     return ret
-#endregion
-
+# endregion

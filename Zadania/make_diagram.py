@@ -1,6 +1,6 @@
 import csv
 
-import Library
+from Zadania.Library import Library
 
 import matplotlib.pyplot as plt
 
