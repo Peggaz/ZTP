@@ -473,6 +473,9 @@ def CheckDamerauOrthographyOld(s1, s2, id1, id2):
 
 
 def PolishChar(self, c, c2):
+    """
+    Sprawdza czy pierwsza litera ma swój odpowiednik z ogąnkiem
+    """
     if c in self._polishDic and self._polishDic[c] == c2:
         return True
     elif c2 in self._polishDic and self._polishDic[c2] == c:

@@ -1,0 +1,22 @@
+Aż 900 tys. niebezpiecznych odpadów kosmicznych krąży obecnie wokół Ziemi. Japońskie firmy testują innowacyjne rozwiązania, by wyeliminować to zagrożenie.
+Fragmenty śmieci wytworzonych przez człowieka krążą obecnie wokół Ziemi z prędkością do 8 kilometrów na sekundę, stanowiąc poważne zagrożenie dla satelitów, a nawet załogowych statków kosmicznych, takich jak Międzynarodowa Stacja Kosmiczna. A ponieważ coraz więcej krajów wystrzeliwuje satelity i niektóre z nich chcą dalej eksplorować przestrzeń kosmiczną, ilość śmieci będzie tylko rosła – pisze portal Deutsche Welle.
+
+Szczątki kosmiczne pozostałe po tysiącach misji stanowią poważne zagrożenie.
+Cztery japońskie firmy widzą w tym szansę dla biznesu i opracowują rozwiązania, które powinny sprawić, że podróże kosmiczne będą w przyszłości bezpieczniejsze. „Uważam, że kwestia kosmicznych śmieci jest jedną z najbardziej palących i ważnych kwestii w dzisiejszym świecie” – twierdzi Nobu Okada, założyciel i dyrektor generalny japońskiej firmy Astroscale, która została założona w 2013 roku i obecnie prowadzi działalność w Wielkiej Brytanii, Stanach Zjednoczonych, Izraelu i Singapurze.
+
+Misja ma na celu oczyszczenie przestrzeni kosmicznej.
+„Satelity są powodem, dla którego jesteśmy w stanie mierzyć, monitorować i zarządzać zmianami klimatycznymi, a także umożliwiają nam przewidywanie przyszłości Ziemi. Ochrona środowiska na Ziemi nie może istnieć bez ochrony orbitalnej w przestrzeni kosmicznej” – dodał Okada.
+
+22 marca firma Astroscale wystrzeliła swój statek demonstracyjny End-of-Life Services by Astroscale (ELSA-d) na rakiecie Sojusz. Jest to pierwsza komercyjna misja mająca na celu sprawdzenie podstawowych technologii niezbędnych do usuwania śmieci kosmicznych. ELSA-d składa się z dwóch satelitów, które zostały ułożone jeden na drugim, 175-kilogramowego satelity serwisowego i ważącego 17 kilogramów satelity klienckiego.
+
+Pojazd serwisowy wyposażony jest w technologie zbliżeniowe oraz magnetyczny mechanizm dokowania i przeznaczony jest do usuwania z orbity niedziałających satelitów i innych dużych szczątków. Satelita serwisowy jest następnie kierowany do opadania wraz z ładunkiem, aż spłonie w atmosferze. „Misja ELSA-d jest bardzo złożona, a tego rodzaju przechwytywanie nigdy wcześniej nie było próbowane” – powiedział Okada.
+
+Inne rozwiązania problemu kosmicznych śmieci.
+Inżynierowie i naukowcy z ALE, innej japońskiej firmy, przyjmują zupełnie inne podejście – stwierdziła rzeczniczka Mariko Yamasaki. „Nasz system wykorzystuje siłę Lorentza i elektrodynamiczną więź, która jest przymocowana do satelity przed jego wystrzeleniem," powiedział Yamasaki. „Gdy satelita osiągnie koniec swojej przydatności, uwięź elektromagnetyczna jest rozwijana w przestrzeni kosmicznej i zmienia orbitę satelity, wykorzystując pole magnetyczne Ziemi”.
+
+Efektem końcowym, po raz kolejny, jest opadanie pojazdu, aż spali się nieszkodliwie w atmosferze, a ALE ma nadzieję przeprowadzić demonstrację swojego systemu jeszcze w tym roku.
+
+Strzelanie do śmieci za pomocą lasera.
+Inne rozwiązanie zostało zaproponowane przez firmę Sky Perfect JSAT Corp. zajmującą się komunikacją satelitarną, która zamierza wykorzystać laser do zestrzeliwania śmieci. Firma z siedzibą w Tokio jest przekonana, że będzie w stanie uruchomić swój pierwszy komercyjny pojazd niszczący śmieci w 2026 roku. Impuls energii z lasera zakłóci orbitę celu i wyśle go w atmosferę ziemską, gdzie ulegnie spaleniu.
+
+W związku z tym, że ilość śmieci krążących wokół naszej planety rośnie z każdym rokiem, przedstawiciele firm wierzą, że operatorzy satelitów chętnie zapłacą za zapewnienie, że orbita wybrana dla każdego nowego, wartego wiele milionów dolarów kosmicznego pojazdu została oczyszczona z wszystkiego, co może spowodować jego uszkodzenie. „Problem śmieci kosmicznych jest problemem środowiskowym, podobnym do CO2 i tworzyw sztucznych w morzu” – uważa Sky Perfect JSAT Corp.

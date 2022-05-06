@@ -1,0 +1,20 @@
+Algorytmy genetyczne są dość łatwe do implementacji, lecz ich zachowanie jest trudne
+do wytłumaczenia, dlaczego prowadzą one tak często do sukcesu w generowaniu
+rozwiązań o wysokim dopasowaniu. Hipoteza Bloków Budujących (BBH) składa się
+z:
+Opisu mechanizmu adaptacji realizowanego poprzez rekombinację "bloków budujących", niskiego rzędu, o niewielkiej długości definiującej schematów o wysokim,
+średnim dopasowaniu.
+Hipotezy, że algorytm genetyczny realizuje adaptację przez pośrednie i efektywne wykorzystanie tych abstrakcyjnych mechanizmów adaptacji [30]. Krótkie
+niskiego rzędu o wysokim dostosowaniu schematy są próbkowane i zachowywane
+z ciągami o potencjalnie wyższym dopasowaniu w procesie selekcji. W ten
+sposób przez przetwarzanie poszczególnych schematów (bloków budujących)
+redukujemy złożoność naszego zadania, poprzez tworzenie ciągów o wysokiej
+częstości pojawiania się, tworzymy coraz lepsze ciągi (rozwiązania ) spośród
+najlepszych rozwiązań cząstkowych w poprzednich próbkach [89, 66, 44].
+Hipoteza Bloków Budujących była też ostro krytykowana ze względu na brak
+teoretycznych analiz i uzasadnień oraz wyników eksperymentalnych potwierdzających ją.Z teoretycznego punktu widzenia wiele wypowiedzi o Hipotezie Bloków Budujących nie ma podstaw teoretycznych, a w wielu wypadkach są one po prostu niespójne.
+Z eksperymentalnych danych wynika, że krzyżowanie jednostajne przewyższa krzyżowanie jedno i dwupunktowe dla wielu funkcji dopasowania badanych przez Syswerda
+[95]. Podsumowując te uwagi, Fogel stwierdził: "ogólnie, krzyżowanie jednostajne
+generuje lepsze zachowanie aniżeli krzyżowanie dwupunktowe, które z kolei jest lepsze
+od jednopunktowego. Wynik ten zaprzecza Hipotezie Bloków Budujących, ponieważ
+krzyżowanie jednostajne w sposób maksymalny niszczy schematy.

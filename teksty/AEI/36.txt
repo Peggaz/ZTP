@@ -1,0 +1,25 @@
+Algorytm genetyczny to rodzaj algorytmu przeszukującego przestrzeń alternatywnych rozwiązań problemu w celu wyszukania rozwiązań najlepszych.
+Sposób działania algorytmów genetycznych nieprzypadkowo przypomina zjawisko ewolucji
+biologicznej, ponieważ ich twórca John Henry Holland [1] właśnie z biologii czerpał inspiracje
+do swoich prac. Obecnie zalicza się je do grupy algorytmów ewolucyjnych.
+Problem definiuje środowisko, w którym istnieje pewna populacja osobników. Każdy z osobników ma przypisany pewien zbiór informacji stanowiących jego genotyp, a będących podstawą
+do utworzenia fenotypu. Fenotyp to zbiór cech podlegających ocenie funkcji przystosowania
+modelującej środowisko. Innymi słowy - genotyp opisuje proponowane rozwiązanie problemu,
+a funkcja przystosowania ocenia, jak dobre jest to rozwiązanie.
+Genotyp składa się z chromosomów, gdzie zakodowany jest fenotyp i ewentualnie pewne informacje pomocnicze dla algorytmu genetycznego. Chromosom składa się z genów.
+Wspólnymi cechami algorytmów ewolucyjnych, odróżniającymi je od innych, tradycyjnych
+metod optymalizacji, są:
+· stosowanie operatorów genetycznych, które dostosowane są do postaci rozwiązań,
+· przetwarzanie populacji rozwiązań, prowadzące do równoległego przeszukiwania przestrzeni
+rozwiązań z różnych punktów,
+· w celu ukierunkowania procesu przeszukiwania wystarczającą informacją jest jakość aktualnych rozwiązań,
+· celowe wprowadzenie elementów losowych.
+Najczęściej działanie algorytmu przebiega następująco:
+[1] Losowana jest pewna populacja początkowa.
+[2] Populacja poddawana jest ocenie (selekcja). Najlepiej przystosowane osobniki biorą udział
+w procesie reprodukcji.
+[3] Genotypy wybranych osobników poddawane są operatorom ewolucyjnym:
+a. są ze sobą kojarzone poprzez złączanie genotypów rodziców (krzyżowanie),
+b. przeprowadzana jest mutacja, czyli wprowadzenie drobnych losowych zmian.
+[4] Rodzi się drugie (kolejne) pokolenie i algorytm powraca do kroku drugiego, jeżeli nie
+znaleziono dostatecznie dobrego rozwiązania. W przeciwnym wypadku uzyskujemy wynik.

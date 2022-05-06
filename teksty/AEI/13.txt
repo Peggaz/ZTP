@@ -1,0 +1,34 @@
+Klasyczny algorytm genetyczny przebiega wg schematu
+przedstawionego na rysunku 1. Na początku odbywa się losowy wybór osobników(chromosomów)do populacji początkowej. Chromosomy są reprezentowane
+przez ciągi binarne o określonej długości. Następnie
+dokonuje się oceny przystosowania osobnika w populacji
+na podstawie obliczonej funkcji przystosowania. Jeśli spełniony
+jest warunek końcowy (zatrzymania), następuje zapamiętanie
+najlepszego chromosomu. Jeśli nie, to następnym krokiem
+jest selekcja osobników.
+W selekcji osobników naśladuje się mechanizm przeżycia
+w naturze. Oczekujemy, że osobnik o najwyższym stopniu
+przystosowania uzyska liczne potomstwo, tj pomnoży swój
+materiał genetyczny do następnego pokolenia. Natomiast
+osobniki o najniższym stopniu przystosowania powinny być
+wyeliminowane z procesu prokreacji. Najbardziej popularnymi
+metodami selekcji są: metoda ruletki, turniejowa czy metoda
+rankingowa.
+Kolejnym ważnym etapem działania algorytmu genetycznego
+jest zastosowanie operatorów genetycznych. W klasycznym
+algorytmie genetycznym występują dwa podstawowe
+operatory genetyczne: operator krzyżowania (ang. crossover)
+oraz operator mutacji (ang. mutation). Krzyżowanie polega
+na wymianie fragmentu genotypu pomiędzy dwoma osobnikami.
+Proces ten odbywa się z założonym wcześniej prawdopodobieństwem
+pk. Mutacja polega na zmianie wartości
+pojedynczego genu na przeciwny z prawdopodobieństwem
+pm. Osobniki (chromosomy) otrzymane w wyniku działania
+operatorów genetycznych wchodzą w skład nowej populacji,
+która automatycznie staje się populacją bieżącą dla danej iteracji.
+Dla każdej następnej iteracji oblicza się wartość funkcji
+przystosowania i sprawdza się warunek zatrzymania. Jeśli
+warunek zatrzymania nie jest spełniony dalej przechodzi
+się do selekcji i kolejnych etapów algorytmu. Jeśli warunek
+jest spełniony wyprowadza się wynik w postaci chromosomu
+o największej wartości funkcji przystosowania.

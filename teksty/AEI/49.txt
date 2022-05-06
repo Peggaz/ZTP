@@ -1,0 +1,32 @@
+Algorytmy genetyczne (AG) zalicza się do klasy tzw. algorytmów stochastycznych, które polegają na losowym sposobie przeszukiwania przestrzeni ewentualnych rozwiązań. Określanie kierunku poszukiwań odbywa się poprzez zastosowanie probabilistycznych reguł [11]. Klasyczne algorytmy genetyczne zostały zainspirowane naturą. Naśladują proces doboru naturalnego oraz dziedziczenia. Optymalizacja rozwiązania otrzymywana jest poprzez ewolucję przyjętych początkowych rozwiązań.
+Ogólny schemat stosowania algorytmów genetycznych podczas rozwiązywania rzeczywistych problemów bazuje na dwóch
+zasadniczych fazach:
+− fazie wstępnej (I), polegającej na sprecyzowaniu problemu oraz
+dostosowaniu go do terminologii adekwatnej do AG. W fazie tej
+określa się parametry algorytmu, funkcję przystosowania, warunki stopu (zatrzymania) oraz tworzy się początkową populację rozwiązań,
+− fazie II, która umownie nazwana jest fazą poszukiwania rozwiązań. Stosuje się w niej operatory genetyczne w postaci
+krzyżowania i mutacji [13]. W naturze za osobnika uznaje się każdy organizm żywy.
+W przypadku algorytmu genetycznego osobniki populacji to zakodowane w postaci chromosomów parametry zadania. Są one potencjalnymi rozwiązaniami danego problemu. Określa się je również
+jako punkty przestrzeni poszukiwań. Chromosomy to ciągi kodowe –
+uporządkowane ciągi genów, które reprezentują wartości zmiennych
+decyzyjnych [16].
+W realnym życiu (w naturze) w przypadku każdego gatunku
+rozróżnia się pokolenia. Podobna sytuacja występuje w przypadku
+algorytmów genetycznych. W pewnym momencie z danej populacji
+tworzy się bowiem nową generację – nowe pokolenie. Osobniki
+potomne tworzone są zazwyczaj przez osobniki lepiej przystosowane, wchodzące do następnej generacji. Proces ten przebiega najczęściej poprzez rekombinację, polegającą na krzyżowaniu chromosomów. Zapisane są w nich informacje o osobnikach będących
+„rodzicami”. Powstawanie nowej generacji – tworzenie nowych
+osobników, oprócz zjawiska krzyżowania, może przebiegać także
+poprzez niewielkie losowe zmiany, które nazywa się mutacją. Mutacja jest zabiegiem zwiększającym różnorodność populacji, a co za
+tym idzie, zapobiega zbieżności z lokalnym optimum [16]. Krzyżowanie i mutacja to operatory genetyczne.
+Inicjacja to proces polegający na utworzeniu populacji początkowej. Jest on losowym wyborem określonej przez badacza liczby
+chromosomów/osobników, natomiast funkcja przystosowania (nazywana również funkcją celu) jest to z góry przyjęte kryterium jakości. W ramach każdego ewolucyjnego kroku następuje dekodowanie
+chromosomów i podawanie ich ocenie zgodne z funkcją przystosowania [16]. Warunkiem zatrzymania (w przypadku algorytmu optymalizującego) jest osiągnięcie przez
+danego osobnika żądanej wartości optymalnej.
+Algorytm może również zostać zatrzymany, gdy
+kolejne działania nie poprawiają osiągniętej już
+wartości. Warunkiem stopu może być także określony czas przeprowadzania obliczeń lub liczba
+iteracji. W przypadku spełnienia warunku stopu
+przechodzi następuje wyodrębnienie „najlepszego” chromosomu. Jeśli jednak warunek stopu nie
+zostanie spełniony, kontynuuje się działanie poprzez kolejną selekcje chromosomów [16].
+Schemat blokowy algorytmu genetycznego zilustrowano na rys. 1. 

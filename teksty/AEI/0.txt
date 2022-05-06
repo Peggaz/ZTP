@@ -1,0 +1,22 @@
+Wynik poszukiwania najlepszego rozwiązania
+w ramach algorytmów genetycznych uzależniony
+jest w największym stopniu od prawidłowości fazy
+wstępnej (I). Dotyczy to przede wszystkim obranych parametrów. Nieprawidłowo przeprowadzona
+faza wstępna skutkuje obniżeniem jakości wygenerowanego wyniku. Wpływa także na czas
+wszystkich iteracji. Bardzo ważnym parametrem
+każdego algorytmu genetycznego jest wielkość
+populacji. Zaniżenie rozmiaru populacji doprowadzi do skrócenia czasu obliczeń. Odbywa się to
+jednak kosztem objawiającym się w postaci obniżenia jakości rezultatu. Zawyżony rozmiar populacji poprawia natomiast jakość rozwiązania, jednakże wydłuża czas jego uzyskania [9].Do podstawowych cech algorytmów genetycznych, które odróżniają je od innych, jest m.in. fakt nieprzetwarzania rzeczywistej
+postaci parametrów zadania, lecz postaci zakodowanej (najczęściej
+binarnej); stosowanie probabilistycznych, a nie deterministycznych
+metod wyboru, rozpoczynanie poszukiwań od pewnej populacji,
+a nie pojedynczego punku. Algorytmy genetyczne, w przeciwieństwie do klasycznych, nie przejawiają tendencji do utkwienia przy
+rozwiązania suboptymalnych [9].
+Algorytmy genetyczne dają sobie radę z większością trudności,
+jakie spotyka się podczas stosowania algorytmów klasycznych. Nie
+występuje w ich przypadku zbieżność algorytmu do otrzymania
+rozwiązania optymalnego uwarunkowana wyborem rozwiązania
+początkowego. Dzieje się tak bowiem (jak wspomniano wcześniej)
+algorytmy genetyczne zaczynają poszukiwanie rozwiązania problemu od grupy ewentualnych rozwiązań, a nie od jednego rozwiązania. Przejawiają niespotykaną zdolność łatwej adaptacji do rozwiązywanych problemów. Można je stosować do rozwiązywania wielowymiarowych i nieliniowych problemów natury inżynieryjnej. Jakość
+ich działania nie jest uwarunkowana problemem, jego strukturą, ani
+też różniczkowalnością. Są najlepiej znaną klasą algorytmów ewolucyjnych. 

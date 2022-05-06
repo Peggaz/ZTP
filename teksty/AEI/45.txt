@@ -1,0 +1,21 @@
+Algorytmy genetyczne mogą być wykorzystywane do rozwiązywania problemu
+komiwojażera lub też problemu transportowego. W przypadku problemu komiwojażera jest toszczególnie uzasadnione, ponieważ problem ten należy do tzw. problemów NP-trudnych, czyli wraz ze wzrostem liczby miast, które musiałby on pokonać, wykładniczo rośnie także czas potrzebny do znalezienia rozwiązania [18] Polega
+to na tym, że do rozwiązania tego problemu wystarczy jedynie obliczyć permutacje
+wszystkich miast, a także sumę odległości między miastami dla poszczególnych permutacji. Następnie należy porównać otrzymane wyniki i wybrać najkrótszą.trasę.
+Z pozoru jest to bardzo proste i dla małej liczby miast szybko można rozstrzygnąć
+tego typu zagadnienie. Co jednak zrobić, gdy na trasie komiwojażera pojawi się
+20 lub 40 miast? Znacznie zwiększa się czas obliczeń. Zastosowanie algorytmu genetycznego, w którym każda trasa to jeden osobnik, przy zastosowaniu krzyżowania (wymiany odcinków trasy), mutacji, a także selekcji i funkcji przystosowaniaumożliwia stosunkowo szybko uzyskanie najkrótszej trasy [18]. Problem transportowy z kolei polega na dostarczaniu towaru różnorodnego bądź też jednego rodzaju z kilku punktów nadania do kilku punktów odbioru. Odbywa się to w taki sposób,
+aby zamówione ilości towaru dotarły np. z magazynów do sklepów z uwzględnieniem zapasów towarów w magazynach i odległości magazynów od sklepów. W tym
+przypadku również należy zminimalizować koszty transportu. Zostało to szerzej
+opisane w [17], gdzie podano także wyniki badań, na podstawie których można
+stwierdzić, że algorytmy genetyczne generują lepsze rozwiązania (niższe koszty)
+niż metoda planowania wcześniej wykorzystywana przez badaną firmę. Algorytmy
+genetyczne można również wykorzystywać np. w automatyce, mechanice i hydraulice. Znany jest przypadek wykorzystywania algorytmu ewolucyjnego w elastycznych systemach produkcyjnych, szczególnie w odniesieniu do sterowania operacyjnego [12]. Przypadek zastosowania algorytmów genetycznych w mechanice
+konstrukcji został opisany w [14]. Przedstawiono tam zastosowanie algorytmów genetycznych do rozwiązywania problemów bezpośrednich, optymalizacji powłoki
+chłodni kominowej oraz identyfikacji w układach mechanicznych. Podejmowane
+są także próby zastosowania algorytmu genetycznego do projektowania układów
+hydraulicznych. Można też spbtkać się z zastosowaniem algorytmów genetycznych
+do szeregowania zadań i rozdziału zasobów występujących w sieciach i systemach
+komputerowych, a także w systemach produkcyjnych [5, 6]. Algorytmy genetyczne
+mogą być również wykorzystywane w odniesieniu do problemów związanych z działami gospodarki. Praktyczne przykłady takiego zastosowania przedstawione są
+w artykule „Gospodarcze zastosowanie algorytmów genetycznych”.

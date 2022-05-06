@@ -1,0 +1,35 @@
+Czym jest ewolucja? Chyba najlepiej określą to słowa Karola Darwina: „Jakże
+zajmujące jest spoglądać na gęsto zarośnięte wybrzeże pokryte roślinami należącymi do różnych gatunków, ze śpiewającym ptactwem w gąszczach, z krążącymi
+w powietrzu owadami, z drążącymi mokrą glebę robakami i patrzeć na te wszystkie
+tak dziwnie zbudowane formy, tak różne i w tak złożony sposób od siebie zależne.
+Pomyśleć, że powstały one na skutek praw wciąż jeszcze wokół nas działających.
+Prawami tymi w najszerszym znaczeniu są: wzrost i rozmnażanie, zawarta prawie
+w pojęciu rozmnażania dziedziczność, zmienność pod bezpośrednim i pośrednim wpływem zewnętrznych warunków życia oraz używanie i nieużywanie narządów do
+walki o byt i w konsekwencji do doboru naturalnego, który ze swej strony prowadzi
+do rozbieżności cech i wymierania form mniej udoskonalonych. Tak więc z walki
+w przyrodzie, z głodu i śmierci bezpośrednio wynika najwznioślejsze zjawisko, jakie
+możemy pojąć, a mianowicie powstawanie wyższych form zwierzęcych. Wzniosły
+zaiste jest to pogląd, że Stwórca natchnął życiem kilka form lub jedną tylko, i że gdy
+planeta nasza, podlegając ścisłym prawom ciążenia, dokonywała swych obrotów,
+z tak prostego początku zdołał się rozwinąć i wciąż jeszcze rozwija nieskończony
+szereg form najpiękniejszych i najbardziej godnych podziwu” [11]. Tymi słowami
+kończy się opracowanie pt. O powstawaniu gatunków, ogłoszone w roku 1859,
+w którym Karol Darwin przedstawił teorię ewolucji przez dobór naturalny. Teoria
+ta stanowi źródło do naśladowania przy rozstrzyganiu problemów w różnych dziedzinach nauki. Należy podkreślić, że na mechanizmach ewolucji (np. selekcji, krzyżowaniu, mutacji i reprodukcji) oparte są algorytmy ewolucyjne.
+Algorytmami ewolucyjnymi nazywamy techniki przeszukiwania przestrzeni rozwiązań, rozwijane przez kilku dziesięcioleci. Najpopularniejsze z nich to: algorytmy
+genetyczne, stworzone przez Johna Hollanda [4] w Stanach Zjednoczonych Ameryki Północnej, spopularyzowane przez Davida Goldberga [3], a także programowanie genetyczne, rozwijane przez Johna Kozę [7]. Kolejne dwie techniki to programowanie ewolucyjne, nad którym pracował Lawrence Fogel [2] oraz strategie
+ewolucyjne, którymi zajmowali się Ingo Rechenberg [15] i Hans-Paul Schwęfel [16].
+Aby móc swobodnie mówić o algorytmach ewolucyjnych, należy przyswoić sobie wiedzę na temat terminologii zaczerpniętej z genetyki. Do pojęć tych należą
+m.in. chromosom, który jest ciągiem uporządkowanych jednostek elementarnych
+zwanych genami. Zespół chromosomów to genotyp, z kolei jego niezakodowany
+odpowiednik to fenotyp. Wartość genu to po prostu allel, a jego miejsce położenia
+w chromosomie to locus. Przestrzeń, w której działa algorytm nazywana jest populacją i składa się z osobników, których cechy określone są poprzez zapis w postaci
+genotypu. Aby wszystko było zgodne z teorią ewolucji, potrzebny jest jeszcze element, który pozwoli na określenie stopnia przystosowania osobników, co w dalszym etapie pozwoli na przetrwanie lepiej przystosowanych i tym samym wyeliminowanie słabszych jednostek. Kolejne pokolenia osobników powstają dzięki selekcji,
+krzyżowaniu oraz mutacji.
+Zadaniem algorytmu genetycznego jest modelowanie procesu poprzez naśladowanie naturalnego przebiegu ewolucji. Cały proces w uproszczeniu można przedstawić za pomocą schematu blokowego (rys. 1). Zgodnie z tym schematem na początku zostaje stworzona populacja bazowa, zwana także populacją początkową
+lub rodzicielską. Populacja ta generowana jest losowo. Kolejnym krokiem jest ocena przystosowania osobników rodzicielskich. Następnie sprawdzany jest warunek
+zatrzymania. W przypadku gdy warunek zatrzymania nie jest spełniony, następuje
+tzw. selekcja i wybór osobników do reprodukcji. Oznacza to, że nie wszystkie jednostki w populaq'i mają taką samą szansę na udział w reprodukcji. Jedynie te osobniki, dla których funkcja pr2ystosowaniapr2yjmuje większe wartości, mogą „przejść
+do następnego etapu” ewolucji. Na tym etapie zachodzi krzyżowanie i mutacja.
+Następnie oceniane jest przystosowania nowego pokolenia (generacji), powstałego w procesach mutacji i krzyżowania i jednocześnie zaczyna się kolejny obieg pętli
+algorytmu.

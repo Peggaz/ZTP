@@ -1,0 +1,64 @@
+Polski startup Walletmor opracował implant, który może zastąpić telefony czy zegarki, jako metody płatności. Jak to działa i czy jest to bezpieczne? O tym rozmawialiśmy z założycielem i pomysłodawcą firmy, Wojciechem Paprotą.
+Andrzej Mężyński: Skąd wziął się pomysł na implant płatniczy?
+
+Wojciech Paprota (założyciel Walletmor): Wpadłem na ten pomysł czytając jedną z książek SF. Był w niej przemycony wątek implantów - na przykład jeden z bohaterów korzystał z takiego rozwiązania, by otworzyć drzwi do mieszkania. Uznałem to za super pomysł z potencjałem. Dlatego skontaktowałem się z ludźmi z USA, którzy podjęli się zaprojektowania i wykonania takiego urządzenia
+
+Człowiek łączy się maszyną. Co nas czeka w epoce transhumanizmu?
+Człowiek łączy się maszyną. Co nas czeka w epoce transhumanizmu?
+zobacz również
+
+Jak długo trwały prace i co zajęło najwięcej czasu?
+
+Prace od wpadnięcia na pomysł do stworzenia gotowego, działającego układu, zajęły nam 20 miesięcy. Najwięcej zajęło dopracowanie pewnych kwestii technicznych i prawnych
+
+Jak wyglądało zatwierdzenie do użycia. Czy implant musiał przechodzić testy w FDA czy EMA?
+
+Implant zbudowany jest z biopolimeru, który musi spełniać odpowiednie normy, jak też z medycznego plastiku, z którego wykonane są wyroby medyczne. Urządzenie zostało więc zatwierdzone przez FDA i uzyskało normy ISO 19003. Trzeba też pamiętać, że nie jest to wyrób medyczny, nie ma więc konkretnych procedur, które taki implant musi przejść
+
+Jeśli jesteśmy przy kwestiach bezpieczeństwa, to co z podróżami lotniczymi czy badaniami medycznymi?
+
+Nasze laboratorium w USA przeprowadziło stosowne testy. Zarówno na pokładzie samolotu, przy rezonansie magnetycznym, bramkach bezpieczeństw itp, nie stwierdzono żadnego negatywnego wpływu implantu na pracę sprzętu medycznego czy lotniczego
+
+A co z baterią?
+
+Walletmor jest pasywnym tagiem NFC. To oznacza, że nie potrzebuje żadnego zasilania. Tagiem aktywnym jest terminal płatniczy, który wysyła fale. Gdy one napotkają implant, pobierają z niego informację zwrotną
+
+Jak długo może działać Walletmor?
+
+Ponad 100 lat bez awarii
+
+A co z kwestią bezpieczeństwa transakcji?
+
+Technologie są takie same, jak w przypadku kart, do tego implant obsługuje protokół 3D Secure. Nie ma żadnej możliwości włamania się do niego, czy przechwycenia sygnału. Trzeba by bardzo dokładnie zbliżyć fałszywy terminal do implantu, a przecież przestępca nie wie, gdzie dokładnie jest on wszczepiony.
+
+Jak wygląda procedura założenia konta i jak się płaci implantem?
+
+Potrzebujemy konta icard, które działa jak karty prepaid. Przelewamy na nie środki, potem podajemy kod aktywacyjny implantu i możemy już płacić, jak zwykłą kartą, w każdym punkcie obsługującym płatności bezprzewodowe.
+
+Czy da się płacić polskim złotym?
+
+Niestety nie, icard nie obsługuje naszej waluty, konto możemy mieć w dolarach, euro, franku szwajcarskim, brytyjskim funcie i paru innych walutach. Nie stosuje jednak żadnego spreadu, a za przewalutowanie jest minimalna prowizja rzędu 0,7-09 procenta, czyli praktycznie koszt jest niezauważalny.
+
+A co z płatnościami internetowymi?
+
+Niestety Walletmor nie ma takich możliwości. By płacić w sieci, potrzebujemy prawdziwej karty, którą można zamówić na icard.
+
+Czy implant można samemu wprowadzić sobie pod skórę?
+
+Teoretycznie tak. Jednak ze względu, że jest to naruszenie struktury tkanki, rekomendujemy skorzystanie z sieci klinik i studiów modyfikacji ciała, z którymi mamy podpisane umowy partnerskie. Tak, aby urządzenie było wprowadzone pod skórę pod kontrolą profesjonalisty
+
+Czy w cenie implantu znajduje się też koszt jego "instalacji"?
+
+Nie, za to trzeba zapłacić ekstra
+
+Ile implantów sprzedaliście na świecie?
+
+Na razie działamy na terenie Unii Europejskiej, Szwajcarii i Wielkiej Brytanii. Łącznie sprzedaliśmy 100 implantów, w tym 33 w Polsce
+
+Jakie macie plany na przyszłość?
+
+Chcemy zmniejszyć rozmiar implantu, by dało się go wprowadzić pod skórę zastrzykiem, planujemy też stworzenie własnej platformy, na której - zamiast na icard - można będzie zarządzać kontem i przelewami. Do tego chcemy umożliwić korzystanie z dodatkowych funkcji.
+
+Jakich?
+
+Choćby współpracy z zamkami elektronicznymi w domach, kartami do pokojów hotelowych, umożliwić kodowanie na nim biletów komunikacji miejskiej, czy pozwolić wprowadzić na niego dane z naszych wizytówek.

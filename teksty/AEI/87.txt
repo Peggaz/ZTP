@@ -1,0 +1,12 @@
+Używasz WhatsApp? Uważaj, nowy atak już zbiera żniwo. Tym razem przestępcy celują w kobiety, choć przy odrobinie nieuwagi każdy może zapłacić frycowe. W grupach i na stronach dla sympatyków WhatsAppa rozpowszechniany jest szkodliwy plik APK, który ma rzekomo zawierać specjalną skórkę do komunikatora, dla kobiet, WhatsApp Pink alarmuje badacz bezpieczeństwa Rajshekhar Rajaharia. W istocie rzeczy jest to po prostu malware.
+
+Po zainstalowaniu w telefonie ofiary, aplikacja występuje o dostęp do szeregu uprawnień, w tym m.in. wiadomości i listy kontaktów, po czym przesyła wykradzione dane do zdalnego serwera.
+
+Oszustwo na różową skórkę do WhatsAppa: dokładna lista wykradanych danych nie jest znana
+Wnioskując po samych uprawnieniach, obok wspomnianych już wyżej wiadomości i kontaktów, mogą być to także pliki zapisane w pamięci masowej (zdjęcia i filmy), historia połączeń i przeglądania, a nawet dane bankowe. Słowem, wszystko to, co trzymamy w smartfonie.
+Aby nie kusić losu, oczywiście najlepiej trzymać się od WhatsApp Pink możliwie najdalej. Jeśli jednak ktoś już dał się podejść, należy natychmiast usunąć szkodnika.
+
+Co warte odnotowania, ponoć nie jest on wyjątkowo uparty i zwykła deinstalacja poprzez funkcję systemową załatwia sprawę.
+
+Niemniej dla pewności warto ponadto usunąć obecne powiązania z klientem desktopowym, opróżnić cache przeglądarki i zresetować uprawnienia zaleca Rajaharia.
+

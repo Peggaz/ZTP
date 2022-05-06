@@ -1,0 +1,17 @@
+W rozprawie przedstawiono postać graniczną operatora algorytmu genetycznego.
+Uzyskanie postaci granicznej algorytmu genetycznego pozwoliło na przedstawienie optymalnego algorytmu genetycznego w sensie probabilistycznym. Postać optymalnego algorytmu genetycznego w sensie probabilistycznym daje wskazówki, jak projektować algorytmy genetyczne. Może być ona podstawą do dalszych badań zarówno
+teoretycznych, jak i eksperymentalnych. Ciekawą własnością operatora granicznego
+przedstawioną w pracy jest fakt, że kolumny 1 macierzy operatora są sobie równe i są
+równe wektorowi własnemu odpowiadającemu największej wartości własnej równej
+jeden.
+Wynik ten pozwala na sformułowanie postaci najlepszego algorytmu genetycznego
+w sensie probabilistycznym. Daje to też podstawy teoretyczne do podjęcia badań
+nad realizacją optymalnych algorytmów genetycznych. Wynik ten wskazuje, że najlepszym algorytmem jest algorytm, w którym daną populację można otrzymać z
+tym samym prawdopodobieństwem z każdej innej populacji.
+Fakt, że operator graniczny jest reprezentowany przez macierz o tych samych
+kolumnach pozwolił też na udowodnienie, że algorytm genetyczny jest równoważny
+przesunięciu Bernoulliego, a więc można go klasyfikować na mocy entropii i wymiaru
+fraktalnego. Dowód, że algorytm genetyczny jest równoważny przesunięciu Bernoulliego, ma szersze znaczenie i pozwala na uzasadnione wykorzystanie całego dorobku
+metod i wyników wypracowanych przy badaniach przesunięć Bernoulliego do badania
+algorytmów genetycznych i ewolucyjnych. Otwiera to nowe, rozległe i wartościowe
+pole badań.

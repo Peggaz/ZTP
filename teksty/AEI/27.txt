@@ -1,0 +1,25 @@
+Algorytmy genetyczne są dziedziną sztucznej inteligencji, w której przyjęto
+jako paradygmat założenia zaczerpnięte z teorii ewolucji. Zauważono bowiem,
+że ewolucja opiera się na zmienności populacji osobników, która to zmienność
+zapewnia różnorodność zestawu cech osobników, co z kolei pozwala, mówiąc
+w największym uogólnieniu, na przetrwanie oraz przekazywanie swoich cech
+tym osobnikom, które są najlepiej przystosowane do otaczającego je środowiska.
+Właśnie cecha adaptacji decyduje o tym, w jakim stopniu poszczególne osobniki
+są zdolne do przeżycia w otaczającym je środowisku1. Kluczowym aspektem
+konstrukcji i w dalszej kolejności działania algorytmów genetycznych jest sposób
+kodowania danych, które są nośnikiem informacji genetycznych opisujących
+danego osobnika. Kodowanie to natomiast implikuje strukturę danych, która opi‑
+suje dany problem, a ściśle jedno rozwiązanie danego problemu. W algorytmach
+genetycznych bowiem chodzi o wyłonienie spośród generowanych rozwiązań
+tego, które najlepiej spośród wszystkich odpowiada na postawiony problem.
+W przyrodzie podstawową strukturą odpowiadającą za kodowanie informacji
+o danym osobniku jest kwas dezoksyrybonukleinowy (popularnie zwany DNA),
+w którym najmniejszymi nośnikami informacji są cztery zasady, czyli: adenina,
+guanina, cytozyna oraz tymina. Każda z sekwencji tych czterech zasad koduje
+poszczególne geny lub ich grupy. Jednak na potrzeby algorytmów genetycznych
+oczywiste jest, że nie ma obowiązku kodowania danych z wykorzystaniem nota‑
+cji czwórkowej, ale najczęściej jest wykorzystywane kodowanie binarne (zero‑jedynkowe) lub liczbami całkowitymi. Algorytmy genetyczne są heurystycznymi
+metodami stochastycznym, w związku z czym wyniki ich działania nie są do‑
+kładnie powtarzalne. Należy więc uwzględnić statystycznie wystarczającą liczbę
+eksperymentów w celu wyciągnięcia właściwych wniosków na temat skuteczności
+wartości parametrów dla poszczególnych operatorów genetycznych.

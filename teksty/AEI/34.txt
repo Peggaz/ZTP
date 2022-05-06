@@ -1,0 +1,22 @@
+Do lepszego wyjaśnienia mechanizmów działania populacji, prześledzimy działanie jednej iteracji algorytmu genetycznego na przykładowym problemie. Będziemy dążyć do minimalizacji wartości funkcji na zbiorze liczb całkowitych z przedziału . Nasza funkcja jest dana następującym wzorem:
+
+Ponieważ poszukujemy najmniejszej wartości funkcji w przedziale , to osobnikiem w naszym algorytmie genetycznym będzie 5-bitowa liczba całkowita. Będzie to argument naszej funkcji zapisany w systemie dwójkowym.
+Parametry i metody naszego algorytmu genetycznego:
+
+metoda selekcji: metoda koła ruletki,
+
+krzyżowanie: jednopunktowe,
+
+prawdopodobieństwo krzyżowania: 1,
+
+prawdopodobieństwo mutacji: 0,02,
+
+metoda sukcesji: sukcesja z całkowitym zastępowaniem,
+
+rozmiar populacji: 6.
+
+Pozostaje jeszcze kwestia wyboru populacji startowej algorytmu genetycznego. W tym przypadku została ona wygenerowana w sposób losowy. Przy użyciu generatora liczb pseudolosowych wylosowano sześć liczb całkowitych z przedziału .
+Po jednej iteracji algorytmu najmniejszą wartością funkcji  jaką udało nam się uzyskać w nowym pokoleniu jest . Jest to wynik gorszy niż w poprzednim pokoleniu, który wynosił . Taka sytuacja może się wydarzyć ze względu na losowość naszego algorytmu genetycznego. Można temu zapobiec, stosując inną metodę selekcji lub sukcesji. Innym możliwym rozwiązaniem jest zwiększenie liczby iteracji i zapisywanie najlepszego wyniku spośród wszystkich dotychczasowych populacji.
+Algorytmy genetyczne są najczęściej wykorzystywane do rozwiązywania problemów optymalizacyjnych. Wykorzystując element losowości, są one w stanie lepiej przeszukiwać duże przestrzenie rozwiązań w porównaniu do standardowych algorytmów deterministycznych.
+
+Natomiast problemy optymalizacyjne można znaleźć w wielu różnych dziedzinach. Może to być problem zaprojektowania skrzydła samolotu o pewnej powierzchni i jak najmniejszej wadze. Projektując układy bramek logicznych w układzie elektronicznym, warto optymalizować jego koszt budowy przy zachowaniu pewnej funkcjonalności. Algorytmy genetyczne można także zastosować przy doborze liczby neuronów w warstwach ukrytych sieci neuronowych. Wtedy parametrem poddawanym optymalizacji jest poprawność działania sieci.

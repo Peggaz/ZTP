@@ -1,0 +1,9 @@
+Początki algorytmów ewolucyjnych można zauważyć w końcu lat 1950 ( Bremerman, Box, Friedberg) [10, 9, 24]. Dziedzina ta pozostała wówczas mało znaną przez
+następne lata. Związane to było z niewielką mocą komputerów i ich niedostępnością,
+jak i słabością metodologiczną takiego podejścia.
+Podstawowe prace (Holland, Rechenberg, Schwefel) [35], które nadały impuls rozwojowi obliczeń ewolucyjnych, pojawiły się w latach 1970 i od tego czasu narastało
+zainteresowanie tymi metodami i ich praktyczne zastosowanie. Doprowadziło to do
+gwałtownego rozwoju tych metod. Można sądzić, że główną przyczyną tak intensywnego rozwoju tych metod jest ich elastyczność i zdolność adaptacyjna, połączona
+z odpornym zachowaniem i całościowością przeszukiwania. Obliczenia ewolucyjne są
+raczej koncepcją, ideą rozwiązywania trudnych zadań optymalizacyjnych, niż zbiorem
+użytecznych algorytmów.

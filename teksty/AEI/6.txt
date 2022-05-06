@@ -1,0 +1,4 @@
+Algorytmy genetyczne znajdują zastosowanie tam, gdzie nie jest dobrze określony lub poznany sposób rozwiązania problemu, ale znany jest sposób oceny jakości rozwiązania.
+Przykładem jest np. problem komiwojażera, gdzie należy znaleźć najkrótszą drogę łączącą wszystkie miasta, tak by przez każde miasto przejść tylko raz.
+Ocena jakości proponowanej trasy jest błyskawiczna, natomiast znalezienie optymalnej trasy kwalifikuje się do klasy problemów NP-trudnych.
+Przy zastosowaniu podejścia ewolucyjnego dobre rozwiązanie można znaleźć bardzo szybko, ale oczywiście pewni możemy być jedynie uzyskania rozwiązań sub-optymalnych, co wynika z formalnie opisanej trudności problemów klasy NP. Algorytmy genetyczne równie dobrze radzą sobie w znajdowaniu przybliżeń ekstremów funkcji, których nie da się obliczyć analitycznie.

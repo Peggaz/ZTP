@@ -1,0 +1,60 @@
+Funkcja przystosowania (z ang. fitness function)
+jest bardzo istotnym pojęciem w algorytmach
+genetycznych, ponieważ od jej poprawnego sformułowania
+zależy ocena chromosomów podczas
+ewolucji. Nazwana również funkcją dopasowania
+lub funkcją oceny jest miarą przystosowania(dopasowania)
+danego osobnika w populacji. Na jej
+podstawie oceniamy stopień przystosowania danego
+osobnika w populacji i wybieramy osobnika
+o największej wartości funkcji przystosowania.
+W zagadnieniach optymalizacyjnych funkcją przystosowania
+jest funkcja maksymalizowana. W zagadnieniach
+minimalizacji przekształca się funkcję celu,
+sprowadzając problem do zagadnienia maksymalizacji.
+W teorii sterowania, funkcja przystosowania może
+być funkcją błędu, a w teorii gier funkcją kosztu [16].
+Algorytmy genetyczne mogą być doskonałym narzędziem
+optymalizacyjnym, które z powodzeniem może byś zastosowane
+w przemyśle rolno-spożywczym.
+Zakłady produkcyjne w przemyśle spożywczym wyposażone
+są w liczne linie technologiczne do wytwarzania
+żywności. Maszyny i urządzenia, które stanowią elementy
+składowe tych linii produkcyjnych wymagają ciągłej optymalizacji.
+Optymalizacja może dotyczyć parametrów procesów
+technologicznych jak temperatura czy ciśnienie oraz parametrów
+procesu takich jak zapotrzebowanie mocy czy wydajność.
+Istnieje również duże zróżnicowanie w konstrukcjach
+i parametrach pracy tych maszyn i urządzeń, która wynika
+z różnorodności przetwarzanych surowców, wytwarzanych
+produktów i zmienności ich właściwości [12]. Algorytmy
+genetyczne mogą również służyć do optymalizacji systemów
+sterujących procesami technologiczno-transportowymi. Duże
+znaczenie i udział w logistyce przemysłu rolno-spożywczego
+mają maszyny i urządzenia transportowe, które gwarantują
+przepływ masy towarowej przychodzącej i wychodzącej
+w obrębie wydziałów produkcyjnych i poszczególnych stanowisk.
+Istotną rolę odgrywa tu specjalistyczny transport żywca,
+zbóż, mleka, owoców i warzyw, mięsa czy innych surowców,
+który wymaga wyposażenia w systemy sterujące procesami
+technologicznymi. Systemy te mogą być wspomagane procedurami
+poszukiwań lepszych rozwiązań za pomocą metod
+sztucznej inteligencji. Jednak nie należy się spodziewać, ze rozwiązanie znalezione
+przez algorytm genetyczny będzie rozwiązaniem
+optymalnym, najlepszym z możliwych. Nie jest to oczywiście
+wykluczone, lecz na ogół otrzymane rozwiązanie znajduje
+się w sąsiedztwie rozwiązanie optymalnego, co w znakomitej
+większości problemów jest satysfakcjonujące na
+tyle, że nie ma potrzeby dalszego poszukiwania rozwiązania
+optymalnego [6].
+Według autora [14] algorytmy genetyczne nadają się do
+skomplikowanych zadań optymalizacji kombinatorycznej
+o dużej skali i zadań inżynierskich z wieloma ograniczeniami.
+Różnią się one znacznie od algorytmów czysto losowych,
+gdyż łączą elementy przeszukiwania bezpośredniego i stochastycznego,
+z tego powodu algorytmy genetyczne są bardziej
+niezawodne niż istniejące algorytmy bezpośredniego przeszukiwania.
+Drugą ważną cechą metod opartych na przeszukiwaniach
+genetycznych jest fakt, że zachowują one całe populacje
+potencjalnych rozwiązań, gdy tymczasem inne metody przetwarzają
+tylko jeden punkt przeszukiwań przestrzeni.

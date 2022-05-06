@@ -1,0 +1,16 @@
+Algorytm genetyczny to jeden z algorytmów sztucznej inteligencji. Genezą tego pomysłu jest myśl, której autorem jest John Henry Holland, dotycząca tego, jak ewolucja uczy człowieka coraz to lepszego przystosowania się do panujących warunków. Efektem tej refleksji jest właśnie algorytm genetyczny, który jest naprawdę ciekawym narzędziem optymalizacyjnym. Nim przejdę do zagłębienia się w ideę, ustalmy słownictwo.
+Prowadząc Was po labiryntach tego arcyciekawego tematu będę używał słów które są dla niego właściwe i jako dobry przewodnik, zostawiam słowniczek :)
+Gen – Najmniejsza część chromosomu.
+Chromosom – Uporządkowany ciąg genów.
+Genotyp – Zbiór chromosomów.
+Osobnik – Najprostsza jednostka podlegająca ewolucji.
+Populacja – Zbiór osobników zamieszkujących jedno środowisko.
+Krzyżowanie – Losowe przecięcie dwóch chromosomów w jednym punkcie i zamiana podzielonych części między chromosomami.
+Mutacja – Nagła zmiana materiału genetycznego.
+Wiemy już mniej więcej czym jest Algorytm Genetyczny, znamy słownictwo, więc nie ma co czekać, czas na sam algorytm:
+Losowana jest pewna populacja początkowa.
+Populacja poddawana jest ocenie (selekcja). Najlepiej przystosowane osobniki biorą udział w procesie reprodukcji.
+Genotypy wybranych osobników poddawane są operatorom ewolucyjnym:
+są ze sobą kojarzone poprzez złączanie genotypów rodziców (krzyżowanie),
+przeprowadzana jest mutacja, czyli wprowadzenie drobnych losowych zmian.
+Rodzi się drugie (kolejne) pokolenie. Aby utrzymać stałą liczbę osobników w populacji, te najlepsze (według funkcji oceniającej) są powielane, a najsłabsze usuwane. Jeżeli nie znaleziono dostatecznie dobrego rozwiązania, algorytm powraca do kroku drugiego. W przeciwnym wypadku wybieramy najlepszego osobnika z populacji – jego genotyp to uzyskany wynik.

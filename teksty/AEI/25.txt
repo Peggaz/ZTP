@@ -1,0 +1,27 @@
+Idea algorytmów genetycznych została wprowadzona do informatyki pod koniec
+lat 60-tych XX wieku przez J Hollanda. Kierowany przez niego zespół już na początku badań postawił sobie dwa, dość ambitne, cele: 1) opisać i wyjaśnić istotę procesów adaptacyjnych w przyrodzie; 2) stworzyć użyteczne oprogramowanie działające na wzór systemów biologicznych. Jakkolwiek cele te są dalekie od pełnej realizacji, techniki ewolucyjne doczekały się wielu zastosowań, z których większość mieści
+się w formule sztucznej inteligencji. Poniżej przedstawimy podstawy algorytmów genetycznych, kładąc nacisk na fakt, że można je uznać za pewne narzędzie do rozwiązywania problemów.7 Na osobnej stronie umieścimy schemat algorytmu wraz z opisem najczęściej stosowanych operacji genetycznych.Zasady działania algorytmów genetycznych nawiązują do znanych z przyrody mechanizmów reprodukcji, dziedziczenia
+cech i doboru naturalnego. W przeciwieństwie do algorytmu tradycyjnego, który
+zmierza do rozwiązania problemu krok po kroku, zgodnie z zadaną strategią, algorytm genetyczny generuje całe populacje rozwiązań i sprawdza ich dopasowanie do
+wymogów problemu. Generowanie kolejnych populacji odbywa się na zasadach
+przypominających proces ewolucji: rozwiązania mutują, wymieniają między sobą informacje, rozmnażają się, giną. Spośród nich selekcjonuje się wyniki coraz bardziej
+zbliżone do oczekiwanego — rolę środowiska, do którego w teorii ewolucji przystosowują się przedstawiciele danego gatunku, przejmuje specjalna funkcja oceny rozwiązań.
+Prześledźmy sposób działania algorytmu dokładniej. Załóżmy, że dany jest problem P oraz pewna przestrzeń potencjalnych jego rozwiązań. Rozwiązania te nazywa
+się chromosomami i koduje najczęściej w postaci ciągów zerojedynkowych. Algorytm rozpoczyna działanie od pewnej grupy chromosomów (przeważnie wybranych
+losowo) określanej mianem populacji początkowej. W kolejnych krokach algorytmu
+rozpatrywane są pojedyncze populacje, w obrębie których chromosomy ewoluują.
+Oznacza to, że są poddawane działaniu operatorów genetycznych, takich jak mutacja,
+krzyżowanie i inwersja. W przypadku zerojedynkowej reprezentacji chromosomów
+mutacja polega na zamianie losowo wybranych zer na jedynki i odwrotnie, inwersja
+oznacza odwrócenie kolejności w wybranych sekwencjach zer i jedynek, zaś krzyżowanie odpowiada rozmnażaniu — dwa losowo wybrane chromosomy dzielą się na
+części, z których jest składane potomstwo. W wyniku takich lub podobnych operacji
+w populacji pojawiają się nowe osobniki, które bądź są do niej dopisywane, bądź zastępują chromosomy dotychczas w niej istniejące. Każdy z chromosomów nowopowstałej populacji zostaje oceniony pod kątem dopasowania do problemu P. Ocena ta
+staje się podstawą dla przeprowadzenia selekcji, która ogólnie rzecz biorąc polega na
+wyborze z populacji bieżącej chromosomów o największej wartości funkcji oceny.
+Dokładniej zaś o wyborze decyduje prawdopodobieństwo — chromosomy lepsze są
+wybierane z prawdopodobieństwem większym, chromosomy gorsze z mniejszym,
+a zatem im wyższa funkcja oceny chromosomu tym szerszą reprezentację zyskuje on
+wśród wyselekcjonowanych. Efektem selekcji jest nowa populacja, która zupełnie
+podobnie jak jej poprzedniczka zostanie przetworzona w kolejnym kroku algorytmu.
+Algorytm kończy pracę, kiedy zostanie spełnione pewne kryterium finalne, na przykład w populacji pojawi się osobnik o wystarczająco dużej funkcji oceny lub średnia
+ocena populacji osiągnie pewną zadawalającą wartość.

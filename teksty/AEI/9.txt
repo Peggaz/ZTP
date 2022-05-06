@@ -1,0 +1,8 @@
+Algorytmy genetyczne (z ang. Genetic Algorithms, GA) stanowią (naśladując naturalną ewolucję) metodę rozwiązywania problemów, głównie zadań optymalizacyjnych. Cechuje je duża uniwersalność oraz prostota procedur przeszukiwań najlepszych rozwiązań metodą stochastyczną. Algorytmy genetyczne są procedurami przeszukiwania opartymi na mechanizmach doboru naturalnego i dziedziczenia. Korzystają z ewolucyjnej zasady przeżycia osobników najlepiej przystosowanych. Od tradycyjnych metod optymalizacji różnią się
+kilkoma zasadniczymi elementami.
+Algorytmy genetyczne:
+ nie przetwarzają bezpośrednio parametrów zadania, lecz ich zakodowaną postać,
+ prowadzą przeszukiwanie, wychodząc nie z pojedynczego punktu, lecz z pewnej ich populacji,
+ korzystają tylko z funkcji celu, nie zaś z jej pochodnych lub innych pomocniczych informacji,
+ stosują probabilistyczne, a nie deterministyczne reguły wyboru [16].
+Celem pracy jest przedstawienie zasady działania algorytmów genetycznych jako doskonałego narzędzia optymalizacyjnego, które z powodzeniem może być zastosowane w przemyśle rolno-spożywczym.

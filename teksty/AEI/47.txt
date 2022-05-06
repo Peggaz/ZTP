@@ -1,0 +1,35 @@
+Algorytmy genetyczne znajdują bardzo szerokie
+zastosowanie w różnych dziedzinach życia codziennego.
+Obejmują one wiedzę o ludziach, maszynach i
+zwierzętach, których ogólną cechą jest posiadanie
+„inteligencji”. Rozwój algorytmów genetycznych został
+zapoczątkowany przez J. Hollanda z Uniwersytetu w
+Michigan w roku 1975 pracą Adaptation in Natural, a
+później był kontynuowany przez Goldberga. Dzięki
+prostym założeniom i znacznej efektywności w ostatnim
+czasie rozwój algorytmów genetycznych wskazał nowe
+rozwiązania w różnych obszarach nauki i techniki.
+Sposób działania algorytmów genetycznych naśladuje
+zjawiska występujące powszechnie w przyrodzie. W tym
+celu wykorzystuje się mechanizmy doboru naturalnego
+oraz dziedziczności. Dobór naturalny jest mechanizmem
+wyznaczającym jednostki, które przeżyją i wydadzą potomstwo. Zdefiniowane kryterium selekcji wyznacza
+pewną barierę. Przeżyją tylko te osobniki, które są
+najlepiej przystosowane. Mechanizm dziedziczności
+polega na przekazywaniu z pokolenia na pokolenie za
+pomocą genów, cech dziedzicznych w mniej lub bardziej
+niezmienionej postaci. Geny są nośnikami cech
+dziedzicznych, które zlokalizowane są w chromosomach.
+Poprzez krzyżowanie, które jest wymianą
+odpowiadających sobie odcinków między chromosomami
+obojga rodziców uzyskuje się „nowe” osobniki. Geny
+osobników rodzicielskich występują w chromosomach
+osobników potomnych w różnych kombinacjach. Materiał
+genetyczny może być także czasami zaburzany przez
+mutację, która występuje losowo z małym
+prawdopodobieństwem. Krzyżowanie i mutacja są
+naturalnymi procesami zabezpieczającymi przed
+wytworzeniem się jednorodnej genetycznie populacji,
+która byłaby niezdolna do dalszej ewolucji. Brak ewolucji
+oznaczałby brak przystosowania populacji do
+zmieniających się warunków zewnętrznych [4, 5, 6].

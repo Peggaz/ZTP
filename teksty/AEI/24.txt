@@ -1,0 +1,18 @@
+Algorytmy genetyczne to jedne z popularniejszych obecnie metod optymalizacji. Ich
+główną zaletą jest prostota implementacji oraz duża łatwość w zrównoleglenia. Te atuty
+powodują, że algorytmy genetyczne (GA) znalazły zastosowanie niemal we wszytkach
+problemach optymalizacyjnych. Na uwagę zasługuje tutaj fakt, iż cechują się one
+własnością odnajdywania ekstremów globalnych , czyli są to tak zwane globalne metody
+optymalizacji, które w teorii pozwalają na znalezienie ekstremum globalnego. Własności tej
+pozbawione sa np. metody gradientowe, które mają tendencje do utykania w ekstremach
+lokalnych.
+Główna wadą GA jest konieczność wielokrotnej ewaluacji funkcji dopasowania (funkcji
+kosztu), co w pewnych zastosowaniach znacząco utrudnia ich wykorzystanie –np. w
+problemach optymalizacji urządzeń gdzie czas wykonania pojedynczej oceny - symulacji
+komputerowych dla zadanej konfiguracji urządzeń, sięga wielu godzin/dni.
+Na jakość algorytmów genetycznych mają wpływ 3 operacje/operatory. Są nimi:
+selekcja – czuli dobór osobników stanowiących rodziców dla kolejnego pokolenia,
+krzyżowanie – łączenie osobników w pary w celu wydobycia z nich najcenniejszych
+informacji i stworzenia potomstwa,
+mutacja – losowe zmiany wprowadzane do poszczególnych osobników, których celem
+jest zapewnienie wspomnianej wcześniej właściwości globalności uzyskanego rozwiązania.
