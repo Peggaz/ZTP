@@ -1,8 +1,4 @@
-import random
 import unittest
-import requests
-import Zadania
-import MultiThreadAutoCorection as q
 from Zadania.autokorekta.DamerauDistance import DamerauDistance
 
 

@@ -12,6 +12,6 @@ class TestAnswer(unittest.TestCase):
         obj = Answer(zdanie="ala ma kota", nr_tekst=12)
         self.assertEqual("tekst nr: 12 ala ma kota\n", str(obj))
 
-class TestKonkordancja(unittest.TestCase):
+#class TestKonkordancja(unittest.TestCase):
     
 

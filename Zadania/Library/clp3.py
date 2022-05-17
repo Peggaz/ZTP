@@ -86,7 +86,7 @@ class CLP:
     def MakePolCHarDick(self):
         '''
         Tworzy słownik mający odpowiedniki polskich znaków dla liter alfabetu angielskiego
-        :return: słownik zawierający odpowiedniki poskich znaków
+        :return: słownik zawierający odpowiedniki poskich znaków bez ż oraz ź
         '''
         ret = {}
         pol = "acelnos"
@@ -95,7 +95,7 @@ class CLP:
             ret[pol[it]] = lat[it]
         return ret
 
-    def allWords(self, word, prefix = ""):
+    def allWords(self, word, prefix=""):
         charDict = self.MakePolCHarDick()
         ret = [prefix + word]  # lista słów do wykorzystania
 

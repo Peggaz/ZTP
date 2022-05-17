@@ -2,7 +2,7 @@ import random
 import unittest
 import requests
 import Zadania
-import MultiThreadAutoCorection as q
+from Zadania.autokorekta import MultiThreadAutoCorection as q
 
 
 class MultiThreadAutoCorectionTest(unittest.TestCase):

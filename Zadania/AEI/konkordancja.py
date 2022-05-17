@@ -14,6 +14,13 @@ class Answer:
 class Konkordancja:
     word = ""
     answer = []
+
+    def __init__(self, file :str):
+        self.setFile(file)
+
+    def setFile(self, file:str):
+        self.file = file
+
     def makeAnser(self):
         for it in range(0, 100):
             library.Log("rozpoczęcie wczytywania pliku z: " + "../../teksty/AEI/"+ str(it) + ".txt")

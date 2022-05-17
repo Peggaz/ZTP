@@ -1,8 +1,11 @@
 import unittest
-import EasyThread as q
 
 
 #paragraf kodeksu pracy
+from Zadania.Library import EasyThread as q
+from cwiczenia.rozmowa import new_dic
+
+
 class EasyThreadTest(unittest.TestCase):
     def test_all(self):
         test = q.EasyThread()
