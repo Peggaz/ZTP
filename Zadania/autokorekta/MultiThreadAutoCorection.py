@@ -1,4 +1,4 @@
-import Zadania.Library.Library as Library
+import Zadania.Library.library as Library
 from Zadania.autokorekta import DamerauDistance
 from Zadania.Library import EasyThread
 

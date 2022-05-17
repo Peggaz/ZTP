@@ -1,4 +1,4 @@
-import Zadania.Library.Library as Library
+import Zadania.Library.library as Library
 import time
 import datetime
 import threading, queue

@@ -95,13 +95,13 @@ class CLP:
             ret[pol[it]] = lat[it]
         return ret
 
-    def allWords(self, word):
+    def allWords(self, word, prefix = ""):
         charDict = self.MakePolCHarDick()
-        ret = [word]  # lista słów do wykorzystania
+        ret = [prefix + word]  # lista słów do wykorzystania
 
         def extendRet(word, char):
             word = changChar(word, it, char)  # helpWord[it] = charDict[helpWord[it]]
-            for it2 in self.allWords(word[it:]): ret.append(word[:it] + it2)
+            ret.extend(self.allWords(word[it:], prefix + word[:it]))
 
         for it in range(len(word)):
             if word[it] in charDict:

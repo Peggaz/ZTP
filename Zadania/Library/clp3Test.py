@@ -1,6 +1,6 @@
 import unittest
 
-from Library import CLP_ON
+from library import CLP_ON
 from clp3 import CLP
 
 class Clp3Test(unittest.TestCase):

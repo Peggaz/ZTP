@@ -1,4 +1,4 @@
-import Zadania.Library.Library as Library
+import Zadania.Library.library as Library
 from Zadania.autokorekta.DamerauDistance import DamerauDistance
 
 de = DamerauDistance().MakeAndGetDistance("ala ma kota", "kota ma ale")

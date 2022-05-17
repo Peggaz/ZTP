@@ -1,4 +1,4 @@
-from Zadania.Library import Library
+from Zadania.Library import library
 import threading, queue
 import datetime
 import multiprocessing
@@ -35,8 +35,8 @@ class TFIDF:
             '''
             TF_for_words = {}
             self.log("przeanalizowano plik o id: " + file[1:6])
-            file = Library.OnlyLetter(file)
-            attendance_list = Library.AttendanceListCLP(file, {})
+            file = library.OnlyLetter(file)
+            attendance_list = library.AttendanceListCLP(file, {})
             for word, value in attendance_list.items():
                 TF_for_words[word] = value / len(attendance_list)
             return TF_for_words
@@ -62,7 +62,7 @@ class TFIDF:
         """
             koństruktor
         """
-        self.__file = Library.LoadText(src).lower()
+        self.__file = library.LoadText(src).lower()
         self.__file = self.__file.split("#0")
 
     def MakeAndSaveTFIDF(self):
@@ -127,7 +127,7 @@ class TFIDF:
         new_word = input("podaj frazę bądz 0 aby wyjsc\n->")
         if new_word == "0":
             return True
-        new_word_dict = Library.AttendanceListCLP(new_word)
+        new_word_dict = library.AttendanceListCLP(new_word)
 
         TF_dict_for_new_word = {}
         TFIDF_dict_for_new_word = {}
