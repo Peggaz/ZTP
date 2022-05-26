@@ -1,7 +1,9 @@
 import math
 import datetime
 
-CLP_ON = True  # Bardzo ważna zmienna określa czy użwać słownika CLP działa on poprawnie jedynie na wierzbie
+# Bardzo ważna zmienna określa czy użwać słownika CLP działa on poprawnie jedynie na wierzbie
+from Zadania.Library.global_varible import CLP_ON
+
 if CLP_ON:
     from clp3 import clp
     import clp_settings
@@ -273,19 +275,32 @@ def Atergo(file):
     return ret[::-1]
 
 
-def SaveFile(list, name, location="../wyniki/"):
+def SaveFileList(list, name="wynik.txt", location="../wyniki/"):
     '''
     Zapisuje do domyslnej wartości location
-    @:param ist - lista elementów
+    @:param list - lista elementów
     @:param name - nazwa zapisanego pliku
     @:param location - scieża zapisu domyślnie: "../wyniki"
     '''
-    f = open(location + name, "w")  # otwarcie pliku
+    f = open(location + name, 'w', encoding='utf-8')  # otwarcie pliku
     for it in list:
         try:
             f.write(it + " ")
         except:
             print("błąd w zapisie")
+
+def SaveFile(text, name="wynik.txt", location="../wyniki/"):
+    '''
+    Zapisuje do domyslnej wartości location
+    @:param text - tekst do zapisania
+    @:param name - nazwa zapisanego pliku
+    @:param location - scieża zapisu domyślnie: "../wyniki"
+    '''
+    f = open(location + name, 'w', encoding='utf-8')  # otwarcie pliku
+    try:
+        f.write(text)
+    except:
+        print("błąd w zapisie")
 
 
 # endregion

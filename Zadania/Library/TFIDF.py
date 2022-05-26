@@ -1,11 +1,23 @@
-from Zadania.Library import library
-import threading, queue
+
+import threading
+import queue
 import datetime
 import multiprocessing
 import math
 
+import os
+import sys
+
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/Library')
+import library
+
 
 class TFIDF:
+
+
+
     def __Log(self, message):
         now = datetime.datetime.now().strftime("%H:%M:%S")
         print("%s %s" % (now, message))
@@ -14,7 +26,6 @@ class TFIDF:
         """
         Klasa obsługująca wątek wyliczający tf dla każdego tekstu
         """
-
         def __init__(self, id, tasks, log):
             '''
             koństruktor klasy dzołającej na wątku która analizuje tekst i oblicza słownik TF
@@ -25,6 +36,7 @@ class TFIDF:
             self.ID = id
             self.tasks = tasks
             self.log = log
+            self.attendance_list = {}
             threading.Thread.__init__(self, name="WątekTF-%d" % (id,))
 
         def __TF(self, file):
@@ -34,11 +46,11 @@ class TFIDF:
             :return: słownik TF dla danych słów
             '''
             TF_for_words = {}
-            self.log("przeanalizowano plik o id: " + file[1:6])
+            #self.log("przeanalizowano plik o id: " + file[1:6])
             file = library.OnlyLetter(file)
-            attendance_list = library.AttendanceListCLP(file, {})
-            for word, value in attendance_list.items():
-                TF_for_words[word] = value / len(attendance_list)
+            self.attendance_list = library.AttendanceListCLP(file, {})
+            for word, value in self.attendance_list.items():
+                    TF_for_words[word] = value / len(self.attendance_list)
             return TF_for_words
 
         def run(self):
@@ -62,8 +74,11 @@ class TFIDF:
         """
             koństruktor
         """
+        self.class_thread= self.__TFThread
         self.__file = library.LoadText(src).lower()
         self.__file = self.__file.split("#0")
+        self.__file.pop(0)
+        self.__count_file = len(self.__file)
 
     def MakeAndSaveTFIDF(self):
         """
@@ -77,7 +92,7 @@ class TFIDF:
         x_thread = multiprocessing.cpu_count() * 2  # liczba wątków robocza ustawiona na 15 jak uda mi się znaleźć funkcję zliczającą wątki procesora to ustawie liczbę wątków * 2
         self.__Log("rozpoczęto towrznie " + str(x_thread) + "wątków")
         for it in range(x_thread):
-            self.__TFThread(it, request_queue, self.__Log).start()
+            self.class_thread = self.__TFThread(it, request_queue, self.__Log).start()
 
         # for file in ret:
         # self.resalt_queue.put(TFThread(file.split(("\n"))[1:], file.split("\n")[0]).start())
@@ -96,8 +111,8 @@ class TFIDF:
         self.__Log("zakonczono zapis TF, rozpoczęto obliczanie IDF")
         self.IDF_dict = self.__IDF(self.TF_list)
         self.__Log("zakonczono obliczanie IDF, rozpoczęto zapis IDF")
-        self.__IDF(self.IDF_dict)
-        self.__Log("zakończono zapis IDF")
+        self.__SaveIDF(self.IDF_dict)
+        self.__Log("zakończono zapis IDFa")
 
     def __IDF(self, TF_list):
         """
@@ -109,7 +124,7 @@ class TFIDF:
             for key in it:
                 dict1[key] = dict1.get(key, 0) + 1
         for it in dict1:
-            IDF_dict[it] = math.log10(100 / float(dict1[it]))
+            IDF_dict[it] = math.log10(self.__count_file/ float(dict1[it]))
         return IDF_dict
 
     def NewSentence(self):
@@ -169,12 +184,12 @@ class TFIDF:
                 out_file.write(key + "\t\t\t\t\t| " + str(value) + "\n")
 
     def __SaveIDF(self, slownikIDF):
-        tresc = open('../wyniki/' + "IDF" + '.txt', 'w', encoding='utf-8', newline='')
+        tresc = open('../../wyniki/' + "IDF" + '.txt', 'w', encoding='utf-8', newline='')
         tresc.write("slowo\t\t\t\t\t| IDF\n")
         tresc.write("------  -------\n")
         for it in slownikIDF:
-            tresc.write(it + "\t\t\t\t\t| " + str(slownikIDF[it]) + "\n")
+            tresc.write(it + "\t\t\t\t\t| " + str(slownikIDF[it]) + "\t" +"\n" )
 
 
-tf = TFIDF("../../teksty/papk.txt")
+tf = TFIDF("../../teksty/pap.txt")
 tf.MakeAndSaveTFIDF()

@@ -1,0 +1,171 @@
+<!doctype html>
+<title xmlns="http://www.w3.org/1999/html">{% block title %}{% endblock %} - Automatyczna ekstrakcja informacji</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<nav>
+    <h2 style="text-align: center">Automatyczna ekstrakcja informacji - Projekt </h2>
+    <h2 style="text-align: center">Żaneta Ciechowicz </h2>
+    <button onclick="pokaz_s()">Reguły dopasowania</button>
+    <button onclick="pokaz_w()">Wagi</button>
+    <form method="post" action="/">
+        <input type="submit" name="sort_value" value="Sortuj po numerze tekstu">
+        <input type="submit" name="sort_value" value="Sortuj po ocenie">
+    </form>
+</nav>
+
+<section class="content">
+    <header>
+        {% block header %}{% endblock %}
+        <script>
+            function pokaz_s(){
+                var div = document.getElementById("semantyki");
+                if(div.style.display === "none"){
+                    div.style.display = "block";
+                }else{
+                    div.style.display = "none";
+                }
+            }
+            function pokaz_w(){
+                var div = document.getElementById("wagi");
+                if(div.style.display == "none"){
+                    div.style.display = "block";
+                }else{
+                    div.style.display = "none";
+                }
+            }
+        </script>
+        <style>
+            body{
+                background-color: #242626;
+                color: #ffffe0;
+                width: 70%;
+                margin: auto;
+            }
+            #mark_0{
+                background-color:#242626;
+                color: #ea1515;
+            }
+            #mark_1{
+                background-color:#242626;
+                color: #4195ff;
+            }
+            #mark_2{
+                background-color:#242626;
+                color: #6dbd30;
+            }
+            #mark_3{
+                background-color:#242626;
+                color: #24E7FFFF;
+            }
+            #mark_4{
+                background-color:#242626;
+                color: #ff24ff;
+            }
+            #mark_5{
+                background-color:#242626;
+                color: #ffdd00;
+            }
+            form{
+                float:left;
+            }
+            #ocena{
+                color:#51a39c;
+                font-size: 25px;
+            }
+            #semantyki,#wagi{
+                margin-bottom: 50px;
+            }
+            td,th{
+                text-align: left;
+            }
+            button,input{
+                background-color: #0f8387;
+                border: none;
+                color: white;
+                padding: 20px;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 8px;
+            }
+            button:hover {
+                background-color: #51a39c;
+                color: white;
+            }
+            #tekst{
+                float:left;
+                text-align: justify;
+                text-justify: inter-word;
+            }
+            nav{
+                width: 70%;
+                margin: auto;
+            }
+        </style>
+    </header>
+    <div style="margin:40px;" class="flash">
+        <!--tableka semantyk-->
+
+        <div id="semantyki" style="float:left; margin-right: 100px; display: none;">
+            <table border cellpadding=5 frame=void RULES=groups>
+                <COLGROUP SPAN=1 ALIGN=left>
+                <thead>
+                <tr><th>Nazwa roli</th><th>Słowo 1</th><th>Słowo 2</th><th>Słowo 3</th><th>Słowo 4</th><th>Słowo 5</th><th>Słowo 6</th></tr>
+                </thead>
+                <tbody>
+                {% for wiersz in semantyka %}
+                <tr>
+                    {% for slowo in wiersz %}
+                    <td>{{ slowo|safe }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div id="wagi" style="margin-left: 15px; display: none;" >
+            <table border cellpadding=5 frame=void RULES=groups >
+                <COLGROUP SPAN=1 ALIGN=left>
+                <thead>
+                <tr><th>Waga</th><th>Rola 1</th><th>Rola 2</th><th>Rola 3</th><th>Rola 4</th><th>Rola 5<th>Rola 6</th></th></tr>
+                </thead>
+                <tbody>
+                {% for wiersz in wagi %}
+                <tr>
+                    {% for slowo in wiersz %}
+                    <td>{{ slowo|safe }}</td>
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <!--tekst-->
+    {% for data in teksty %}
+    <div id = "tekst">
+        <h1>{{ data.id }}</h1>
+        {{ data.tekst|safe }}
+        <p id = "ocena">
+            Współczynnik podobieńtwa: {{ data.ocena|safe }}
+        </p>
+        <table border cellpadding=5 frame=void RULES=groups>
+            <COLGROUP SPAN=1 ALIGN=left>
+            <tbody>
+            {% for wiersz in data.tab %}
+            <tr>
+                {% for slowo in wiersz %}
+                    <td>{{ slowo|safe }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        </br>
+        <hr>
+    </div>
+    {% endfor %}
+    {% block content %}{% endblock %}
+</section>

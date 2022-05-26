@@ -2,7 +2,8 @@ import random
 import unittest
 import requests
 import Zadania
-import autokorekta as q
+
+from Zadania.autokorekta import autokorekta as q
 
 
 class autokorektaTest(unittest.TestCase):
