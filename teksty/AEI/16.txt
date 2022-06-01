@@ -1,14 +1,4 @@
-Algorytmy genetyczne różnią się od strategii ewolucyjnych i programowania ewolucyjnego reprezentacją osobników i operatorami przeszukiwania. Algorytmy genetyczne preferują binarne kodowanie potencjalnych rozwiązań jako chromosomów i
-stosowanie operatorów genetycznych do tych chromosomów. Jest to równoważne
-przekształceniu oryginalnego zadania z jednej przestrzeni do innej przestrzeni. Jest
-oczywiste, że sposób reprezentacji jest kluczowy dla sukcesu algorytmu genetycznego.
-Dobra reprezentacja ułatwia rozwiązanie zadania podczas, gdy zła je utrudnia. Istotny jest problem dostosowania algorytmu genetycznego do zadania, w szczególności
-interesuje nas odpowiedź na pytanie: jak dobrać reprezentację, która może być efektywnie przeszukiwana [67].
-Kanoniczny algorytm genetyczny [100, 57, 58] (zwany prostym algorytmem |
-genetycznym) wykorzystuje reprezentację dwójkową, jednopunktowe krzyżowanie imutację punktową. Dwójkowa reprezentacja oznacza, że każdy osobnik reprezentowany jest przez pewną ilość bitów 0 lub 1. Krzyżowanie jednopunktowe realizujemy w ten sposób, że bierzemy dwa ciągi dwójkowe x i y o długości l, a następnie
-generujemy punkt krzyżowania pomiędzy pozycją 1 a l − 1 losowo, np. c. W wyniku
-tego pierwszy potomek składa się z pierwszych c bitów osobnika x i pozostałych
-l − c bitów z osobnika y. Drugi potomek ma pierwsze c bitów z y i l − c bitów z
-x. Mutacji poddajemy każdy bit w ten sposób, że dla każdego bitu danego osobnika
-z pewnym prawdopodobieństwem zmieniamy 0 na 1 lub 1 na 0. Po nich następuje
-selekcja osobników do nowej populacji. Złożenie tej trójki operatorów nosi czasem nazwę operatora przeszukiwania.
+Czym jest uczenie maszynowe?
+Uczenie maszynowe to gałąź sztucznej inteligencji i informatyki, która koncentruje się na wykorzystaniu danych i algorytmów do naśladowania sposobu, w jaki ludzie uczą się, stopniowo poprawiając dokładność.
+
+IBM ma bogate doświadczenie w pracy z uczeniem maszynowym. Arthur Samuel jest uznawany za autora terminu „uczenie maszynowe”, który wykorzystał w jednym ze swych badań (PDF, 481 kB) (odsyłacz prowadzi poza serwis IBM) na temat warcabów. Robert Nealey, samozwańczy mistrz warcabów, przegrał z komputerem IBM 7094 w 1962 roku. W porównaniu z dzisiejszymi możliwościami ten wyczyn wydaje się trywialny, jest jednak uważany za kamień milowy w dziedzinie sztucznej inteligencji. W ciągu następnych dziesięcioleci rozwój technologiczny w obrębie pamięci masowych i mocy obliczeniowej umożliwił powstanie innowacyjnych produktów, które znamy i uwielbiamy, takich jak aparat rekomendacji Netflixa czy samochody autonomiczne.

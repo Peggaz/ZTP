@@ -1,3 +1,24 @@
-W ramach wizyty ministrów spraw zagranicznych i obrony Grecji w Rijadzie, która odbędzie się 20 kwietnia, zostanie podpisanych szereg porozumień. Między innymi zostanie zawarta umowa dotycząca systemów obrony powietrznej Patriot, które Arabia Saudyjska chce wydzierżawić od Grecji. W ramach umowy Arabia Saudyjska zobowiąże się do unowocześnienia wynajmowanego systemu do standardu PAC-3+ oraz pokrycia wszystkich kosztów transportu i utrzymania.
-W lutym 2021 r. podczas posiedzenia komisji parlamentarnej minister spraw zagranicznych Grecji Nikos Dendias zapowiedział, że rząd podpisze umowę z Arabią Saudyjską na dzierżawę systemu obrony powietrznej Patriot. W swoim przemówieniu na ten temat Dendias powiedział: „System, który damy Arabii Saudyjskiej, nie jest bronią ofensywną, ale systemem obronnym. Nasz kraj nie prowadził agresywnej polityki i zawsze tego przestrzegał”.
-Rozmieszczając baterię rakiet obrony powietrznej Patriot na saudyjskiej ziemi, Grecja pomoże wzmocnić tamtejszą obronę powietrzną przed atakami rakietowymi na krytyczną infrastrukturę Królestwa, zwłaszcza ze strony wspieranych przez Iran bojówek Huti w Jemenie. Plan zakłada, że Patriotom towarzyszyć będzie około 40 greckich żołnierzy.
+Test SilentiumPC Navis F240 - ciche wentylatory to podstawa
+Paweł Rudy
+2022/04/29 15:14
+0
+0
+Chłodzenia wodne w komputerach mają dwie podstawowe role. Pierwszą z nich jest dostarczenie najlepszej możliwej wydajności z procesora i karty graficznej. Drugą zaś jest utrzymanie przy tym wysokiej kultury pracy podczas długotrwałego, pełnego obciążenia.
+
+Z SilentiumPC Navis F240 wchodzimy na przedmurze komputerów dla entuzjastów, bo ten spełnił powyższe warunki nawet przy 12-rdzeniowym AMD Ryzen 9 5900X.
+
+Wentylatory, pompa i chłodnica pod okiem Synergy Cooling
+Kluczowymi aspektami dla utrzymania wysokiej kultury pracy są wentylatory i pompa, a właściwie głośność i efektywność ich pracy. Przy F240 do współpracy zaproszono Synergy Cooling, co zaowocowało asymetryczną blokopompką z ceramicznym łożyskiem, wyposażoną w sterowanie PWM (1600-2600 RPM), oraz znanymi już z poprzednich systemów chłodzenia od SilentiumPC Fluctusami.
+Z tymi ostatnimi mam ostatnio wiele do czynienia i w przypadku wersji 120 mm, której para trafiła do testowanego Navisa, wystarczy trzymać się stale poniżej 1200 RPM, by móc kompletnie zapomnieć o ich istnieniu.
+To oznacza, że już na wstępie musiałem skupić się na pompce, bo to ona była jedynym nieznajomym.
+Po podpięciu przewodu SATA do zasilania pompki oraz wtyczki PWM do jej sterowania okazało się, że system nie odczytuje jej wartości RPM. To wzbudziło moje wątpliwości, więc skonsultowałem się w tej sprawie z działem R&D, który za Navisa bezpośrednio odpowiada.
+Okazuje się, że ten z założenia chciał, aby nikt nigdy nie wyłączał jego pompy bez potrzeby, bo im to historycznie nie służy. W związku z tym minimalna wartość RPM dla niej została ustalona na ok. 1600 i to na niej zaczyna się możliwość sterowania obrotami.
+Brak odczytu musi wynikać z tej decyzji projektowej, podobnie z resztą jak niezależne zasilanie pompki przez przewód SATA. Dzięki temu w przypadku ustawienia PWM przez użytkownika na 0% obroty pozostaną na bezpiecznym poziomie, gwarantującym długie działanie sprzętu.
+Gorzej jest, gdy PWM nie podepnie się wcale. Wówczas pompka będzie działać z maksymalną prędkością cały czas. Nie polecam tej wersji użytkowania, jednak wiele osób przy Navis F240 może po nią sięgnąć. Dlaczego?
+
+Bo brak odczytu z pompki sugeruje brak kontroli, a ten jest złudny, niemniej ktoś może się przez niego “niedziałającego” przewodu PWM pozbyć. Gdy wejdzie się już w krzywą PWM dla złącza, do którego wpięto pompkę od Navis F240, i ustawi się ją pod swoje wymagania, w zakresie od 1600-2600 RPM mamy pełną kontrolę, z tym że w ujęciu procentowym, a nie z wartością przeliczoną. Matematycznie wartości można szacować na podstawie wykresu powyżej z tolerancją na poziomie 10%.
+Ważne jest, aby pamiętać, że krzywa sygnału PWM, którą ustawisz w BIOS, jest zawsze komunikowana przez złącze 4-PIN, niezależnie od tego, czy coś jest w nie wpięte.
+
+Tak jak wspomniałem w materiale wideo, moje akustyczne optimum dla takiego rozmiaru łożyska ceramicznego to 2000 RPM. Na moje ucho powyżej tej wartości zyski w temperaturach zaczynają spadać, a hałas niewspółmiernie do nich rośnie.
+Kultura pracy – jak sobie ustawisz, tak masz
+W przypadku platformy testowej do mierzenia chłodzenia wodnego użyłem karty graficznej z systemem Fan Stop, który pozwala mi wyeliminować ją jako czynnik. Wentylatory obudowy zostawiam w trybie niezmienionym, choć do tego testu w SPC RG6V EVO TG ARGB zawitały cztery Fluctusy 120.

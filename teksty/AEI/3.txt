@@ -1,9 +1,10 @@
-Algorytm genetyczny – rodzaj heurystyki przeszukującej przestrzeń alternatywnych rozwiązań problemu w celu wyszukania najlepszych rozwiązań.
-Sposób działania algorytmów genetycznych nieprzypadkowo przypomina zjawisko ewolucji biologicznej, ponieważ ich twórca John Henry Holland właśnie z biologii czerpał inspiracje do swoich prac. Obecnie zalicza się go do grupy algorytmów ewolucyjnych.
-Problem definiuje środowisko, w którym istnieje pewna populacja osobników. Każdy z osobników ma przypisany pewien zbiór informacji stanowiących jego genotyp, a będących podstawą do utworzenia fenotypu. Fenotyp to zbiór cech podlegających ocenie funkcji przystosowania modelującej środowisko. Innymi słowy - genotyp opisuje proponowane rozwiązanie problemu, a funkcja przystosowania ocenia, jak dobre jest to rozwiązanie.
-Genotyp składa się z chromosomów, gdzie zakodowany jest fenotyp i ewentualnie pewne informacje pomocnicze dla algorytmu genetycznego. Chromosom składa się z genów.
-Wspólnymi cechami algorytmów ewolucyjnych, odróżniającymi je od innych, tradycyjnych metod optymalizacji, są:
-stosowanie operatorów genetycznych, które dostosowane są do postaci rozwiązań,
-przetwarzanie populacji rozwiązań, prowadzące do równoległego przeszukiwania przestrzeni rozwiązań z różnych punktów,
-w celu ukierunkowania procesu przeszukiwania wystarczającą informacją jest jakość aktualnych rozwiązań,
-celowe wprowadzenie elementów losowych.
+Na czym polega uczenie nadzorowane?
+ 
+
+Uczenie nadzorowane to pierwszy z czterech modeli uczenia maszynowego. W algorytmach uczenia nadzorowanego nauka opiera się na przykładach. Modele uczenia nadzorowanego obejmują pary danych „wejściowych” i „wyjściowych”, przy czym dane wyjściowe są oznakowane oczekiwaną wartością. Załóżmy na przykład, że celem jest nauczenie systemu odróżniania stokrotek od bratków. Para danych wejściowych zawiera obraz stokrotki i obraz bratka. Oczekiwany wynik dla tej konkretnej pary to stokrotka, więc obraz stokrotki jest wstępnie określony jako prawidłowa odpowiedź.
+
+ 
+
+W ramach algorytmu system kompiluje dane treningowe i z czasem zaczyna określać korelatywne podobieństwa, różnice i inne elementy logiczne. Wreszcie jest w stanie przewidzieć, który obraz zostanie oznaczony jako stokrotka. Odpowiednikiem tego procesu jest dawanie dziecku zestawu zadań z kluczem odpowiedzi, a następnie proszenie, aby przedstawiło wyniki swojej pracy i wyjaśniło sposób dochodzenia do rozwiązania. Modele uczenia nadzorowanego znajdują zastosowanie w wielu mechanizmach, które znamy z życia codziennego, na przykład rekomendacjach produktów czy aplikacjach do analizy ruchu (takich jak Waze), które przewidują najszybszą trasę o różnych porach dnia.
+
+ 

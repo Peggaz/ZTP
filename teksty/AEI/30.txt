@@ -1,29 +1,8 @@
-Jednym z najbardziej obiecujących i szybko rosnących obszarów zastosowań
-algorytmów genetycznych jest analiza danych oraz prognozowania w biologii
-molekularnej. W dziedzinie tej algorytmy są używane m.in. do interpretacji
-danych rezonansu magnetycznego w badaniu struktury DNA11, znajdowania
-poprawnego porządku w nieuporządkowanych sekwencjach DNA (Parsons,
-Forrest oraz Burks) oraz badania struktury protein12.
-Innym przykładem zastosowania algorytmów genetycznych jest diagnoza
-raka szyjki macicy. Rak szyjki macicy jest jednym z najczęstszych nowotworów
-przy częstości występowania na poziomie 6% wszystkich nowotworów u kobiet. Standardowy test na raka szyjki macicy to badanie wymazu Papanicolaou
-(lub „Pap”), które polega na oględzinach wymazu z komórek szyjki macicy pod
-mikroskopem13. Badanie wymazu „Pap” jest angażujące znaczne zasoby laboratoryjne oraz intensywne i długotrwałe, wymaga także dużej precyzji; wydaje
-się, że dobrze nadaje się do automatyzacji. Badania pokazują, że badanie to jest
-jednym z najbardziej klasycznych problemów automatycznej analizy obrazu.
-Należy przypuszczać, że taki automatyczny system powinien działać podobnie
-jak biegły cytolog, szukając na dostarczonym obrazie komórek zmian, które
-tradycyjnie znajdowane są przez człowieka. O algorytmie, którego zadaniem
-jest zautomatyzowane badanie obrazu wymazu z szyjki macicy, można powiedzieć, że należy do grupy algorytmów poszukujących zestawu pożądanych cech
-i właściwości.
-Marvin używają dyfuzyjnego algorytmu genetycznego do wyprowadzenia modeli prognostycznych. Modele prognostyczne są stosowane w celu
-określenia, jakie prawdopodobieństwo przeżycia ma pacjent cierpiący na nietypowy rodzaj raka. Pod uwagę brane są trzy cele: maksymalizacja prawidłowej
-liczby prognoz przeżycia, maksymalizacja prawidłowej liczby prognoz śmierci
-oraz minimalizacja liczby użytych czynników.
-Krmicek i Sebag stosują algorytm nazywany 4D‑Miner do funkcjonalnego obrazowania mózgu, w tym przypadku maksymalizowane są 3 cele: długość, obszar oraz wyrównanie. Ze względu na naturę problemu rozwiązanie jest
-uważane za ważne nawet, jeżeli zdominowane jest ono odnośnie do wyrównania
-i obszaru, pod warunkiem, że umieszczone jest w innych rejonach mózgu.
-Abbass używa ewolucyjnego podejścia sztucznej sieci neuronowej
-opartego na algorytmie PDE (Pareto Differential Evolution – algorytm ewolucji
-różniczkowej) powiększonego przez poszukiwanie lokalne do przewidywania
-raka piersi. Minimalizowane są dwa cele – błąd i liczba ukrytych jednostek.Jak widać, metody sztucznej inteligencji są w szerokim zakresie wykorzystywane również w medycynie, dlatego warto podjąć wysiłek zmierzający do wykorzystania gromadzonych licznych danych na temat historii zdrowia i choroby poszczególnych osób do odkrywania często nieoczekiwanych zależności, które niewątpliwie są – czy też będą – ukryte w bazach danych zawierających dane na ten temat.
+Wprowadzenie do machine learning
+Stworzenie komputerów, które wiedzą, co robić, bez wydawania im konkretnych poleceń, jest marzeniem ludzi od wielu lat.
+
+Przykładem praktycznego wykorzystania technologii machine learning jest skonstruowanie samochodu, który samodzielnie bezpiecznie dowiezie pasażera (oczywiście siedzącego na fotelu kierowcy) do celu, rozpoznając pieszych i dziury w drodze oraz szybko i skutecznie reagując na zmiany otoczenia.
+
+Jak to działa? Zacznijmy od analizy samych danych biznesowych.
+
+Uczenie maszynowe (Machine Learning, ML) to rodzaj sztucznej inteligencji (SI), która umożliwia firmom zdobywanie informacji i wyciąganie wniosków z dużych ilości danych. Weźmy na przykład Twittera. Według Internet Live Stats użytkownicy tego serwisu codziennie wysyłają około 500 milionów tweetów. W skali roku daje to około 200 miliardów tych krótkich wiadomości. Żaden człowiek nie jest w stanie przeanalizować, skategoryzować, posortować i przyswoić takiej ilości danych, a następnie przewidzieć czegokolwiek na ich podstawie.

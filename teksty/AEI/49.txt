@@ -1,32 +1,14 @@
-Algorytmy genetyczne (AG) zalicza się do klasy tzw. algorytmów stochastycznych, które polegają na losowym sposobie przeszukiwania przestrzeni ewentualnych rozwiązań. Określanie kierunku poszukiwań odbywa się poprzez zastosowanie probabilistycznych reguł [11]. Klasyczne algorytmy genetyczne zostały zainspirowane naturą. Naśladują proces doboru naturalnego oraz dziedziczenia. Optymalizacja rozwiązania otrzymywana jest poprzez ewolucję przyjętych początkowych rozwiązań.
-Ogólny schemat stosowania algorytmów genetycznych podczas rozwiązywania rzeczywistych problemów bazuje na dwóch
-zasadniczych fazach:
-− fazie wstępnej (I), polegającej na sprecyzowaniu problemu oraz
-dostosowaniu go do terminologii adekwatnej do AG. W fazie tej
-określa się parametry algorytmu, funkcję przystosowania, warunki stopu (zatrzymania) oraz tworzy się początkową populację rozwiązań,
-− fazie II, która umownie nazwana jest fazą poszukiwania rozwiązań. Stosuje się w niej operatory genetyczne w postaci
-krzyżowania i mutacji [13]. W naturze za osobnika uznaje się każdy organizm żywy.
-W przypadku algorytmu genetycznego osobniki populacji to zakodowane w postaci chromosomów parametry zadania. Są one potencjalnymi rozwiązaniami danego problemu. Określa się je również
-jako punkty przestrzeni poszukiwań. Chromosomy to ciągi kodowe –
-uporządkowane ciągi genów, które reprezentują wartości zmiennych
-decyzyjnych [16].
-W realnym życiu (w naturze) w przypadku każdego gatunku
-rozróżnia się pokolenia. Podobna sytuacja występuje w przypadku
-algorytmów genetycznych. W pewnym momencie z danej populacji
-tworzy się bowiem nową generację – nowe pokolenie. Osobniki
-potomne tworzone są zazwyczaj przez osobniki lepiej przystosowane, wchodzące do następnej generacji. Proces ten przebiega najczęściej poprzez rekombinację, polegającą na krzyżowaniu chromosomów. Zapisane są w nich informacje o osobnikach będących
-„rodzicami”. Powstawanie nowej generacji – tworzenie nowych
-osobników, oprócz zjawiska krzyżowania, może przebiegać także
-poprzez niewielkie losowe zmiany, które nazywa się mutacją. Mutacja jest zabiegiem zwiększającym różnorodność populacji, a co za
-tym idzie, zapobiega zbieżności z lokalnym optimum [16]. Krzyżowanie i mutacja to operatory genetyczne.
-Inicjacja to proces polegający na utworzeniu populacji początkowej. Jest on losowym wyborem określonej przez badacza liczby
-chromosomów/osobników, natomiast funkcja przystosowania (nazywana również funkcją celu) jest to z góry przyjęte kryterium jakości. W ramach każdego ewolucyjnego kroku następuje dekodowanie
-chromosomów i podawanie ich ocenie zgodne z funkcją przystosowania [16]. Warunkiem zatrzymania (w przypadku algorytmu optymalizującego) jest osiągnięcie przez
-danego osobnika żądanej wartości optymalnej.
-Algorytm może również zostać zatrzymany, gdy
-kolejne działania nie poprawiają osiągniętej już
-wartości. Warunkiem stopu może być także określony czas przeprowadzania obliczeń lub liczba
-iteracji. W przypadku spełnienia warunku stopu
-przechodzi następuje wyodrębnienie „najlepszego” chromosomu. Jeśli jednak warunek stopu nie
-zostanie spełniony, kontynuuje się działanie poprzez kolejną selekcje chromosomów [16].
-Schemat blokowy algorytmu genetycznego zilustrowano na rys. 1. 
+Sam proces uczenia maszynowego nie wymaga ingerencji ze strony programistów.
+Jednak pomimo szybkiego rozwoju w dziedzinie uczenia maszynowego, systemy nadal pozostają zależne od człowieka. Projektowanie systemu wymaga określenia sposobów zdobywania wiedzy oraz jej reprezentacji. Program zapamiętuje dane, które mu dostarczono, analizuje je – biorąc pod uwagę to, czego się nauczyły – i odpowiednio na nie reaguje. Celem wdrożenia w projektach machine learningu jest zwykle chęć zwiększenia efektywności, czy poziomu niezawodności. Omawiając to pojęcie, musimy wspomnieć również o deep learningu, czyli podkategorii uczenia maszynowego. To gałąź sztucznej inteligencji, która odpowiada za tworzenie systemów informatycznych, pod względem budowy i funkcjonowania przypominających pracę ludzkiego mózgu.
+
+ Machine learning a sztuczna inteligencja
+Sztuczna inteligencja i uczenie maszynowe są ze sobą bardzo ściśle powiązane i połączone. Nie należy jednak stosować ich zamiennie – sztuczna inteligencja (ang.artificial intelligence), to pojęcie znacznie szersze. Można natomiast powiedzieć, że obecnie główną siłą napędową sztucznej inteligencji jest uczenie maszynowe.
+
+AI ma z założenia zastępować człowieka. Potrafi m.in. rozpoznawać dźwięki czy filmy, ale również tworzyć nowe dzieła. Sztuczna inteligencja jest dziedziną nauki, która polega na tworzeniu systemów, które rozumieją i przyswajają nową wiedzę, czyli w dużym stopniu zachowują się tak, jak ludzie. AI to również m.in. kreatywność czy rozwiązywanie problemów.
+
+Uczenie maszynowe to natomiast obszar sztucznej inteligencji odpowiedzialny za analizę danych i uczenie się maszyn. To właśnie dzięki machine learningowi:
+
+Youtube wie, co lubimy oglądać w zależności od pory dnia,
+Netflix sugeruje nam filmy, które mogą nam przypaść do gustu,
+Autokorekta podpowiada nam kolejne wyrazy podczas pisania na klawiaturze.
+Zadaniem uczenia maszynowego jest ułatwianie nam życia, proponowanie gotowych rozwiązań i spełnianie oczekiwań.

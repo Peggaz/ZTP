@@ -1,14 +1,2 @@
-Zasada działania (populacja, funkcja dopasowania, reprodukcja, krzyżowanie, mutacje)
-Realizacja algorytmu GA polega na iteracyjnym przetwarzaniu populacji aż do spełnienia kryterium zakończenia, które określa poziom satysfakcjonującego nas rozwiązania. Dopóki kryterium końcowe nie jest spełnione kolejne populacje są modyfikowane przy użyciu trzech różnych operatorów: reprodukcja, krzyżowanie, mutacja.
-Reprezentacja rozwiązania w GA jest podobna do naturalnego chromosomu, a operatory GA podobne do operatorów genetycznych.
-Populacja początkowa może zostać ograniczona warunkami brzegowymi, jeżeli są możliwe do zdefiniowania. Jej zawężenie poprawia czas uzyskania zbieżności. Efektem ubocznym może być fakt, że znajdziemy tylko optimum lokalne.
-W przypadku, gdy nie mamy wiedzy na temat dziedziny problemu możemy rozpocząć wyszukiwanie od losowej populacji rozwiązań.
-Nawiązując do przykładu z płytką drukowaną, przykładową populacją startową będą zbiory (chromosomy) opisujące różną kolejność montowania elementów na płytce.
-Dla każdego rozwiązania z populacji w każdej iteracji wyznaczany jest wynik funkcji dopasowania. Ocenia on dopasowanie rozwiązania do kryteriów zawartych w funkcji dopasowania. Lepsze dopasowanie to wyższy wynik, większa szansa na przetrwanie.
-Funkcja przystosowania razem z kryteriami brzegowymi definiuje w jakim kierunku ewoluuje rozwiązanie. To w niej obok warunków brzegowych populacji znajdują się reguły definiujące problem.
-Pomiędzy iteracjami kolejne generacje przygotowane są w wykorzystaniem operatorów genetycznych.
-Powielanie (lub selekcja) jest zwykle pierwszym operatorem stosowanym przy budowaniu populacji kolejnej generacji. Powielanie wybiera najlepsze rozwiązania (chromosomy) i powiela je. Ilość powieleń może być uwarunkowana od wartości funkcji przystosowania konkretnego chromosomu. Wielkość populacji zwykle utrzymywana jest na tym samym poziomie.
-Krzyżowanie polega na losowym wybraniu dwóch rozwiązań (chromosomów) i częściowej wymiany pomiędzy nimi genów. Operator ten jest głównie odpowiedzialny za możliwość wykorzystania GA do wyszukiwania.
-Operator mutacji odpowiada przede wszystkim za utrzymanie różnorodności populacji. Jego działanie polega na losowej zmianie genu lub genów w chromosomie. Taka losowość jest przydatna szczególnie w celu poprawy lokalnego optimum.
-Działanie wszystkich tych trzech operatorów jest jednoznaczne.
-Żadne z działań operatorów nie jest gwarantowane i nie jest testowane podczas tworzenia nowej populacji rozwiązań. Mechanizm działania sprawia, że nawet jeśli w drodze zastosowania operatorów powstaną gorsze rozwiązania, zostaną one wyeliminowane przez operator powielania w następnej w populacji. 
+Uczenie częściowo nadzorowane
+Uczenie częściowo nadzorowane oferuje dobrą równowagę pomiędzy uczeniem nadzorowanym i nienadzorowanym. Podczas uczenia wykorzystuje mniejszy zbiór danych z etykietami, aby kierować klasyfikacją i wyodrębnianiem cech z większego zbioru danych bez etykiet. Uczenie częściowo nadzorowane pozwala rozwiązać problem posiadania niewystarczająco oznaczonych danych (lub braku środków na wystarczające oznaczenie danych) i umożliwia opracowanie algorytmu uczenia nadzorowanego.

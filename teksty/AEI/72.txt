@@ -1,3 +1,32 @@
-Buddyjski mnich z północno-wschodniej Tajlandii odciął sobie głowę gilotyną, bo wierzył, że złożenie ofiary Buddzie przyniesie mu szczęście w przyszłym życiu. 68-letni Thammakorn Wangpreecha planował podobno tę dziwaczną, rytualną ofiarę od ponad pięciu lat.
-Jak informuje portal australijskiej telewizji 7 News, mnich wierzył, że złożenie ofiary bóstwu przyniesie mu szczęście w przyszłym życiu - przekonanie to znane jest w buddyzmie jako "gromadzenie zasług". W kwietniu br. podjął się złożenia ekstremalnej ofiary religijnej i 15 kwietnia został znaleziony martwy wraz z odciętą głową w świątyni Wat Phu Hin w prowincji Nong Bua Lamphu. Siostrzeniec mnicha znalazł ciało i odkrył również marmurową płytę, na której wyryte były plany jego wuja. Przed złożeniem ofiary mnich, który służył w świątyni przez 11 lat, miał poinformować innych kapłanów, że opuszcza zakon, ale nie powiedział im o gilotynie.Sprawą zajęła się policja
-Policja zabrała ciało ze świątyni do szpitala, aby lekarze mogli przeprowadzić sekcję zwłok i ustalić przyczynę śmierci, a następnie zwrócić je rodzinie w celu przeprowadzenia obrzędów pogrzebowych. Ponad 300 miejscowych wyznawców buddyzmu przybyło do świątyni, aby przygotować ciało zmarłego mnicha do obrzędu. "Planował to już od pięciu lat. Spełnił swój cel i osiągnął oświecenie" - powiedział Yu, jeden z wyznawców. Pomimo tego, że niektórzy zwolennicy chwalili Thammakorna, Krajowe Biuro Buddyzmu poprosiło lokalne władze o pomoc w wyjaśnieniu mieszkańcom, że buddyzm nie zachęca do takich praktyk.
+Jak zrobić screena na laptopie i komputerze bez użycia Print Screen?
+W bardzo niewielkim odsetku laptopów - przede wszystkim niewielkich notebookach do użytku biurowego może brakować klawisza PrtSc. Niektórym kompaktowym klawiaturom komputerów stacjonarnych również może brakować klawisza służącego do robienia screenów. Niekiedy chodzi też po prostu o wygodę - PrtSc znajduje się po drugiej stronie klawiatury. Jak więc zrobić screenshot bez użycia Print Screena?
+
+
+Jak nagrać ekran w Windows 11? Tej jednej funkcji z macOS Microsoftowi bardzo brakuje
+TECH
+Jak nagrać ekran w Windows 11? Tej jednej funkcji z macOS Microsoftowi bardzo brakuje
+Na komputerach z systemem Windows 10 i Windows 11 możesz wywołać program Narzędzie Wycinane za pomocą kombinacji klawiszy Windows + Shift + S, które pozwoli ci na zrobienie zrzutu tak całości ekranu, jak i jego części.
+
+
+ 
+Po zaznaczeniu fragmentu ekranu, który cię interesuje, Narzędzie Wycinane zapisze screena do schowka i wyświetli powiadomienie. Kliknięcie powiadomienia przeniesie cię do Narzędzia Wycinanego, w którym możesz edytować zrzut (np. zakreślić markerem) lub po prostu zapisać.
+
+
+ 
+Jak zrobić zrzut ekranu na Macu?
+Wydawać by się mogło, że zrobienie screenshota na Macu to nie lada sztuka - bo nie ma ani klawisza PrtSc, ani systemu Windows. Jednak Apple zadbało o to by robienie zrzutów ekranu na Macbookach i stacjonarnych Macach było równie proste co na systemach Microsoftu.
+
+
+ 
+Zrzut pełnego ekranu na Macu wykonuje się za pomocą kombinacji klawiszy Shift+Command+3. Aby wykonać zrzut fragmentu ekranu, naciśnij razem Shift+Command+4. Kombinacja klawiszy Shift+Command+5 otworzy aplikację Zrzut ekranu, natomiast Shift+Command+6 wciśnięte na Macbooku zrobi zrzut paska Touch Bar.
+
+
+Jak zrobić zrzut ekranu na Macu? [Print Screen na Macu]
+Programy i aplikacje do robienia zrzutów ekranu
+Pomimo że zarówno Windows jak i Mac posiadają wbudowane opcje robienia zrzutów ekranu, które pozwalają nie tylko zrobić screenshot, ale i natychmiastowo go edytować, wiele osób decyduje się na instalacje dedykowanych aplikacji do robienia zrzutów ekranu. Programy takie jak ShareX, LightShot czy Greenshot to najpopularniejsze aplikacje do przechwytywania zrzutów ekranu na laptopie i komputerze. Oferują one - oprócz podstawowego zapisywania, edytowania i przechwytywania fragmentów - natychmiastowe udostępnianie screenów w formie linków, robienia zrzutu całej przewijanej strony internetowej czy integrację z pakietem Microsoft Office.
+
+
+ShareX - fajne programy które MUUUSISZ mieć do Win11 i nie tylko :D
+REKLAMA
+Jak zrobić screenshot na laptopie i komputerze? Podsumowanie
+Aby zrobić zrzut ekranu na laptopie czy komputerze nie potrzeba dodatkowego oprogramowania, bo jest to opcja domyślnie wbudowana w każdy system. Choć screenshoty najszybciej i najprościej wykonuje je się za pomocą przycisku PrtSc, istnieją alternatywne sposoby pozwalające ominąć możliwy brak tego klawisza - również na Macu. Aplikacje takie jak ShareX to idealne rozwiązanie dla osób, które potrzebują zaawansowanych opcji robienia i edycji zrzutów ekranu.

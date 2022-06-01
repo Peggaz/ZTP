@@ -1,15 +1,21 @@
-Stał się cud. Mały, ale jednak.
-Jechałem dużą ciężarówką przez Niemcy, dostawa pod adres w małym miasteczku tuż obok ścisłego centrum mieściny. Nawigacja prowadzi, jest ok. W środku miasta zakaz dla tranzytu, jednak navi tego "nie zauważyła" i wlecze mnie przez środek. Skręcam w pewnym momencie za radą navi na mostek i zaraz za mostkiem w wąską ukośną uliczkę.
+Jak zrobić zrzut ekranu na laptopie i screena na komputerze? Poradnik i instrukcja krok po kroku
 
-Natychmiast po tym jak wjechałem tam, rzut oka na ekran navi i cóż... mnie tam nie powinno być. Na ekranie widać, że za 500 metrów mam skręcić dwa razy w lewo i wrócić na główną. Jednak jest za późno na cofanie, za mną tłum osobówek. Z prawej wysoki krawężnik, z lewej zaparkowane auta ze złożonymi lusterkami. No, wąsko... z prędkością pieszego lawiruje i... dzieciak wypada na jezdnie, za nim rzuca się wrzeszcząc jak oszalała matka, eskortująca jeszcze wózek z małym berbeciem.
+MALWINA KUŚMIEREK
+21 MAJA 2022
+Zrzut ekranu to jedna z najprzydatniejszych funkcji każdego systemu operacyjnego. Jednak mimo swej popularności i przydatności, wiele osób nadal nie wie, jak zrobić zrzut ekranu. W tym artykule podpowiadamy jak zrobić screena na laptopie i komputerze.
+Zrobienie zrzutu ekranu to niezwykle praktyczna funkcja dająca szereg możliwości. Chcesz pokazać drugiej osobie obraz ze swojego ekranu bez robienia zdjęć? Zgłosić błąd na stronie, którą aktualnie przeglądasz? A może pokazać chwytliwy nagłówek bez linkowania artykułu? Screeny ekranu pozwalają na to i wiele więcej. W tym poradniku przedstawimy kilka sposób na to, jak zrobić zrzut ekranu na laptopie i komputerach z Windowsem oraz na Macach.
 
-Wszystko spoko, prędkość pełzająca, dzieciak 5 metrów przed kamionem, hamuję bez paniki.
-Wtedy dochodzi do mnie że:
-Mnie tam normalnie nie powinno być.
-Nawigacja ustawiona na ciężarówki nie pokazała tam więcej trasy jak później sprawdzałem ten adres.
-Gdyby nie ja, to osobówki by tam dawały po garach około 50km/h (Niemcy przestrzegają tego, ale rozpędzają się pełnym gazem).
-Dzieciak wpadłby na bank prosto na jezdnię pod auto.
-Niechcący spowolniłem wszystkich, dając matce czas na zabranie dzieciaka z jezdni.
-Anioł Stróż pogrzebał mi w nawigacji.
-Niemożliwe, a jednak.
-Mnie tam nie powinno być.
+Jak zrobić zrzut ekranu na laptopie i screena na komputerze? Uniwersalna metoda
+Robienie zrzutów ekranu posiada pewną, uniwersalną metodę, która jest niezmienna - niezależnie od wersji systemu Windows czy urządzenia, które posiadasz. Do zrobienia screena będziesz potrzebować najprostszego programu graficznego (chociażby Microsoft Paint) oraz klawisza Print Screen.
+
+Gdzie znaleźć owy klawisz Print Screen? Jego pozycja różni się w zależności od modelu laptopa i klawiatury podłączonej do komputera, jednakże klawisza Print Screen (oznaczanego obecnie najczęściej skrótem PrtSc) możesz szukać w prawym górnym rogu klawiatury. W niektórych klawiaturach PrtSc jest również klawiszem SysRq, lecz współcześnie systemy operacyjne ignorują użycie SysRq, przez co rola klawisza PrtSc/SysRq sprowadza się jedynie do robienia zrzutów ekranu.
+
+Wiedząc, gdzie znajduje się klawisz Print Screen, możesz zrobić zrzut ekranu, wykonując następujące czynności:
+
+Wciśnij klawisz PrtSc.
+Otwórz dowolny program graficzny (np. Microsoft Paint).
+Naciśnij kombinację klawiszy Ctrl + V.
+Z menu w lewej górnej części ekranu wybierz "Plik".
+Kliknij "Zapisz" lub wciśnij Ctrl + S.
+
+Warto wiedzieć, że po wciśnięciu klawisza PrtSc zrzut ekranu zapisuje się do tzw. schowka. Schowek to specjalnie wydzielona część pamięci, zarezerwowana w systemach operacyjnych na zapisywanie wskazanych przez użytkownika danych. Jeżeli chcesz zrobić zrzut ekranu tylko po to, aby wysłać go komuś na przykład na Messengerze, dzięki schowkowi nie musisz go zapisywać. Wystarczy, że wciśniesz Ctrl+V w oknie rozmowy.

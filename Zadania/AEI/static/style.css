@@ -1,0 +1,99 @@
+.logo{
+    width: 2.5%;
+    height: 2.5%;
+    margin-right: 20px;
+    border: #444142;
+}
+body{
+    color:antiquewhite;
+    background-color:#242626;
+}
+header{
+    font-size: 50px;
+    background-color: #343A40;
+}
+.h2{
+    font-size: 20px;
+}
+hr{
+    background-color: #4195ff;
+}
+.main{
+    background-color:#242626;
+    margin: 50px;
+    width:75%;
+    position:  absolute;
+    margin-left: 200px;
+
+}
+#text{
+    background-color:#242626;
+}
+#mark_0{
+    background-color:#242626;
+    color: #ea1515;
+}
+#mark_1{
+    background-color:#242626;
+    color: #4195ff;
+}
+#mark_2{
+    background-color:#242626;
+    color: #6dbd30;
+}
+#mark_3{
+    background-color:#242626;
+    color: #24E7FFFF;
+}
+#mark_4{
+    background-color:#242626;
+    color: #ff24ff;
+}
+#mark_5{
+    background-color:#242626;
+    color: #ffdd00;
+}
+form{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#ocena{
+    color:#51a39c;
+    font-size: 25px;
+}
+#semantyki,#wagi{
+    margin-bottom: 50px;
+}
+td,th{
+    text-align: left;
+}
+button,input{
+    background-color: #0f8387;
+    border: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+button:hover {
+    background-color: #51a39c;
+    color: white;
+}
+#tekst{
+    float:left;
+    text-align: justify;
+    text-justify: inter-word;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #343A40;
+    letter-spacing: 2px;
+    line-height: 3;
+    text-align: center;
+}

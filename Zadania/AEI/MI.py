@@ -3,31 +3,6 @@ import math
 from Zadania.Library import library
 WIDNDOW_SIZE = 5
 
-
-# def preperTextForMI() -> []:
-#     text = []
-#     text_all = ""
-#     for file_id in range(100):
-#         text.append(library.ReadClearText("../../teksty/AEI/" + str(file_id) + ".txt"))
-#         text_all += text[file_id]
-#     return text, text_all
-#
-# def mutualInformation():
-#     texts, text_all = preperTextForMI()
-#     attendaceList = library.AttendanceListCLP(text_all)
-#
-#     texts_window = []
-#     for file in texts:
-#         window = []
-#         words = file.split(" ")
-#         for word_id in len(words) - WIDNDOW_SIZE:
-#             window = [words[word_id: word_id+WIDNDOW_SIZE]]
-#
-#
-#
-#
-#         library.AttendanceListCLP()
-
 def POkno(x, y, windows):
     count = 0
     for it in windows:

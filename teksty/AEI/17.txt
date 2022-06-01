@@ -1,16 +1,1 @@
-Prace teoretyczne poświęcone algorytmom ewolucyjnym koncentrują się na trzech
-głównych zagadnieniach. Pierwszym jest analiza teoretyczna zbieżności i próba wyznaczenia wskaźnika zbieżności dla algorytmów genetycznych, strategii ewolucyjnych i
-programowania genetycznego. Drugim tematem jest badanie stopnia trudności zadania dla algorytmów ewolucyjnych. Głównym zagadnieniem jest badanie, jakie zadania są trudne dla algorytmów, a jakie są łatwe. Jeśli mamy charakterystykę zadania,
-która rozróżnia zadania łatwe i trudne, to możemy lepiej zrozumieć, kiedy i jak działają algorytmy ewolucyjne. Ma to olbrzymie znaczenie praktyczne towarzyszące
-rozważaniom teoretycznym. Skupiając się na tym zagadnieniu, badano zwodniczość algorytmów. Prace te próbowały scharakteryzować zadania, które są trudne do
-rozwiązania przez swoją zwodniczość. Trzeba podnieść problematyczność tego podejścia. Innym podejściem była analiza bloków budujących i teoria schematów, analiza oparta na funkcjach Walsha i krajobrazów dopasowania oraz korelacji odległości
-dopasowania. Wszystkie te metody tworzą pewien postęp w lepszym wyjaśnianiu,
-jak i kiedy algorytmy działają. Pomimo tych analiz, algorytmy genetyczne kryją
-jeszcze wiele tajemnic [76, 100, 91].
-Trzecim zagadnieniem jest złożoność obliczeniowa algorytmów ewolucyjnych. Jest
-to jedna z najważniejszych dziedzin, gdzie równocześnie osiągnięto niewielki postęp.
-Algorytmy stosowane są do optymalizacji kombinatorycznej i numerycznej w duchu
-oryginalnej metody przeszukiwania i adaptacji. Zbadano wiele algorytmów i ich
-złożoność dla wielu problemów. Jednak nadal jest niejasne, kiedy algorytmy mogą
-być lepsze niż inne algorytmy aproksymacyjne lub heurystyczne przy kryterium najlepszej lub średniej złożoności czasowej. Brak jest konkretnych wyników dotyczących złożoności obliczeniowej algorytmów ewolucyjnych dla nietrywialnych zadań,
-zwłaszcza dla zadań kombinatorycznych.
+Uczenie maszynowe jest ważnym elementem rozwijającej się dziedziny analityki wielkich zbiorów danych. Wykorzystując metody statystyczne, szkoli się algorytmy do klasyfikowania lub przewidywania w trakcie dostarczania kluczowych spostrzeżeń w ramach projektów eksploracji danych. Te spostrzeżenia są następnie wykorzystywane przy podejmowaniu decyzji dotyczących aplikacji i firm, co świetnie wpływa na kluczowe wskaźniki wzrostu. W miarę jak wielkie zbiory danych będą wciąż rozszerzać się i rosnąć, zapotrzebowanie rynkowe na analityków danych będzie się zwiększać, wraz z koniecznością pomocy przy identyfikowaniu najistotniejszych pytań biznesowych, a następnie danych, które na nie odpowiedzą.

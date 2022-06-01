@@ -1,30 +1,9 @@
-Algorytmy genetyczne (genetic algorithm – w skr. GA) stanowią podejście
-do przeszukiwania przestrzeni możliwych rozwiązań w złożonych problemach
-poprzez przedstawianie modelu tych rozwiązań za pomocą zjawisk zachodzących
-w obszarze kodowania danych w świecie materii ożywionej. Mamy tutaj
-do czynienia ze zmianami populacji chromosomów kodujących genotyp stworzeń.
-Zmiany te nazywamy ewolucją. Jednym słowem w kolejnych iteracjach
-poprzez naśladowanie mikro-ewolucyjnych wydarzeń, takich jak „krzyżowanie”
-i „mutacja” GA naśladują to co się odbywa ciągle w świecie istot żywych. Może
-to odgrywać pewną rolę w rozwiązywaniu problemów optymalizacji w analizie
-danych.
-Algorytmy genetyczne są dziedziną sztucznej inteligencji, w której przyjęto
-za paradygmat założenia zaczerpnięte z teorii ewolucji. Zauważono, bowiem,
-że ewolucja opiera się na zmienności populacji osobników, która to zmienność
-zapewnia różnorodność zestawu cech osobników, co z kolei pozwala, mówiąc
-w największym uogólnieniu, na przetrwanie oraz przekazywanie swoich cech
-tym osobnikom, które są najlepiej przystosowane do otaczającego je środowiska.
-Właśnie cecha adaptacji decyduje o tym w jakim stopniu poszczególne osobniku
-są zdolne do przeżycia w otaczającym je środowisku.
-W GA, chodzi o wyłonienie spośród generowanych rozwiązań rozpatrywanego
-problemu rozwiązania, które najlepiej spośród wszystkich wyłonionych
-odpowiada na postawiony problem.
-W przyrodzie podstawową strukturą odpowiadającą za kodowanie informacji
-o danym osobniku jest kwas dezoksyrybonukleinowy (popularnie zwany jako
-DNA), w którym najmniejszymi nośnikami informacji są cztery zasady – adenina,
-guanina, cytozyna oraz tymina. Poszczególne sekwencje tych czterech zasad
-kodują poszczególne cechy organizmu (osobnika), o cechach tych mówimy, że
-są geny – stąd właśnie nazwa algorytmy genetyczne. Jednak na potrzeby algorytmów
-genetycznych oczywiste jest, że nie ma obowiązku kodowania danych
-z wykorzystaniem notacji czwórkowej, ale najczęściej wykorzystywana jest
-kodowanie binarne (zerojedynkowe) lub liczbami całkowitymi.
+Jedną z ważniejszych funkcji jaką posiadają wytwory technologiczne jest umiejętność uczenia się. Na czym polega uczenie maszynowe i jak może być wykorzystane w biznesie?
+Rozwój maszyn sięgnął tak daleko, że powoli zaczynają one przypominać człowieka. Za wyjątkiem posiadania zdrowego rozsądku, a także umiejętności przewidywania konsekwencji swoich działań niewiele odróżnia nas od maszyn.
+
+Co to jest uczenie maszynowe?
+Uczenie maszynowe polega na technologicznym zapamiętywaniu pewnych wzorców i zachowań, których maszyna już kiedyś „doświadczyła”. Ponadto, dzięki temu możliwa jest także analiza nowych danych, a także szukanie rozwiązań, które sprawdziły się w innych, wcześniej znanych maszynie sytuacjach.
+
+Przydatna w tej sytuacji jest także analiza danych, zwanych Big Data. Dzięki temu człowiek nie musi zajmować się programowaniem, a maszyna samodzielnie dokonuje selekcji informacji i działa według konkretnych schematów. Nie jest to zjawisko proste, ponieważ system Machine Learningu trzeba trenować, aby unikać błędów i sytuacji, które można byłoby przewidzieć wcześniej.
+
+Fundamentem sukcesu w stworzeniu modelu uczenia maszynowego jest odpowiednio duży zbiór dobrej jakości danych. Jeżeli będziemy wykorzystywać do nauki nieodpowiednie jakościowo dane (np. odczyty tylko z uszkodzonych czujników, dane wpisane w nieprawidłowe pola formularzy), otrzymamy błędny model – mówi Jakub Kułak, Head of Data analytics & AI Practice w Chmurze Krajowej.

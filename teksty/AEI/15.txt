@@ -1,9 +1,25 @@
-Początki algorytmów ewolucyjnych można zauważyć w końcu lat 1950 ( Bremerman, Box, Friedberg) [10, 9, 24]. Dziedzina ta pozostała wówczas mało znaną przez
-następne lata. Związane to było z niewielką mocą komputerów i ich niedostępnością,
-jak i słabością metodologiczną takiego podejścia.
-Podstawowe prace (Holland, Rechenberg, Schwefel) [35], które nadały impuls rozwojowi obliczeń ewolucyjnych, pojawiły się w latach 1970 i od tego czasu narastało
-zainteresowanie tymi metodami i ich praktyczne zastosowanie. Doprowadziło to do
-gwałtownego rozwoju tych metod. Można sądzić, że główną przyczyną tak intensywnego rozwoju tych metod jest ich elastyczność i zdolność adaptacyjna, połączona
-z odpornym zachowaniem i całościowością przeszukiwania. Obliczenia ewolucyjne są
-raczej koncepcją, ideą rozwiązywania trudnych zadań optymalizacyjnych, niż zbiorem
-użytecznych algorytmów.
+Typy reprezentacji wiedzy
+Wiedza wygenerowana wyżej wymienionymi metodami może mieć postać m.in.:
+
+reguł (najczęściej postaci jeżeli X to Y),
+drzew decyzyjnych,
+klauzul logiki predykatów,
+taksonomii,
+rozkładów prawdopodobieństwa,
+funkcji przejść automatów skończonych,
+reguł gramatyki formalnej,
+sieci semantycznych.
+Ograniczenia i problemy
+Pomimo szybkiego rozwoju w dziedzinie uczenia maszynowego, systemy nadal pozostają w jakimś stopniu zależne od człowieka. Sam proces projektowania systemu wymaga od człowieka określenia sposobów zdobywania wiedzy oraz jej reprezentacji.
+
+Poza etapem tworzenia systemu powstają następujące problemy:
+
+zbyt mała lub zbyt duża zależność systemu od środowiska, w którym się znajduje co może prowadzić do niepełnej analizy danych lub błędnej interpretacji,
+wiarygodność i poprawność generowanych wniosków, według Poppera „wiedza zdobyta w wyniku obserwacji ma charakter jedynie domyślny”, a rozumowanie indukcyjne nie może być w pełni udowodnione, a jedynie sfalsyfikowane,
+niekompletne lub częściowo sprzeczne dane,
+niezdefiniowanie ograniczeń dziedzinowych, może prowadzić do zbyt daleko idących uogólnień i błędnych wniosków.
+W związku z powyższymi problemami przyjęto[potrzebny przypis] następujące postulaty, które wiedza generowana przez systemy powinna spełniać:
+
+wiedza generowana przez system powinna podlegać kontroli i ocenie człowieka, według podanych przez niego kryteriów,
+system powinien być zdolny do udzielenia wyjaśnienia w przypadku problemu,
+wiedza powinna być zrozumiała dla człowieka, czyli wyrażalna w opisie i modelu myślowym przez niego przyjętym.

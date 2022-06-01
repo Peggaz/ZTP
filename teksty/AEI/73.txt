@@ -1,64 +1,48 @@
-Polski startup Walletmor opracował implant, który może zastąpić telefony czy zegarki, jako metody płatności. Jak to działa i czy jest to bezpieczne? O tym rozmawialiśmy z założycielem i pomysłodawcą firmy, Wojciechem Paprotą.
-Andrzej Mężyński: Skąd wziął się pomysł na implant płatniczy?
+Uczymy się strzelać polskim Grotem. Jak wybrać strzelnicę?
 
-Wojciech Paprota (założyciel Walletmor): Wpadłem na ten pomysł czytając jedną z książek SF. Był w niej przemycony wątek implantów - na przykład jeden z bohaterów korzystał z takiego rozwiązania, by otworzyć drzwi do mieszkania. Uznałem to za super pomysł z potencjałem. Dlatego skontaktowałem się z ludźmi z USA, którzy podjęli się zaprojektowania i wykonania takiego urządzenia
+PIOTR GRABIEC
+13 MAJA 2022
+Fabryka Broni Łucznik Radom w ramach akcji #UczymySieStrzelac zachęca do szkolenia się z obsługi broni palnej, ale pod warunkiem, że zajęcia będą realizowane "świadomie, efektywnie i bezpiecznie". Apel producenta Grotów kierowany jest zarówno do osób, które chcą się nauczyć posługiwać karabinami i pistoletami, jak i do instruktorów strzelania. Jak wybrać strzelnicę, jak strzelać i na co zwrócić uwagę?
+Kryzys migracyjny na granicy z Białorusią oraz wojna w Ukrainie sprawiły, że w ostatnich miesiącach lawinowo wzrosła liczba osób zainteresowanych służbą wojskową oraz chętnych do nauki strzelania z broni palnej w naszym kraju. Strzelnice na terenie całej Polski przeżywają obecnie prawdziwe oblężenie za sprawą obywateli, którzy chcą się zapisać na kursy z obsługi pistoletów oraz karabinów.
 
-Człowiek łączy się maszyną. Co nas czeka w epoce transhumanizmu?
-Człowiek łączy się maszyną. Co nas czeka w epoce transhumanizmu?
-zobacz również
+REKLAMA
+Czytaj też:
 
-Jak długo trwały prace i co zajęło najwięcej czasu?
+MSBS Grot to pierwsza w historii w 100 proc. polska konstrukcja karabinu modułowego
+Polskie karabiny Grot już w Ukrainie. Żołnierze je bardzo chwalą, bo są lekkie i wygodne
+Gladius czyli latająca artyleria. Największa umowa na drony dla polskiej armii podpisana
+Wzrost zainteresowania bronią palną w Polsce dostrzegła firma, która od 1925 r. zajmuje się dostawami broni strzeleckiej dla Wojska Polskiego i naszych służb mundurowych. Fabryka Broni Łucznik Radom, czyli producent słynnego Grota, bo o niej mowa, chwali się tym, iż jest największym polskim producentem uzbrojenia przeznaczonego na rynek cywilny i ruszyła właśnie z programem edukacyjnym.
 
-Prace od wpadnięcia na pomysł do stworzenia gotowego, działającego układu, zajęły nam 20 miesięcy. Najwięcej zajęło dopracowanie pewnych kwestii technicznych i prawnych
 
-Jak wyglądało zatwierdzenie do użycia. Czy implant musiał przechodzić testy w FDA czy EMA?
+Akcja zachęcająca do nauki obsługi broni palnej organizowana jest pod hasłem #UczymySieStrzelac
+W ramach powszechnej akcji Fabryka Broni chce "kształtować kulturę broni palnej w Polsce". Jej celem jest podnoszenie świadomości i umiejętności zarówno wśród użytkowników, jak i instruktorów strzelania. Łucznik chce pomóc w zdobywaniu wiedzy na temat tego, jak i gdzie rozpocząć szkolenie oraz jak powinno wyglądać prawidłowo prowadzone zajęcia, czyli zgodnie z przyjętymi zasadami sztuki.
 
-Implant zbudowany jest z biopolimeru, który musi spełniać odpowiednie normy, jak też z medycznego plastiku, z którego wykonane są wyroby medyczne. Urządzenie zostało więc zatwierdzone przez FDA i uzyskało normy ISO 19003. Trzeba też pamiętać, że nie jest to wyrób medyczny, nie ma więc konkretnych procedur, które taki implant musi przejść
+Nie chodzi tu też wyłącznie o to, aby osoby zainteresowane bronią palną dowiedziały się, jak zdobyć Patent Strzelecki. Fabryka Broni chce zadbać o to, aby osoby uczęszczające na strzelnicę mogły zweryfikować doświadczenie i uprawnienia instruktora. Kładzie też nacisk na kwestie bezpieczeństwa, dlatego chce popularyzować wiedzę na temat budowy broni palnej i zasady jej działania.
 
-Jeśli jesteśmy przy kwestiach bezpieczeństwa, to co z podróżami lotniczymi czy badaniami medycznymi?
+Broń traktuj zawsze jak załadowaną i gotową do strzału. Jeśli nie chcesz oddać strzału, palec trzymaj poza językiem spustowym. Broń kieruj zawsze w kierunku kulochwytu - czytamy na stronie internetowej /#UczymySieStrzelac
 
-Nasze laboratorium w USA przeprowadziło stosowne testy. Zarówno na pokładzie samolotu, przy rezonansie magnetycznym, bramkach bezpieczeństw itp, nie stwierdzono żadnego negatywnego wpływu implantu na pracę sprzętu medycznego czy lotniczego
+Fabryka Broni Łucznik Radom nawiązała przy tym porozumienie z najbardziej doświadczonymi instruktorami strzelectwa, aby wspólnie z nimi opracować i zaprezentować najważniejsze zasady szkoleń, aby realizować proces nauki obsługi broni "właściwie", czyli "świadomie, efektywnie i bezpiecznie". Do sieci trafiły już liczne materiały edukacyjne poświęcone temu zagadnieniu.
 
-A co z baterią?
 
-Walletmor jest pasywnym tagiem NFC. To oznacza, że nie potrzebuje żadnego zasilania. Tagiem aktywnym jest terminal płatniczy, który wysyła fale. Gdy one napotkają implant, pobierają z niego informację zwrotną
+#UczymySieStrzelac nie jest związane z żadnych innym programem - czy to rządowym, czy to prywatnym.
+Fabryka Broni Łucznik Radom nie udostępnia przy tym zamkniętej listy placówek, w których rekomenduje naukę strzelania. Zamiast tego w swoich materiałach udostępnionych na stronie internetowej programu podpowiada, na co powinny zwrócić uwagę osoby zainteresowane wizytą na strzelnicy podczas wybierania miejsca, w których chcą się uczyć obsługi broni palnej.
 
-Jak długo może działać Walletmor?
+Sam miałem okazję wziąć udział w warsztatach organizowanych przez Fabrykę Broni pod okiem czterech różnych instruktorów. Wyjaśniali, czym się różni strzelectwo bojowe od sportowego i rekreacyjnego, przedstawili szereg podstawowych zasad bezpieczeństwa, którymi powinni kierować się wszyscy instruktorzy i osoby przebywające na strzelnicy oraz na jakie kwestie należy zwrócić uwagę.
 
-Ponad 100 lat bez awarii
+Absolutną podstawą jest oczywiście to, by każda broń była zawsze traktowana jak załadowana.
+Może i jest to truizm, ale warto to powtarzać: broni nie można w stronę ludzi, a lufa załadowanego pistolet albo karabiny powinna zawsze kierować się w stronę kulochwytu, aby zminimalizować ryzyko skrzywdzenia osoby postronnej - czy to bezpośrednim strzałem, czy też poprzez rykoszet. Ręka strzelca powinna działać zawsze niczym gimbal do smartfona albo aparatu, co wymaga sporej wprawy.
 
-A co z kwestią bezpieczeństwa transakcji?
 
-Technologie są takie same, jak w przypadku kart, do tego implant obsługuje protokół 3D Secure. Nie ma żadnej możliwości włamania się do niego, czy przechwycenia sygnału. Trzeba by bardzo dokładnie zbliżyć fałszywy terminal do implantu, a przecież przestępca nie wie, gdzie dokładnie jest on wszczepiony.
 
-Jak wygląda procedura założenia konta i jak się płaci implantem?
 
-Potrzebujemy konta icard, które działa jak karty prepaid. Przelewamy na nie środki, potem podajemy kod aktywacyjny implantu i możemy już płacić, jak zwykłą kartą, w każdym punkcie obsługującym płatności bezprzewodowe.
 
-Czy da się płacić polskim złotym?
+Podczas przenoszenia pistoletu lub karabinu na stanowisko należy kierować lufę albo pionowo do dołu, albo do góry, a do tego należy pamiętać o tym, by zdejmować palec z języka spustowego przed zmianą pozycji. Wbrew pozorom nie jest to takie proste - ludzie niezaznajomieni z obsługą broni mają niską świadomość swego ciała. Trzeba to kontrolować, aż odruch wejdzie w krew.
 
-Niestety nie, icard nie obsługuje naszej waluty, konto możemy mieć w dolarach, euro, franku szwajcarskim, brytyjskim funcie i paru innych walutach. Nie stosuje jednak żadnego spreadu, a za przewalutowanie jest minimalna prowizja rzędu 0,7-09 procenta, czyli praktycznie koszt jest niezauważalny.
+Instruktor na strzelnicy powinien poświęcać swoim podopiecznym tyle uwagi, ile tylko potrzeba.
+Wypadki na strzelnicy zdarzają się w głównej mierze ze względu na zignorowanie zasad bezpieczeństwa. Jeśli tylko zauważymy, że instruktor podczas jednej sesji przyjmuje np. kilkanaście zamiast kilku osób, a na prośby o powtórne wytłumaczenie poleceń reaguje znużeniem, warto pomyśleć o zmianie instruktora lub udaniu się do innej placówki. Z ostrą amunicją nie ma żartów.
 
-A co z płatnościami internetowymi?
+Trzeba też pamiętać, że instruktor instruktorem, ale to na osobie dzierżącej broń spoczywa ogromna odpowiedzialność. Dla osób, które nie mają obycia z bronią, często przy pierwszych kontaktach z nią pojawia się stres i włącza się tzw. tunelowe myślenie. Warto poszukać instruktora, który najpierw przed tymi zagrożeniami ostrzeże, a potem będzie w razie potrzeby adekwatnie reagował.
 
-Niestety Walletmor nie ma takich możliwości. By płacić w sieci, potrzebujemy prawdziwej karty, którą można zamówić na icard.
 
-Czy implant można samemu wprowadzić sobie pod skórę?
 
-Teoretycznie tak. Jednak ze względu, że jest to naruszenie struktury tkanki, rekomendujemy skorzystanie z sieci klinik i studiów modyfikacji ciała, z którymi mamy podpisane umowy partnerskie. Tak, aby urządzenie było wprowadzone pod skórę pod kontrolą profesjonalisty
 
-Czy w cenie implantu znajduje się też koszt jego "instalacji"?
-
-Nie, za to trzeba zapłacić ekstra
-
-Ile implantów sprzedaliście na świecie?
-
-Na razie działamy na terenie Unii Europejskiej, Szwajcarii i Wielkiej Brytanii. Łącznie sprzedaliśmy 100 implantów, w tym 33 w Polsce
-
-Jakie macie plany na przyszłość?
-
-Chcemy zmniejszyć rozmiar implantu, by dało się go wprowadzić pod skórę zastrzykiem, planujemy też stworzenie własnej platformy, na której - zamiast na icard - można będzie zarządzać kontem i przelewami. Do tego chcemy umożliwić korzystanie z dodatkowych funkcji.
-
-Jakich?
-
-Choćby współpracy z zamkami elektronicznymi w domach, kartami do pokojów hotelowych, umożliwić kodowanie na nim biletów komunikacji miejskiej, czy pozwolić wprowadzić na niego dane z naszych wizytówek.

@@ -1,11 +1,11 @@
-Chrome na Androida otrzymał nowe funkcje AR. Teraz nie musisz już instalować aplikacji pomiarowej, a do tego zajrzysz na przeciwną stronę Ziemi i zachowasz dystans społeczny z poziomu przeglądarki na smartfonie.
-Google przygotowało kilka nowości dla tych, którzy lubią korzystać z rzeczywistości rozszerzonej, czyli AR. Tym razem możesz zobaczyć, co jest po „drugiej stronie Ziemi”, zachować odpowiedni dystans w sklepie i zmierzyć sobie… co tam Ci się akurat zamarzy.
-Wśród nowych funkcji znalazły się (wchodząc w jeden z linków, przeniesiesz się do aplikacji na swoim telefonie z Androidem):
-Floom, czyli mój absolutny faworyt. Zastanawiałeś się kiedyś, co by było, gdybyś wywiercił otwór pod swoimi nogami i wiercił na wylot? Cóż – w efekcie wszyscy byśmy zginęli, ale w mniej ekstremalnej wersji w AR możesz zrobić to już teraz. Zabawa jest przednia – możesz wybrać w zasadzie dowolny punkt na Ziemi.
-Sodar, czyli możliwość wykorzystania aparatu w smartfonie do utrzymania idealnej odległości 2 metrów. Dystans społeczny dla nerdów gwarantowany.
-Measure Up to proste narzędzie pomiarowe do wymiarowania stosunkowo regularnych kształtów. Przyda się, jeśli akurat zamierzasz kupić szafkę w Ikei i nie masz w domu innego metra. To akurat nic nowego – wiele aplikacji na Androida oferuje taką funkcję. Teraz nie musisz już ich pobierać, wystarczy sama przeglądarka.
-Ostatnia funkcja to Picturescape, które pozwoli na wykorzystanie geolokalizacji ze zdjęć do umieszczenia ich w rozszerzonej rzeczywistości. Nakierowując obiektyw aparatu na daną lokalizację, zobaczymy rodzaj galerii zdjęć, które wykonaliśmy w danym miejscu. Fajna sprawa, ale na Picturescape trzeba jeszcze poczekać.
-Chrome na Androida dostaje kilka fajnych trybów AR/fot. Google
-Jakiego smartfona potrzebujesz, żeby skorzystać z nowych funkcji AR? Pełna lista znajduje się na stronie Google. Przejrzałem ją pobieżnie i generalnie musisz mieć niezłego pecha, żeby się nie załapać – znalazłem na niej nawet tanie budżetowce sprzed kilku lat.
-Jak sprawdzić, czy Twoje dane wyciekły z Facebooka?
-Trzeba przyznać, że Google wprowadza ostatnio całkiem sporo nowości ze świata AR i VR. Ostatnio zmiana dotknęła Map Google i w przyszłości nie pozwolą one nam się zgubić w miejskiej aglomeracji czy na lotnisku.
+Wszystkie podróże Geralta na jednej mapie. Ciekawa grafika dla fanów Wiedźmina
+Mikołaj Ciesielski
+
+Jeden z fanów postanowił nanieść na mapę wszystkie podróże, które Biały Wilk odbył w książkach Andrzeja Sapkowskiego oraz grach CD Projekt RED.
+Zarówno w książkach, jak i grach CD Projekt RED Geralt miał okazję zwiedzić sporą część świata wykreowanego przez Andrzeja Sapkowskiego. Jeden z fanów Białego Wilka postanowił więc przygotować specjalną mapę, na którą naniósł wszystkie podróże, jakie Rzeźnik z Blaviken odbył w trakcie przygód przedstawionych we wspomnianych dziełach. Całość prezentuje się naprawdę interesująco i choć grafika zawiera sporo informacji, to jest na tyle przejrzysta, że bez trudu przypomnicie sobie poszczególne „wycieczki”.
+
+Autorem projektu jest Michaił „uyle” Siergiejew, który swoją pracę udostępnił na portalu Behance, gdzie podzielił się również szczegółami na temat procesu tworzenia wspomnianej grafiki. Twórca podkreśla, że mapa, na której zaprezentował wszystkie podróże Geralta, powstała na podstawie kilku źródeł.
+
+Zgodnie z przekazanymi informacjami „uyle” opierał się o mapę opracowaną przez pracowników Zakładu Geografii Politycznej i Historycznej na Wydziale Geografii i Studiów Regionalnych Uniwersytetu Warszawskiego, oficjalne mapy stworzone przez CD Projekt RED, a także wybrane fanowskie mapy. Autor podkreśla również, że niektóre elementy jego pracy zostały uproszone, by całość była jak najbardziej przejrzysta i czytelna.
+
+Na koniec przypomnijmy, że pod koniec marca CD Projekt RED oficjalnie potwierdziło, że trwają prace nad kolejną odsłoną serii Wiedźmin, która „zapoczątkuje nową sagę w tym uniwersum”. Na ten moment nie znamy jednak żadnych szczegółów na temat produkcji. Wiadomo jedynie, że tytuł powstaje na silniku Unreal Engine 5.

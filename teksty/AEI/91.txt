@@ -1,4 +1,13 @@
-Inteligentne liczniki w prawie każdym polskim domu. Czy to się opłaca? Przykład Wrocławia pokazuje, że tak. Do końca 2028 roku większość Polaków będzie miała inteligentne liczniki prądu. Przykład z Wrocławia pokazuje, że warto na nie czekać, bo to szansa na spore oszczędności. Obecnie inteligentne liczniki znajdą się u niecałych 2 mln Polaków. Docelowa liczba zakłada 16,3 mln użytkowników końcowych. Z analiz wynika, że korzyści z wymiany wyniosą aż 11,3 mld zł. A to dlatego, że nowoczesne liczniki pozwolą rozliczać się za energię elektryczną według rzeczywistego zużycia, a nie według prognoz.
-We Wrocławiu już od niedawna funkcjonuje system przetwarzania danych z ponad 400 tys. inteligentnych liczników energii elektrycznej. System to główny element projektu z obszaru data science engineering będącego efektem współpracy Tauron PE z Future Processing, firmą technologiczną z Gliwic oraz Politechnikami z Częstochowy i Opola.
-Jak wyjaśnia firma Future Processing, "system inteligentnych liczników pozwala m.in. wykrywać gorszy stan techniczny linii przesyłowych, które wymagają szybkiego remontu, bądź w oparciu o wcześniejsze doświadczenia planować intensywność przesyłu w określonych dniach". Korzyści dla odbiorców są więc oczywiste. Nie ma ryzyka, że awaria przerwie dostęp do prądu, podobnie jak przeciążona sieć. Wśród innych zalet systemu wymienia się też fakt, że ten może wykryć nielegalny pobór.
-Możliwości systemu imponują. Każdego dnia przetwarzanych jest 35 mln odczytów.
+​Kraków: Prokuratura wszczęła dochodzenie ws. zderzenia dwóch tramwajów
+Marek Wiosło
+Czwartek, 19 maja (16:06)
+Prokuratura wszczęła w czwartek dochodzenie w sprawie zderzenia dwóch tramwajów, do którego doszło w środę na ul. Herlinga Grudzińskiego w Krakowie. W wyniku wypadku poszkodowanych zostało ok. 20 osób.
+
+Jak przekazał rzecznik Prokuratury Okręgowej w Krakowie Janusz Hnatko, postępowanie dotyczy nieumyślnego spowodowania katastrofy w ruchu lądowym na skutek nieumyślnego naruszenia zasad bezpieczeństwa i sprowadzenia w ten sposób zagrożenia dla życia i zdrowia wielu osób oraz dla mienia w wielkich rozmiarach. 
+
+Prokuratorzy przeprowadzili oględziny miejsca wypadku i uczestniczących w nim pojazdów, przesłuchali świadków i powołali biegłego, aby ocenił stan techniczny tramwajów - zostaną one komisyjnie przebadane. Wystąpiono także do MPK o zabezpieczenie nagrań monitoringu z kamer umieszczonych w tramwajach oraz zabezpieczono telefon od jednego z motorniczych. 
+
+Jak doszło do wypadku?
+Tramwaj MPK nr 49 jadący torowiskiem ul. Herlinga Grudzińskiego od strony ul. Kotlarskiej najechał na stojący tramwaj nr 50. W wyniku zderzenia poszkodowanych zostało ok. 20 osób, część z nich trafiła do szpitala. Wśród rannych był m.in. motorniczy jednego z tramwajów - mężczyzna został zakleszczony w kabinie pojazdu. Po uwolnieniu został przewieziony do szpitala. Utrudnienia trwały do godzin nocnych. 
+
+Jak zapewnił w czwartek rzecznik krakowskiego MPK Marek Gancarczyk, przewoźnik w pełni współpracuje z prokuraturą i udostępnia wskazane materiały i pojazdy.

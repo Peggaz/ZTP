@@ -1,44 +1,11 @@
-W ostatnich kilkudziesięciu latach „człowiek-inżynier” zaczął się uważniej przyglądać
-naturze i z pokorą od niej się uczyć. Wynikiem tych obserwacji było stworzenie m.in. takich
-procedur, naśladujących naturę jak algorytmy ewolucyjne czy sieci neuronowe. Zanim naturze
-(ukierunkowanej przez swojego Stwórcę) udało się stworzyć mózg ludzki, minęły cztery
-miliardy lat (taki wiek Ziemi jest obecnie uważany za najbardziej prawdopodobny). W tym
-czasie, dzięki doborowi naturalnemu, organizmy ewoluowały w kierunku coraz lepszego
-przystosowania się do środowiska, w którym żyją. Ten sposób doskonalenia został
-zaadaptowany do rozwiązywania zadań optymalizacyjnych i nazwano go algorytmami
-ewolucyjnymi.
-Wśród algorytmów ewolucyjnych wyróżnia się trzy główne klasy (de Jong, 1998 za
-Kwaśnicka, 1999): algorytmy genetyczne (GAs – Genetic Algorithms), strategie ewolucyjne
-(ESs – Evolutionary Strategies) i programowanie ewolucyjne (EP – Evolutionary
-Programming). Coraz popularniejsze programowanie genetyczne (GP – Genetic
-Programming) zwykle bywa uważane za podgrupę algorytmów genetycznych. Szybki wzrost
-zainteresowania algorytmami genetycznymi obserwuje się od czasu opublikowania pracy
-Hollanda (1975). Wyróżnia się trzy zasadnicze grupy zastosowań AG: algorytmy
-przeszukujące (Search), optymalizujące (Optimization) i uczące (Learning) (Kwaśnicka,
-1999). Wymienione grupy nie są jednak rozłączne i granica między nimi jest płynna.
-Algorytmy genetyczne (AG) są procedurami opartymi na podstawowych mechanizmach
-ewolucji biologicznej: doborze naturalnym i dziedziczenia. Algorytm działa w dyskretnym
-czasie. W każdej jednostce czasu t, w pewnym środowisku Q istnieje populacja osobników
-tego samego gatunku P(t), które konkurują ze sobą oraz mogą się dowolnie krzyżować w
-obrębie całej populacji. Podstawową ideą AG jest wykorzystanie ewolucyjnej zasady
-przeżycia osobników najlepiej przystosowanych. Oznacza to, że osobniki „lepsze” mają
-większe szanse przeżycia i wydania licznego potomstwa. Osobniki „gorsze” mogą przeżyć
-i wydać potomstwo, ale prawdopodobieństwo tego jest znacznie mniejsze. Zatem w populacji
-zachodzi proces reprodukcji, tzn. osobniki wydają potomstwo.
-Po fazie reprodukcji (lub w jej trakcie) następuje krzyżowanie, będące odpowiednikiem
-naturalnej wymiany materiału genetycznego, w której potomek dziedziczy część materiału
-genetycznego od jednego, pozostałą część od drugiego rodzica. Drugim procesem, który może
-zachodzić równolegle do krzyżowania, jest mutacja, czyli losowa zmiana genu. Krzyżowanie i
-mutacja zwane są operatorami genetycznymi.
-Ewolucja populacji jest procesem przeszukiwania przestrzeni potencjalnych rozwiązań.
-W procesach takich istotne jest zachowanie równowagi pomiędzy przekazywaniem
-najlepszych cech do następnego pokolenia, a szerokim przeszukiwaniem przestrzeni
-rozwiązań. Algorytm genetyczny umożliwia zachowanie takiej równowagi (Kwaśnicka, 1999).
-W ogólnym schemacie wykorzystania algorytmów genetycznych przy rozwiązywaniu
-rzeczywistych problemów można wyróżnić dwie fazy:
-– wstępną, polegającą na sprecyzowaniu problemu i dostosowaniu go do terminologii
-używanej w AG oraz utworzeniu początkowej populacji;
-– poszukiwania rozwiązań, składającą się z oceny osobników, procesu reprodukcji oraz
-zastosowania operatorów genetycznych. Faza poszukiwania rozwiązań zostaje zakończona
-w momencie gdy zostało znalezione satysfakcjonujące rozwiązanie lub nastąpił warunek
-końca algorytmu (np. przekroczona została założona liczba pokoleń).
+Uczenie maszynowe (machine learning, ML) nadzorowane i nienadzorowane
+
+Nadzorowane uczenie maszynowe
+
+Ta technika wykorzystuje znane, ustanowione i sklasyfikowane zbiory danych do wyszukiwania wzorców. Umożliwia rozwinięcie opisanej wcześniej idei wykorzystania zdjęć psów i kotów. Możesz mieć ogromny zbiór danych zawierający wizerunki tysięcy zwierząt na milionach zdjęć. Jako że te gatunki są znane, można je pogrupować i oznakować przed wprowadzeniem do nadzorowanego algorytmu ML, aby nauczyć go ich rozpoznawania.
+
+Następnie taki algorytm nadzorowany porównuje to, co dostanie na wejściu z tym, co pojawia się na wyjściu oraz zdjęcie z etykietą gatunku zwierzęcia. W końcu nauczy się rozpoznawać określony gatunek zwierzęcia na nowych zdjęciach, które zostaną mu „pokazane”.
+
+Nienadzorowane uczenie maszynowe
+
+Nienadzorowane algorytmy ML są dziś jak filtry SPAM-u. Pierwsze takie filtry definiowane przez administratorów szukały określonych słów w wiadomościach e-mail, aby zrozumieć SPAM. Teraz to niemożliwe, więc dobrze sprawdzają się algorytmy nienadzorowane. Nienadzorowany algorytm ML otrzymuje wiadomości e-mail, które nie zostały oznakowane, aby rozpocząć wyszukiwanie wzorców. Kiedy je wykryje, nauczy się, jak wygląda SPAM i będzie go identyfikować w środowisku produkcyjnym. 

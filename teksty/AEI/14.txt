@@ -1,7 +1,40 @@
-Pojęcie algorytmu genetycznego nie jest powiązane z żadnym konkretnym problemem obliczeniowym, algorytm ten może być wykorzystywany do rozwiązywania różnych problemów. Algorytm genetyczny nie próbuje rozwiązywać problemu w sposób analityczny, ale próbuje uzyskać jak najlepsze rozwiązania poprzez wybieranie jak najlepszych cech rozwiązań z określonej puli. Implementując algorytm genetyczny należy przedstawić potencjalne rozwiązanie problemu w postaci jakiejś struktury danych, a następnie zdefiniować operacje krzyżowania, mutacji i selekcji. Zakładamy, że z każdym kolejnym pokoleniem rozwiązania występujące w populacji będą coraz lepsze.Na początku działania algorytmu trzeba utworzyć populację początkową. Najczęściej polega to na utworzeniu pewnej liczby zupełnie losowych rozwiązań (określanych jako osobniki).
+Uczenie maszynowe wciąż się rozwija i znajduje nowe praktyczne zastosowania. Ilość możliwych zastosowań jest niezwykle ogromna i pozwala przewidzieć, że w przyszłości każdy aspekt techniki będzie zawierać jakąś implementację algorytmów maszynowego uczenia się.
 
-Sposób kodowania rozwiązania (osobnika) nie jest określony, zależy on od konkretnego problemu do rozwiązania. Klasycznym podejściem jest kodonie binarne, czyli przedstawienie osobnika za pomocą ciągu zer i jedynek. Wówczas wartość 1 może oznaczać obecność jakiegoś elementu w rozwiązaniu, a 0 jej brak. Innym popularnym rozwiązaniem jest ciąg liczb naturalnych. Takie rozwiązanie znajduje zastosowanie między innymi w przypadku problemu komiwojażera, gdzie kolejność liczb oznacza kolejność odwiedzania punktów na trasie.
-Algorytm genetyczny musi mieć funkcję oceny jakości rozwiązania pozwalającą określić, które rozwiązanie jest lepsze. Funkcja ta jest określana jako funkcja oceny lub funkcja przystosowania.
-Operacja krzyżowania polega na utworzeniu potomka (lub potomków) na podstawie dwóch wybranych elementów populacji. Potomek zawiera w sobie część cech jednego rodzica, a część drugiego. W przypadku kodowania binarnego najprostszym rozwiązaniem jest skopiowanie części ciągu z jednogo rodzica, a pozostałej części z drugiego. Jeśli osobniki zakodowane są za pomocą ciągu liczb, można stosować następującą metodę krzyżowania: część rozwiązania jest kopiowana z jednego rodzica, a następnie brakujące liczby są wstawiane w takiej kolejności, w jakiej wystąpowały w drugim rodzicu.
-Operacja mutacji polega na dokonaniu losowej zmiany w którymś z osobników. Operacja ta powinna być stosowana stosunkowo rzadko (mutacji powinno podlegać znacznie mniej osobników, niż krzyżowaniu). W kodowaniu binarnym mutacją możę być zamiana losowego bitu na przeciwny, a w kodowaniu za pomocą ciągu liczb np. zamiana miejscami dwóch elementów.
-Celem selekcji jest usunięcie z populacji rozwiązań słabych, a pozostawienie dobrych, które będą podlegały krzyżowaniu. W trywialnym przypadku może być zrealizowane po prostu przez pozostawienie określonej liczby najlepszych rozwiązań (osobników) i usunięcie pozostałych. Zazwyczaj selekcja jest bardziej złożona – prawdopodobieństwo zostania rodzicem zależy od oceny jakości osobnika, jednak nawet w przypadku słabych osobników nie jest ono zerowe.Algorytm musi mieć zdefiniowany moment, w którym ma zakończyć swoje działanie. Najprostszym rozwiązaniem jest określenie liczby iteracji (pokoleń). Po zakończeniu działania algorytmu najlepszy osobnik z populacji jest zwracany jako wynik. Warunkiem stopu może być również ocena jakości najlepszego osobnika w populacji.
+Są to na przykład:
+
+oprogramowanie do rozpoznawania mowy:
+automatyczne tłumaczenie
+rozpoznawanie mowy ludzkiej
+dyktowanie komputerowi
+interfejsy użytkownika sterowane głosem
+automatyzacja głosem czynności domowych
+interaktywne biura obsługi
+rozwój robotów
+automatyczna nawigacja i sterowanie:
+kierowanie pojazdem (ALVINN)
+odnajdywanie drogi w nieznanym środowisku
+kierowanie statkiem kosmicznym (NASA Remote Agent)
+automatyzacja systemów produkcji i wydobycia (przemysł, górnictwo)
+analiza i klasyfikacja danych:
+systematyka obiektów astronomicznych (NASA Sky Survey)
+rozpoznawanie chorób na podstawie symptomów
+modelowanie i rozwijanie terapii lekowych
+rozpoznawania pisma na podstawie przykładów
+klasyfikowanie danych do grup tematycznych według kryteriów
+aproksymacja nieznanej funkcji na podstawie próbek
+ustalanie zależności funkcyjnych w danych
+przewidywanie trendów na rynkach finansowych na podstawie danych mikro- i makroekonomicznych
+wykrywanie prania pieniędzy[4]
+wykrywanie i liczenie kolonii bakteryjnych na szalce Petriego[5]
+Metody uczenia się i typy reprezentacji wiedzy
+Uczenie maszynowe i jego powodzenie zależy od wyboru odpowiedniej metody formułującej problem, zbioru uczącego (czyli doświadczeń) oraz sposobu uczenia się nowych pojęć.
+
+Metody maszynowego uczenia się
+wnioskowanie wartości funkcji logicznej z przykładów
+uczenie drzew decyzyjnych (ang. Decision Tree Learning) – drzewo decyzyjne to graficzna metoda wspomagania procesu decyzyjnego, stosowana w teorii decyzji. Algorytm drzew decyzyjnych jest również stosowany w uczeniu maszynowym do pozyskiwania wiedzy na podstawie przykładów. Jest to schemat o strukturze drzewa decyzji i ich możliwych konsekwencji. Zadaniem drzew decyzyjnych może być zarówno stworzenie planu, jak i rozwiązanie problemu decyzyjnego. Metoda drzew decyzyjnych jest szczególnie przydatna w problemach decyzyjnych z licznymi, rozgałęziającymi się wariantami
+uczenie Bayesowskie (ang. Bayesian Learning) – metody oparte na twierdzeniu sformułowanym przez XVIII-wiecznego matematyka Thomasa Bayesa odgrywają znaczną i ostatnio rosnącą rolę w dziedzinie sztucznej inteligencji, zwłaszcza w uczeniu się maszyn. Można ogólnie powiedzieć, że wzór Bayesa stał się podstawą do rozwoju teorii i algorytmów różnych form wnioskowania probabilistycznego.
+uczenie z przykładów (ang. Instance-based Learning) – w odróżnieniu od metod uczenia, które konstruują ogólny, tzw. jawny opis funkcji docelowej, kiedy dostarczane są dane uczące, uczenie tego typu po prostu zapamiętuje przykłady. Uogólnianie nad tymi przykładami jest odwlekane do czasu, aż nowy przykład (zadanie) ma być klasyfikowane. Za każdym razem, kiedy przychodzi nowe zapytanie (przykład), badane są jego powiązania z zapamiętanymi przykładami aby ustalić wartość docelowej funkcji nowego przykładu.
+uczenie się zbioru reguł (ang. Learning Sets of Rules) – zbiór reguł w postaci klauzul Hornowskich może być interpretowany jako program w np. języku Prolog
+analityczne uczenie (ang. Analytical Learning) – metody uczenia indukcyjnego (wykorzystują sieci neuronowe, drzewa decyzyjne), wymagają pewnej liczby przykładów aby osiągnąć pewien poziom uogólnienia. Analityczne uczenie stosuje wiedzę aprioryczną i wnioskowanie dedukcyjne do powiększania informacji dostarczanej przez przykłady uczące.
+połączenie indukcyjnego i analitycznego uczenia (ang. Combining Inductive and Analytical Learning) – czyste indukcyjne uczenie formułuje ogólne hipotezy poprzez znalezienie empirycznych regularności w przykładach uczących. Natomiast czyste analityczne uczenie stosuje aprioryczną wiedzę do otrzymania ogólnych hipotez dedukcyjnie. Połączenie obu podejść daje korzyści: lepszą poprawność i trafność uogólniania gdy dostępna jest wiedza aprioryczna oraz szukanie zależności w obserwowanych danych uczących do wypracowania szybkiej wiedzy apriorycznej.
+uczenie przez wzmacnianie (ang. Reinforcement Learning) – uczenie przez wzmacnianie to metoda wyznaczania optymalnej polityki sterowania przez agenta w nieznanym mu środowisku, na podstawie interakcji z tym środowiskiem. Jedyną informacją, na której agent się opiera jest sygnał wzmocnienia (poprzez wzorowanie się na pojęciu wzmocnienia z nauk behawioralnych w psychologii), który osiąga wysoką wartość (nagrodę), gdy agent podejmuje poprawne decyzje lub niską (karę) gdy podejmuje decyzje błędnie[6].

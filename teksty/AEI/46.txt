@@ -1,6 +1,2 @@
-Jak widać, możliwości wykorzystania algorytmów ewolucyjnych, w tym algorytmów genetycznych, są bardzo szerokie. Składa się na to m.in. prostota pojęciowa
-tych algorytmów. Cechą charakterystyczną tych algorytmów jest także to, że poszukując rozwiązania wychodzą z określonej populacji, a nie z jednego punktu, jak to
-się dzieje w przypadku tradycyjnych metod, a także to, że korzystają z funkcji celu,
-a nie jej pochodnych [3].
-Algorytmy genetyczne znajdują zastosowanie wszędzie tam, gdzie użycie powszechnych metod analitycznej i enumcracyjnej jest niepraktyczne np. ze względu
-na długi czas obliczeń bądź też zbyt trudnych do spełnienia założeń. Tak więc algorytm genetyczny jest metodą optymalizacji globalnej łatwą do implementacji w szerokiej gamie problemów.
+Tiny ML
+Uczenie maszynowe stanowi również ważną część rynku IoT oraz mikrokontrolerów. Większość operacji związanych z ML wymaga do pracy dużych zasobów pamięci i mocy procesora, często nieosiągalnych w małych aplikacjach IoT i chipach zasilanych z baterii, przez co aplikacje muszą działać na zasadzie offloadingu - obliczenia wysyłane są do chmur obliczeniowych, gdzie następuje ich przetworzenie. Względnie nowy trend na rynku - Tiny ML - może jednak zmienić ten stan rzeczy. Dzięki zastosowaniu znacznie wydajniejszych algorytmów uczenia maszynowego oraz wzrostowi wydajności 32-bitowych mikrokontrolerów możliwe jest przeniesienie niektórych zadań ML z chmury bezpośrednio na urządzenia o małej mocy. Giganci technologiczni, tacy jak Apple, Huawei, Google, Intel i ARM, wprowadzili już na rynek chipy do pracy zgodnie z tą koncepcją. Do przykładowych aplikacji wykorzystujących uczenie maszynowe klasy TinyML można zaliczyć detektory anomalii korzystające z akcelerometrów (np. alarmy sejsmiczne).

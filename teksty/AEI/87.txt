@@ -1,12 +1,13 @@
-Używasz WhatsApp? Uważaj, nowy atak już zbiera żniwo. Tym razem przestępcy celują w kobiety, choć przy odrobinie nieuwagi każdy może zapłacić frycowe. W grupach i na stronach dla sympatyków WhatsAppa rozpowszechniany jest szkodliwy plik APK, który ma rzekomo zawierać specjalną skórkę do komunikatora, dla kobiet, WhatsApp Pink alarmuje badacz bezpieczeństwa Rajshekhar Rajaharia. W istocie rzeczy jest to po prostu malware.
+Żołnierze zakładają odrzutowy kombinezon i latają jak bohaterowie kreskówek. Jet Suit odnosi sukcesy
 
-Po zainstalowaniu w telefonie ofiary, aplikacja występuje o dostęp do szeregu uprawnień, w tym m.in. wiadomości i listy kontaktów, po czym przesyła wykradzione dane do zdalnego serwera.
+MACIEJ GAJEWSKI
+12 STYCZNIA 2022
+Wynalazek firmy Gravity Industries to obietnica znacznego zwiększenia efektywności piechoty i ratowników. Jet Suit działa tak, jak jego nazwa sugeruje. To wyposażony w silniki odrzutowe kombinezon, który pozwala użytkownikowi na błyskawiczne przemieszczanie się z miejsca na miejsce, w tym te trudno dostępne.
 
-Oszustwo na różową skórkę do WhatsAppa: dokładna lista wykradanych danych nie jest znana
-Wnioskując po samych uprawnieniach, obok wspomnianych już wyżej wiadomości i kontaktów, mogą być to także pliki zapisane w pamięci masowej (zdjęcia i filmy), historia połączeń i przeglądania, a nawet dane bankowe. Słowem, wszystko to, co trzymamy w smartfonie.
-Aby nie kusić losu, oczywiście najlepiej trzymać się od WhatsApp Pink możliwie najdalej. Jeśli jednak ktoś już dał się podejść, należy natychmiast usunąć szkodnika.
+Jet Suit był już testowany przez brytyjskie służby ratownicze, a także przez piechotę morską Wielkiej Brytanii. W obu przypadkach testy zakończyły się niemałym sukcesem. Nie dziwią więc kolejne, tym razem przeprowadzone przez NATO, w ramach ćwiczeń Mountain Warfare Rescue, czyli ratownictwa górskiego w warunkach wojennych.
+Kombinezon od Gravity Indrustries wyposażony jest w pięć silników z turbinami gazowymi, o łącznej mocy ponad 1000 KM i ciągu 144 kg. Ma całkowity zasięg około 5 km, ale musi być użytkowany z przerwami. Pojedynczy lot powinien trwać od jednej do trzech minut, maksymalnie do czterech w razie sytuacji awaryjnej. Mimo tego ograniczenia pilot Jet Suita może się rozpędzić do 80 km/godz. i wznieść się na pułap 3658 m. A więc pozwala na błyskawiczne wzniesienie się na skalne półki w górach i łatwe na nich lądowanie.
 
-Co warte odnotowania, ponoć nie jest on wyjątkowo uparty i zwykła deinstalacja poprzez funkcję systemową załatwia sprawę.
+Jet Suit w teorii idealny do górskich misji ratowniczych. Co wykazała praktyka?
+Wynalazek Gravity Industries był wykorzystany w przeprowadzonych na terenie Słowenii ćwiczeń NATO. W testach uczestniczył pracownik firmy, który jest też jej założycielem i który pełnił rolę pilota Jet Suita. Podczas symulowanej akcji ratunkowej bez trudu dostarczył osocze do rannego żołnierza czekającego na pomoc w jednym z górskich wąwozów.
 
-Niemniej dla pewności warto ponadto usunąć obecne powiązania z klientem desktopowym, opróżnić cache przeglądarki i zresetować uprawnienia zaleca Rajaharia.
-
+Jet Suit spełnia pokładane w nim obietnice, ale część ekspertów jest nastawiona sceptycznie. Szacowane ceny kombinezonu i koszt wyszkolenia jego pilota nie zostały podane do publicznej wiadomości. Można jednak założyć z dużą dozą prawdopodobieństwa, że te są istotnie wyższe od ceny bezzałogowego drona i kosztu wyszkolenia jego operatora. Jest Suit, mimo iż działa, może więc nigdy nie trafić do wyposażenia sił NATO. Może się bowiem okazać zupełnie nieopłacalny.

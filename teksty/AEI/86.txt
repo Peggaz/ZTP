@@ -1,14 +1,22 @@
-Żadna inna przedstawicielka płci pięknej, może z wyjątkiem królowej Anglii Elżbiety I, jej w tym nie dorówna. Jednak życie Kleopatry dobiegnie końca, zanim skończy ona 40 lat.
+Ten komputer zasilany jest sinicami. Zamiast szkodliwej chemii - fotosynteza
 
-W świecie zdominowanym przez mężczyzn losy Zachodu znajdą się w rękach kobiety. Na dodatek w kluczowym momencie, kiedy Rzym będzie przekształcał się z republiki w cesarstwo. Bez Kleopatry nie byłoby to możliwe, a przynajmniej nie przyniosłoby takich rezultatów, o jakich czytamy na kartach naszych podręczników historii: ponieważ po części z jej powodu wybuchnie walka o władzę między Antoniuszem a Oktawianem. Zwycięzcą tej rywalizacji zostanie Oktawian i rządzić będzie wystarczająco długo, by położyć solidne fundamenty pod imperium, które przetrwa całe stulecia.
+MACIEJ GAJEWSKI
+17 MAJA 2022
+Prototypowy komputer na razie nie jest tytanem wydajności i sprawności. Może jednak działać długo w miejscach, gdzie trudno o źródła energii. Potencjalnie może być przełomowy dla branży Internetu rzeczy.
+Opisywany tu komputer funkcjonował nieprzerwanie przez sześć miesięcy. Nie miał naładowanego ogniwa do swojej dyspozycji, ani też żadnego innego konwencjonalnego źródła energii. Tę, niezbędną do przetwarzania danych, zapewniły mu znajdujące się w nim sinice i zjawisko fotosyntezy. Pojemnik z sinicami został umieszczony na okiennym parapecie. To wystarczyło, by zasilić znajdujący się w komputerze układ Cortex-M0+.
 
-History vs. Cleopatra - Alex Gendler.
-Przechadzającej się cicho pośród murów pokrytych freskami dziewczynie przysługuje długa lista tytułów: królowa królów i królowych, królowa Górnego i Dolnego Egiptu, królowa Cypru... Ale dziś, ponad dwa tysiące lat później, na dźwięk jej imienia staje przed oczami naszej wyobraźni kobieta pełna nieodpartego i egzotycznego uroku, wykształcona, niezależna, umiejąca podporządkować sobie mężczyzn i obudzić w nich szaloną namiętność. Czy to możliwe, by wszystkie te tytuły i cechy charakteryzowały zaledwie dwudziestopięcioletnią dziewczynę?
+Einstein miał rację. Nowe zdjęcie czarnej dziury potwierdza, że wszystkie wyglądają tak samo
+W tej skale mogą znajdować się mikroorganizmy. Utknęły w niej ponad 800 milionów lat temu
+Z depresją można walczyć nie tylko za pomocą ostrego kebaba. Dieta śródziemnomorska również może pomóc
+Osoby wyznające się w ofercie rynkowej układów scalonych zauważą, że ten chip sam w sobie nie nadaje się do żadnych poważniejszych celów i będą miały rację, co na dodatek potwierdzają sami konstruktorzy tego komputera. Przyszłe prototypy będą jednak sprawniejsze. Z pewnością nie będą to urządzenia wystarczające dla konsumentów, mogą jednak zrewolucjonizować rynek IoT (Internet of Things), a więc drobnej elektroniki rozproszonej.
 
-Kleopatra wyszła na pergula, rodzaj balkonu osłoniętego elegancką drewnianą kratą, która oddziela go od świata zewnętrznego. Jej palce gładzą misterną snycerkę kraty i czują, jak przepływa przez nią rześkie powietrze nowego poranka, jego zapach jest przenikliwy i świeży. Dziewczyna zamyka na chwilę oczy i bierze głęboki oddech. Potem jej powieki powoli się otwierają i ciepłe, intensywne, świetliste spojrzenie ogarnia wszystko wokół, podobne do słońca jej ojczystej ziemi, kiedy wstaje nad bezkresem pustyń Egiptu.
+Komputer niczym roślina. Za jego działanie odpowiada fotosynteza.
 
-Teraz jednak, pomiędzy jednym a drugim poruszeniem długich rzęs, w jej oczach odbija się inna ziemia i całkiem inny świat. Patrzymy jej spojrzeniem na wielkie miasto po drugiej stronie rzeki. To Rzym widziany z Zatybrza, gdzie znajdują się Horti Caesaris (Ogrody Cezara). Właśnie w tej rozległej posiadłości Juliusz Cezar gości królową Egiptu, która przybyła do Rzymu.
+ 
+Zbiornik z sinicami zapewnił układowi ARM odpowiednią ilość energii
+Rosnące zapotrzebowanie na elektronikę Internetu rzeczy sprawia, że zapewnienie zasilania milionom malutkich komputerków w dużych miastach i centrach przemysłowych, a także na odległych krawędziach infrastruktury, to niemałe wyzwanie. Wykorzystanie fotosyntezy ten problem w dużej mierze rozwiązuje, na dodatek zapewniając w pełni ekologicznie, dosłownie zielone źródło energii.
 
-Doskonale stąd widać ogrom największego miasta w rejonie Morza Śródziemnego, z każdym rokiem wyrastającego na głównego gracza w ówczesnym świecie. Przez wiele wieków taką potęgą był Egipt. Teraz jednak wszystko się zmieniło.
+REKLAMA
+Procesor w komputerze operował w trybie zasilania wymagającym 0,3 mikrowata energii. To oznacza, że dla typowego laptopa potrzebne by było orientacyjnie 100 tys. zbiorników z ogniwami z sinicami, jakie zostały wykorzystane do prototypu. Na dodatek sinice wykazują 0,25-procentową sprawność pozyskiwania energii ze słońca, podczas gdy panele słoneczne cechują się około 20-procentową.
 
-Miasto odbija się w oczach Kleopatry coraz wyraźniej, tak ostro i przejrzyście, że możemy już zagłębić się w jego ulice i zacząć poznawać je z bliska.
+Sinice nie wymagają jednak nadzoru, światło wystarcza im całkowicie za pokarm, magazynują też energię, przez co mogą służyć za ogniwo również po zmroku, są też bardzo trwałe. Do produkcji opartych o nie ogniw nie są też potrzebne niebezpieczne i szkodliwe substancje, jakie bywają stosowane przy produkcji fotowoltaicznych ogniw.

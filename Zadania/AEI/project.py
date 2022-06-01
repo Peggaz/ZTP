@@ -1,156 +1,165 @@
 #!flask/bin/python
 # -*- coding: utf-8 -*-
+
+import os
+template_dir = os.path.dirname(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+template_dir = os.path.join(template_dir, 'templates')
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/Library')
+import library
+
 from flask import Flask
 from flask import render_template
 from flask import request
 
-from Zadania.Library import library
+import library
 
 app = Flask(__name__)
 
 semantyka_tab = []
-teksty = []
+text_list = []
 tab_wagi = []
 sort_po_id = False
+RULES_COLOR = {
+    'zdarzenie': "<a style='color:green'>",
+    'Sprawca': "<a style='color:red'>",
+    'Cel': "<a style='color:blue'>",
+    'Obiekt': "<a style='color:yellow'>",
+    'Narzędzie': "<a style='color:orange'>",
+    'Miejsce': "<a style='color:magenta'>"
+}
+
+MATCHING_RULES = {
+    'zdarzenie':    ['zastosowanie', 'uczenie', 'learning', 'analiza'],
+    'Sprawca':      ['model', 'oprogramowanie', 'machine', 'maszyna'],
+    'Cel':          ['rozwiązanie', 'znalezienie', 'podejmowanie', 'decyzji', 'aplikacje'],
+    'Obiekt':       ['model', 'nadzorowane', 'nienadzorowane', 'dana', 'zbiór', 'maszynowy', 'neuron', 'wzorzec'],
+    'Narzędzie':    ['wzór', 'algorytm', 'reguła', 'neuronowe', 'funkcja', 'metoda', 'technologia'],
+    'Miejsce':      ['komputer', 'uniwersytet']
+}
+
+SEMANTICAL_RULES = {
+    '1 dopasowanie': '10%',
+    '2 dopasowanie': '30%',
+    '3 dopasowanie': '50%',
+    '4 dopasowanie': '70%',
+    '5 dopasowanie': '90%',
+    '6 dopasowanie': '100%'
+
+}
+#@TODO:,Przeładować teksty od nowa
+
+class Text:
+    def __init__(self, id, rating, text="", list=[]):
+        self.text = text
+        self.list = list
+        self.rating = rating
+        self.id = id
+def replace_all(text, word, rule):
+    if word[0] in 'ABCDEFGHIJKLMNOPRSTUWXYZ' or word[0] == " ":
+        text = text.replace(word + " ", RULES_COLOR[rule] + word + "</a>" + " ")
+        text = text.replace(word + ",", RULES_COLOR[rule] + word + "</a>" + ",")
+        text = text.replace(word + ".", RULES_COLOR[rule] + word + "</a>" + ".")
+        text = text.replace(word + "(", RULES_COLOR[rule] + word + "</a>" + "(")
+        text = text.replace(word + ")", RULES_COLOR[rule] + word + "</a>" + ")")
+        text = text.replace(word + ":", RULES_COLOR[rule] + word + "</a>" + ":")
+    else:
+        text = replace_all(text, " " + word, rule)
+        word = word[0].upper() + word[1:]
+        text = replace_all(text, word, rule)
+    return text
+
+def make_rating(rating):
+    if rating == 0:
+        rating = 10
+    elif rating == 90:
+        rating = 100
+    else:
+        rating += 20
+    return rating
+
+
+def tex_analize(text):
+    list_fined_word = []
+    list = []
+    rating = 0
+    text_out = text
+    first_for = True
+    for rule in MATCHING_RULES:
+        list_row = []
+        for word in text.split(" "):
+            base_word = library.CLPBasicWord(library.OnlyLetter(word.lower()))
+            if base_word in MATCHING_RULES[rule] and word not in list_fined_word:
+                list_fined_word.append(library.OnlyLetter(word.lower()))
+                text_out = replace_all(text_out, library.OnlyLetter(word.lower()), rule)
+                if base_word not in list_row:
+                    if len(list_row) == 0:
+                        rating = make_rating(rating)
+                        list_row.append(RULES_COLOR[rule] + rule + '</a>')
+                    list_row.append(base_word)
+        list.append(list_row)
+    return list, rating, text_out
+def make_text_out():
+    files = library.LoadText("../../teksty/AEI/all_text.txt")
+    files = files.replace('\n', ' ')
+    files = files.split('#0')
+    files.pop(0)
+    for file_id in range(len(files)):
+        list, rating, text = tex_analize(files[file_id][3:])
+        text_list.append(Text(files[file_id][1:3], rating, text, list))
+
 def main():
-    plik = library.LoadText("../../teksty/AEI/all_text.txt")
-
-    plik = plik.replace('\n', ' ')
-    plik_csv = library.LoadText("../../teksty/AEI/semantyka.csv")
-    semantyka = plik_csv.split("\n")
-    semantyka_tab.clear()
-
-    plik_csv = wczytaj("wagi_id.csv")
-    wiersze_wagi = plik_csv.split("\n")
-    waga = []
-    for wiersz in wiersze_wagi:
-        waga.append(wiersz.split(","))
+    make_text_out()
 
 
-    for sem in range(len(semantyka)):
-        semantyka_wiersz = []
-        id = 0
-        for it in semantyka[sem].split(","):
-            if id == 0:
-                semantyka_wiersz.append("<mark id=mark_" + str(sem) + ">" + it + "</mark>")
-            else: semantyka_wiersz.append(it)
-            id += 1
-        semantyka_tab.append(semantyka_wiersz)
-    semantyka_mark = []
+main()
 
 
-    #eliminacja nazw wiersza tabeli
-
-    for it in range(len(semantyka_tab)):
-        semantyka_mark.append("<mark id=mark_" + str(it) + ">")
-
-    lista_tekstow = plik.split("#0")
-
-    class Tekst:
-        def __init__(self, tekst="", tab=[]):
-            self.tekst = tekst
-            self.tab = tab
-            self.id = ""
-            self.ocena = ""
-            self.ocena_int = 0
-            self.id_int = 0
-    teksty.clear()
-    tab_wagi.clear()
-    for wiersz in waga:
-        local_tab = []
-        iterator = 0
-        for it in wiersz:
-            if iterator:
-                local_tab.append(semantyka[int(it)].split(",")[0])
-            else: local_tab.append(it)
-            iterator += 1
-        tab_wagi.append(local_tab)
-    for wiersz in range(len(semantyka)):
-        semantyka[wiersz] = semantyka[wiersz].split(",")
-        semantyka[wiersz] = semantyka[wiersz][1:]
-
-
-    for tekst in lista_tekstow:
-        tab_wynik = []
-        waga_tekstu = []
-        index_tekst = Tekst("", [])
-        index_tekst.id_int = (tekst.split("\n")[0])[1:6]
-        if int(index_tekst.id_int) < 50:
-            index_tekst.id = "Tekst na temat nr: " + index_tekst.id_int
-        else:
-            index_tekst.id = "Tekst nie na temat nr: " + index_tekst.id_int
-        index_tekst.id_int = int(index_tekst.id_int)
-        txt = ""
-        tekst.replace("\n", " ")
-        naglowek = 0
-        for slowo in tekst.split(" "):
-            if naglowek < 3:
-                naglowek += 1
-            else:
-                podstawowa_forma = library.CLPBasicWord(library.OnlyLetter(slowo))
-                for sem in range(len(semantyka)):
-                    if podstawowa_forma in semantyka[sem]:
-                        if sem not in waga_tekstu:
-                            waga_tekstu.append(str(sem))
-                        if podstawowa_forma not in tab_wynik:
-                            tab_wynik.append(podstawowa_forma)
-                        slowo = semantyka_mark[sem] + slowo + "</mark>"
-                index_tekst.tekst += slowo + " "
-        licznik_tekstu = 0
-
-
-        for it in waga:
-            ok = True
-            id = 0
-            for wag in it:
-                if id > 0 and wag not in waga_tekstu:
-                    ok = False
-                    break
-                id += 1
-            if ok:
-                licznik_tekstu = float(it[0])
-                break
-
-        for semantyka_wiersz in semantyka_tab:
-            local_tab = []
-            czy_byl_wiersz = False
-            for wynik in tab_wynik:
-                if wynik in semantyka_wiersz:
-                    if not czy_byl_wiersz:
-                        local_tab.append(semantyka_wiersz[0])
-                        czy_byl_wiersz = True
-                    local_tab.append(wynik)
-            index_tekst.tab.append(local_tab)
-
-        if licznik_tekstu >= float(0.60):
-            index_tekst.ocena = "<a style='color:green'>"
-        elif licznik_tekstu >= float(0.50):
-            index_tekst.ocena = "<a style='color:yellow'>"
-        else:
-            index_tekst.ocena = "<a style='color:red'>"
-        index_tekst.ocena += "{:.2f}".format(licznik_tekstu) + "</a>"
-        index_tekst.ocena_int = licznik_tekstu
-        teksty.append(index_tekst)
 @app.route("/", methods=['GET', 'POST'])
 def index():
-    main()
+    DESC_id = 1
+    DESC_rating = 1
     if request.method == 'POST':
-        if request.form['sort_value'] == 'Sortuj po ocenie':
+
+
+        if 'Sortuj po ocenie' in request.form['sort_value']:
+            if 'malejąco' in request.form['sort_value']:
+                DESC_rating = 0
             def key(e):
-                return -e.ocena_int
-            teksty.sort(key=key)
+                return -float(e.rating)
+            def key_desc(e):
+                return float(e.rating)
+
+            if DESC_rating:
+                text_list.sort(key=key_desc)
+            else: text_list.sort(key=key)
             pass
 
-        elif request.form['sort_value'] == 'Sortuj po id':
+        elif 'Sortuj po id' in request.form['sort_value']:
+            if 'malejąco' in request.form['sort_value']:
+                DESC_id = 0
             def key(e):
-                return e.id_int
-            teksty.sort(key=key)
+                return int(e.id)
+            def key_desc(e):
+                return -int(e.id)
+            if DESC_id:
+                text_list.sort(key=key_desc)
+            else: text_list.sort(key=key)
             pass
-    return render_template("index.html", semantyka=semantyka_tab, teksty=teksty, wagi=tab_wagi)
+    return render_template("index.html", teksty=text_list, desc_id=DESC_id, desc_rating=DESC_rating )
+    #return render_template("index_old.html")
 
+@app.route("/semantyka", methods=['GET'])
+def semantyka():
+    return render_template("semantyki.html", semantyka=SEMANTICAL_RULES)
+
+@app.route("/wagi", methods=['GET'])
+def wagi():
+    return render_template("wagi.html", wagi=MATCHING_RULES)
 
 ############################################
 
 if __name__ == '__main__':
-    app.run(host='localhost', debug=True, port=5003)
-    ##app.run(host='wierzba.wzks.uj.edu.pl', debug=True, port=5003)
+    #app.run(host='localhost', debug=True, port=5003)
+    app.run(host='wierzba.wzks.uj.edu.pl', debug=True, port=5005)

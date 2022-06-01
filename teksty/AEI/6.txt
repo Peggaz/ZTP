@@ -1,4 +1,8 @@
-Algorytmy genetyczne znajdują zastosowanie tam, gdzie nie jest dobrze określony lub poznany sposób rozwiązania problemu, ale znany jest sposób oceny jakości rozwiązania.
-Przykładem jest np. problem komiwojażera, gdzie należy znaleźć najkrótszą drogę łączącą wszystkie miasta, tak by przez każde miasto przejść tylko raz.
-Ocena jakości proponowanej trasy jest błyskawiczna, natomiast znalezienie optymalnej trasy kwalifikuje się do klasy problemów NP-trudnych.
-Przy zastosowaniu podejścia ewolucyjnego dobre rozwiązanie można znaleźć bardzo szybko, ale oczywiście pewni możemy być jedynie uzyskania rozwiązań sub-optymalnych, co wynika z formalnie opisanej trudności problemów klasy NP. Algorytmy genetyczne równie dobrze radzą sobie w znajdowaniu przybliżeń ekstremów funkcji, których nie da się obliczyć analitycznie.
+Na czym polega uczenie ze wzmocnieniem?
+ 
+
+Uczenie ze wzmocnieniem to czwarty model uczenia maszynowego. W uczeniu nadzorowanym system otrzymuje klucz odpowiedzi i uczy się poprzez znajdowanie korelacji między wszystkimi prawidłowymi wynikami. Model uczenia ze wzmocnieniem nie uwzględnia klucza odpowiedzi, lecz posługuje się zbiorem dozwolonych działań, reguł i potencjalnych stanów końcowych. Gdy oczekiwany cel algorytmu jest jednoznaczny bądź binarny, system może się uczyć na przykładach. Jednak w przypadku, w którym oczekiwany rezultat jest zmienny, niezbędne jest wykorzystanie doświadczeń i nagród. W modelach uczenia ze wzmocnieniem „nagroda” jest numeryczna i zaprogramowana w algorytmie jako coś, co system stara się zebrać.
+
+ 
+
+Pod wieloma względami model ten przypomina uczenie kogoś gry w szachy. Z pewnością niemożliwe byłoby pokazanie takiej osobie każdego możliwego ruchu. Zamiast tego wyjaśnia się zasady i pozwala szlifować umiejętności w praktyce. Nagrody przybierają formę nie tylko wygrania gry, ale również zdobywania figur przeciwnika. Do zastosowań uczenia ze wzmocnieniem należą mechanizmy zautomatyzowanego składania ofert cenowych dla nabywców przestrzeni reklamowej online, opracowywanie gier komputerowych oraz gra na giełdzie przy wysokich stawkach.

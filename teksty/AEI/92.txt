@@ -1,1 +1,35 @@
-Coca Cola pokazuje butelkę wykonaną z papieru. Prototyp zawiera elementy plastiku, ale celem Coca Coli jest całkowita rezygnacja z tego surowca. Wcześniej podobnymi planami pochwalił się znany browar. Prototyp pierwszej generacji papierowej butelki nadal składa się z papierowej powłoki (otoczki) z plastikowym zamknięciem i plastikową wyściółką w środku precyzuje Stijn Franssen, kierownik ds. innowacji w dziale badań i rozwoju opakowań w Coca-Cola. Wykorzystany plastik wykonany jest w 100 proc. z plastiku pochodzącego z recyklingu. Po użyciu może zostać ponownie przetworzony. Na tym Coca Cola poprzestać nie chce. Ich celem jest stworzenie papierowej butelki, którą można poddać recyklingowi jak każdy papier. Inżynierowie mają znaleźć rozwiązanie pozwalające stworzyć butelkę bez plastikowej warstwy. Prototyp przechodzi obecnie testy, w trakcie których sprawdzane jest to, jak butelka zachowuje się w lodówce, jak mocna jest i jak dobrze chroni napój znajdujący się w jej wnętrzu. Podobny pomysł ma Carlsberg. Plan zakłada, że większa część butelki byłaby stworzona ze 100-procentowo biodegradowalnej tektury, a pozostała część składałaby się włókien roślinnych (bioplastik). Plastikowe butelki to olbrzymi problem dla środowiska. Obecnie pozostawiają po sobie aż 300 mln ton odpadów rocznie. Przez to, że mikroplastik rozkłada się nawet setki lat, w znaczący sposób przyczyniają się do pogłębiania kryzysu klimatycznego.
+Naukowcy: Psy potrafią wywęszyć chorego na koronawirusa
+Opracowanie:Waldemar Stelmach
+
+Badania przeprowadzone przez Uniwersytet w Helsinkach i Szpital Uniwersytecki w Helsinkach potwierdziły, że psy wykrywające zapach można nauczyć rozpoznawania osób zakażonych koronawirusem.
+
+Naukowcy: Psy potrafią wywęszyć chorego na koronawirusa
+Zdj. ilustracyjne/Shutterstock
+Psy potrafią wiarygodnie wykrywać zakażenie COVID-19 na podstawie wymazów ze skóry - informuje pismo "BMJ Global Health".
+
+Szybka i dokładna identyfikacja i izolacja pacjentów z zakażeniem COVID-19 ma duże znaczenie. Obecnie rozpoznanie zakażenia koronawirusem opiera się na dokładnym i czułym teście PCR. Jednak testy PCR nie nadają się do badań przesiewowych dużych mas ludzi, między innymi ze względu na długi czas oczekiwania na wyniki i wysoki koszt.
+
+Psy można nauczyć rozpoznawania chorych
+Niedawne badania (DOI 10.1136/bmjgh-2021-008024) przeprowadzone przez Uniwersytet w Helsinkach i Szpital Uniwersytecki w Helsinkach potwierdziły, że psy wykrywające zapach można nauczyć rozpoznawania osób zakażonych koronawirusem SARS-CoV-2 na podstawie próbek z wymazów skórnych z dokładnością do 92 proc.
+
+Naukowcy z Wydziałów Medycyny Weterynaryjnej i Medycyny Uniwersytetu w Helsinkach oraz Szpitala Uniwersyteckiego w Helsinkach wspólnie opracowali potrójnie ślepe, randomizowane, kontrolowane badania w celu sprawdzenia dokładności wyszkolonych psów wykrywających zapach charakterystyczny dla zakażenia.
+
+Ani opiekun psa, ani badacz nie wiedzieli, które z wąchanych wymazów ze skóry były pozytywne, a które negatywne. W badaniu analizowano również czynniki potencjalnie zakłócające zdolność psa do rozpoznawania próbki pozytywnej.
+
+
+W pierwszej fazie badania uczono psy odróżniania wymazów ze skóry pacjentów z koronawirusem od próbek ochotników, u których wynik testu był ujemny. Po kilkutygodniowym okresie szkolenia psy przeniosły się z ośrodka szkoleniowego na lotnisko Helsinki-Vantaa, gdzie odbyły się dalsze eksperymenty.
+
+W drugiej fazie badania cztery wyszkolone psy przeszły test walidacyjny, aby udowodnić ich zdolność rozróżniania próbek. Podczas eksperymentu każdemu psu przedstawiono serię 420 próbek w okresie siedmiu dni. Ponieważ kilka równoległych próbek zostało pobranych od każdego dawcy, każdy pies otrzymał do wąchania identyczny zestaw 114 próbek od pacjentów z koronawirusem i 306 próbek kontrolnych. Obecność lub nieobecność koronawirusa u wszystkich dawców próbek została potwierdzona metodą PCR.
+
+Czułość w wykrywaniu koronawirusa wynosiła 92 proc., natomiast swoistość - 91 proc. Zaobserwowano tylko niewielkie różnice w dokładności pomiędzy czterema psami.
+
+Głównym czynnikiem przyczyniającym się do błędnej identyfikacji próbek przez psy były warianty koronawirusa.
+
+Badania w rzeczywistej sytuacji
+Badanie potwierdza wcześniejsze doniesienia sugerujące, że psy mogą za pomocą węchu zidentyfikować osoby zakażone koronawirusem.
+
+Trzecia faza badania polegała na przebadaniu pasażerów i personelu lotniska Helsinki-Vantaa w rzeczywistej sytuacji. Psy prawidłowo zidentyfikowały 98,7 proc. próbek ujemnych. Niewielka liczba próbek zakażonych koronawirusem w rzeczywistych testach uniemożliwiła prawidłową ocenę wyników psów z pozytywnymi próbkami. Jednak na podstawie pozytywnych "próbek motywacji do pracy" regularnie podawanych psom w tej części badania, wyniki prawidłowo zidentyfikowanych pozytywnych próbek również oceniono na 98,7 proc. Próbki motywujące do pracy to próbki, które zostały wstępnie pobrane od pacjentów z pozytywnym wynikiem PCR, ale nie były wcześniej wąchane przez psy. Są one dostarczane psom w regularnych odstępach czasu, aby utrzymać zainteresowanie docelowym zapachem w sytuacjach i środowiskach, w których odsetek próbek pozytywnych jest bardzo niska.
+
+Konfiguracja naszego badania była na wysokim poziomie naukowym. Wielkości próbek były wystarczająco duże, a wszystkie psy powąchały identyczny zestaw próbek, co pozwoliło na porównanie ich wyników. Psy musiały również z powodzeniem wskazać zestawy próbek zawierające tylko próbki negatywne - co ważne podczas badań przesiewowych. Kolejną istotną zaletą było to, że próbki były pobierane od pacjentów ambulatoryjnych, a nie szpitalnych. Ponadto badania przeprowadzono w warunkach rzeczywistych, a nie w laboratorium - mówi lider grupy badawczej DogRisk i docent Anna Hielm-Björkman z Uniwersytetu w Helsinkach
+
+Szczególne wrażenie wywarł na mnie fakt, że psy radziły sobie gorzej z próbkami pobranymi od pacjentów cierpiących na chorobę wywołaną przez wariant koronawirusa. Wyjaśnienie jest proste: psy były pierwotnie szkolone z początkowym wirusem typu dzikiego, a zatem nie zawsze określały próbki wariantowe jako pozytywne, co pokazuje ich niesamowitą zdolność do dyskryminacji - wskazała Anu Kantele, profesor chorób zakaźnych i główny lekarz na Uniwersytecie w Helsinkach i Szpitalu Uniwersyteckim w Helsinkach.

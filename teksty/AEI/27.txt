@@ -1,25 +1,5 @@
-Algorytmy genetyczne są dziedziną sztucznej inteligencji, w której przyjęto
-jako paradygmat założenia zaczerpnięte z teorii ewolucji. Zauważono bowiem,
-że ewolucja opiera się na zmienności populacji osobników, która to zmienność
-zapewnia różnorodność zestawu cech osobników, co z kolei pozwala, mówiąc
-w największym uogólnieniu, na przetrwanie oraz przekazywanie swoich cech
-tym osobnikom, które są najlepiej przystosowane do otaczającego je środowiska.
-Właśnie cecha adaptacji decyduje o tym, w jakim stopniu poszczególne osobniki
-są zdolne do przeżycia w otaczającym je środowisku1. Kluczowym aspektem
-konstrukcji i w dalszej kolejności działania algorytmów genetycznych jest sposób
-kodowania danych, które są nośnikiem informacji genetycznych opisujących
-danego osobnika. Kodowanie to natomiast implikuje strukturę danych, która opi‑
-suje dany problem, a ściśle jedno rozwiązanie danego problemu. W algorytmach
-genetycznych bowiem chodzi o wyłonienie spośród generowanych rozwiązań
-tego, które najlepiej spośród wszystkich odpowiada na postawiony problem.
-W przyrodzie podstawową strukturą odpowiadającą za kodowanie informacji
-o danym osobniku jest kwas dezoksyrybonukleinowy (popularnie zwany DNA),
-w którym najmniejszymi nośnikami informacji są cztery zasady, czyli: adenina,
-guanina, cytozyna oraz tymina. Każda z sekwencji tych czterech zasad koduje
-poszczególne geny lub ich grupy. Jednak na potrzeby algorytmów genetycznych
-oczywiste jest, że nie ma obowiązku kodowania danych z wykorzystaniem nota‑
-cji czwórkowej, ale najczęściej jest wykorzystywane kodowanie binarne (zero‑jedynkowe) lub liczbami całkowitymi. Algorytmy genetyczne są heurystycznymi
-metodami stochastycznym, w związku z czym wyniki ich działania nie są do‑
-kładnie powtarzalne. Należy więc uwzględnić statystycznie wystarczającą liczbę
-eksperymentów w celu wyciągnięcia właściwych wniosków na temat skuteczności
-wartości parametrów dla poszczególnych operatorów genetycznych.
+Co to jest uczenie maszynowe i jak to działa?
+Uczenie maszynowe to używanie matematycznych modeli danych w celu ułatwienia komputerowi uczenia się bez bezpośrednich instrukcji. Jest ono traktowane jako podzbiór sztucznej inteligencji. Algorytmy używane w uczeniu maszynowym umożliwiają określanie wzorców w danych. Wzorce te są następnie używane do tworzenia modelu danych, który pozwala przewidywać. Dokładność wyników uczenia maszynowego zwiększa się wraz z upływem czasu i wzrostem ilości danych — podobnie jak u ludzi.
+
+Elastyczność uczenia maszynowego sprawia, że staje się ono świetnym wyborem w scenariuszach, w których dane lub charakter żądania bądź zadania stale się zmieniają, albo w sytuacjach, w których zakodowanie rozwiązania byłoby w praktyce niemożliwe.
+

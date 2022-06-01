@@ -8,5 +8,5 @@ random.shuffle(losowy)
 text_out = ""
 
 for it in losowy:
-    text_out += "#00" + str(it) + "\n" + library.LoadText("../../teksty/AEI/" + str(it) + ".txt") + "\n"
+    text_out += "\n#00" + str(it) + "\n" + library.LoadText("../../teksty/AEI/" + str(it) + ".txt") + "\n"
 library.SaveFile(text_out, "all_text.txt", "../../teksty/AEI/")

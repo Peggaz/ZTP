@@ -1,14 +1,4 @@
-Najczęściej działanie algorytmu przebiega następująco:
-Losowana jest pewna populacja początkowa.
-Populacja poddawana jest ocenie (selekcja). Najlepiej przystosowane osobniki biorą udział w procesie reprodukcji.
-Genotypy wybranych osobników poddawane są operatorom ewolucyjnym:
-są ze sobą kojarzone poprzez złączanie genotypów rodziców (krzyżowanie),
-przeprowadzana jest mutacja, czyli wprowadzenie drobnych losowych zmian.
-Rodzi się drugie (kolejne) pokolenie. Aby utrzymać stałą liczbę osobników w populacji te najlepsze (według funkcji oceniającej fenotyp) są powielane, a najsłabsze usuwane. Jeżeli nie znaleziono dostatecznie dobrego rozwiązania, algorytm powraca do kroku drugiego. W przeciwnym wypadku wybieramy najlepszego osobnika z populacji - jego genotyp to uzyskany wynik.
-Działanie algorytmu genetycznego obejmuje kilka zagadnień potrzebnych do ustalenia:
-ustalenie genomu jako reprezentanta wyniku
-ustalenie funkcji przystosowania/dopasowania
-ustalenie operatorów przeszukiwania.
-Kodowanie jest bardzo istotnym etapem projektowania algorytmu. Sposób zakodowania w chromosomie informacji o proponowanym rozwiązaniu wydatnie wpływa na szybkość i jakość znajdowanych wyników. Przyczyną takiego zjawiska jest wpływ kodowania na sposób w jaki przeszukiwana jest przestrzeń rozwiązań. Złe kodowanie może spowodować, że nigdy nie zostanie przeszukany fragment przestrzeni, w którym znajdują się najlepsze rozwiązania.
-Najczęściej stosowane kodowania chromosomu: wektorem genów, z których każdy z nich może być jedno- lub wielobitową liczbą całkowitą, bądź też liczbą rzeczywistą, za pomocą drzewiastych struktur danych.
+Na czym polega uczenie nienadzorowane?
+ 
 
+Uczenie nienadzorowane to drugi z czterech modeli uczenia maszynowego. W modelach uczenia nienadzorowanego nie ma klucza odpowiedzi. System bada dane wejściowe, z których większość nie jest oznakowana ani uporządkowana, i zaczyna identyfikować wzorce oraz korelacje, wykorzystując do tego wszystkie istotne, dostępne dane. Pod wieloma względami uczenie nienadzorowane przypomina sposób, w jaki ludzie obserwują świat. Posługujemy się intuicją i doświadczeniem, aby łączyć dostrzegane zjawiska w grupy. W miarę jak napotykamy kolejne przykłady, rośnie nasza zdolność do dokładnego kategoryzowania i identyfikowania pojęć. W przypadku maszyn nabywane w ten sposób „doświadczenie” definiuje się ilością danych wejściowych i udostępnionych. Typowymi przykładami zastosowania uczenia nienadzorowanego w praktyce są funkcje rozpoznawania twarzy, analiza sekwencji genów, badania rynkowe i mechanizmy bezpieczeństwa cybernetycznego.

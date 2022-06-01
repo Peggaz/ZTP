@@ -1,24 +1,3 @@
-Algorytmy genetyczne generują struktury zbiorów rozwiązań ( a także trajektorie)
-o pewnych szczególnych własnościach, które możemy badać metodami układów dynamicznych, a w szczególności teorii ergodycznej. Możliwa jest sytuacja, w której
-wyniki uzyskane dla algorytmów genetycznych są przenaszalne na algorytmy ewolucyjne. Ma to miejsce, gdy proces przeszukiwania algorytmu ewolucyjnego możemy
-opisać macierzą Markowa. Wykorzystanie łańcuchów Markowa do modelowania algorytmów genetycznych podjęto w szeregu prac [101, 100, 76, 20]. Modele te są dotychczas pewną ideą pozwalającą badać własności graniczne algorytmów genetycznych
-i ewolucyjnych. Są one konstruowane w sposób na tyle ogólny , że obejmują szerokie klasy algorytmów i pozwalają na prowadzenie badań własności jakościowych
-algorytmów. Na podstawie modelu Markowa udowodniona została zbieżność algorytmów i istnienie rozkładu granicznego. Uzyskano też wyniki określające parametry
-zbieżności. Jednak wyniki te są wynikami jakościowymi i niewiele mówią o zachowaniu konkretnego algorytmu. Trudności związane z budową modelu konkretnego algorytmu wynikają ze złożonego mechanizmu działania algorytmu. Zależy on od
-sposobu kodowania, mutacji, krzyżowania, selekcji i wielkości parametrów określających te operatory genetyczne, a także wzajemnego oddziaływania tych czynników.
-Oddziaływania te są nieliniowe i trudne do modelowania oraz analizy. Wpływ mutacji na działanie algorytmu zależy od sposobu kodowania zadania. Zagadnienie
-kodowania jest także ściśle związane z prawdopodobieństwem mutacji. Jeśli ze
-zmianą kodowania zmienia się prawdopodobieństwo mutacji tak, że prawdopodobieństwa przejść są zachowane, to algorytm zachowuje się tak samo. W związku z
-tym algorytm z autonomicznym dostrajaniem mutacji powinien zachowywać się tak
-samo, niezależnie od sposobu kodowania. Sprawa dostrajania parametrów i ogólniej
-sterowania parametrami powinna być rozpatrywana razem z zagadnieniem kodowania. Niezależne rozpatrywanie tych zagadnień może być błędne. Należy także brać
-pod uwagę problem nadmiarowości kodowania. Staje się wtedy istotną wielkość nadmiarowości i sposób ingerencji nadmiarowości w znaczenie kodu [67].Nawet algorytm z dodatnim prawdopodobieństwem mutacji nie przeprowadza
-każdego elementu w każdy z tym samym prawdopodobieństwem, gdy kodowanie jest
-nadmiarowe. Czy można dobrać prawdopodobieństwo mutacji tak, aby skompensować nadmiarowość?. To pytanie pozostaje otwarte.
-Mutacja nie ma wpływu na rozkład graniczny, gdy macierze opisujące poszczególne
-operacje genetyczne są przemienne [89]. W praktycznych zadaniach takie przypadki
-nie zachodzą. Wobec tego macierze te nie są przemienne, a zatem mutacja ma
-wpływ na rozkład graniczny. Interakcja między parametrami algorytmów powoduje,
-że wyniki badań indywidualnego wpływu poszczególnych parametrów na zachowanie
-algorytmów nie pozwalają na ich uogólnienie na inne przypadki. Istnieje potrzeba
-wprowadzenia klasyfikacji algorytmów na podstawie ich własności dynamicznych.
+„Głębokie” uczenie maszynowe może wykorzystywać zestawy danych z etykietami w ramach tzw. uczenia nadzorowanego na potrzeby informowania algorytmu, ale nie wymaga zestawu danych z etykietami. Może bazować na nieustrukturyzowanych danych w nieprzetworzonej formie (np. tekście, obrazach) i automatycznie określać zestaw cech, które rozróżniają kategorie danych. W przeciwieństwie do uczenia maszynowego do przetwarzania danych nie wymaga ono interwencji człowieka, co pozwala skalować uczenie maszynowe na bardziej interesujące sposoby. Głębokie uczenie i sieci neuronowe są przede wszystkim uznawane za przyspieszające postęp w takich obszarach jak rozpoznawanie obrazów, przetwarzanie języka naturalnego oraz rozpoznawanie mowy.
+
+Sieci neuronowe lub sztuczne sieci neuronowe składają się z warstw węzłów obejmujących warstwę wejściową, jedną lub więcej warstw ukrytych oraz warstwę wyjściową. Każdy węzeł (sztuczny neuron) łączy się z innym i ma powiązaną wagę oraz próg. Jeśli wyjście dowolnego pojedynczego węzła przekracza określoną wartość progową, węzeł ten jest aktywowany podczas wysyłania danych do kolejnej warstwy sieci. W przeciwnym razie żadne dane nie są przekazywane do następnej warstwy sieci. Słowo „głębokie” w kontekście głębokiego uczenia odnosi się właśnie do poziomów warstw w sieci neuronowej. Sieć neuronowa składająca się z więcej niż trzech warstw — włącznie z warstwą wejściową i wyjściową — może być uznana za algorytm głębokiego uczenia lub głęboką sieć neuronową. Sieć neuronowa, która ma tylko dwie lub trzy warstwy, to zaledwie podstawowa sieć neuronowa.

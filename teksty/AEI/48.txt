@@ -1,44 +1,8 @@
-Uwarunkowania współczesnej gospodarki nakładają wiele wymagań na producentów, dostawców, lecz również na partnerów
-i inne strony zainteresowane działalnością gospodarczą. Głównym
-czynnikiem, kształtującym te wymagania jest turbulentne otoczenie,
-w ramach którego klient oczekuje bardzo szybkiego zrealizowania
-jego potrzeb. W związku z tym współcześnie gospodarka uzależniona jest od klienta wymagającego i oczekującego coraz nowszych
-produktów, o wyższej jakości. Zjawiskiem równoległym i uzależnionym od tego procesu jest znaczne skrócenie cyklu życia produktów.
-Produkty szybko się starzeją, zarówno pod względem technologicznym, jak i modowym. Producent zmuszony jest więc do skracania
-cykli produkcyjnych oraz ustawicznego rozpoznawania oczekiwań
-klientów. Istnienie silnej presji na czas jest zjawiskiem generującym
-szereg nowych wyzwań w logistyce. Dzieje się tak, bowiem zasadniczym przedmiotem funkcjonowania logistyki są wszelkiego rodzaju
-przepływy (materiałów, urządzeń oraz informacji). Konieczne jest
-zatem, aby przepływy te były prawidłowo zorganizowane oraz zaplanowane; musi zaistnieć także ich odpowiednia realizacja i oczywiście nadzór. Wymienione czynności wchodzą w zakres zarządzania logistycznego. Zarządzanie logistyczne nie ogranicza się tylko
-do sfery zaopatrzenia działalności podstawowej oraz sprzedaży
-produktów. Istnieje możliwość sięgania poza obszar przedsiębiorstwa i integrowania przepływów fizycznych oraz informacyjnych
-pochodzących od dostawców, poprzez procesy produkcyjne,
-aż do finalnego klienta. W procesie tym uwzględnia się również
-logistykę zwrotów. Wszystkie te zagadnienia są ściśle związane
-z kształtowaniem łańcucha dostaw, bowiem najczęściej jest
-on definiowany jako sieć powiązanych ze sobą i współzależnych
-organizacji, które na zasadzie wzajemnej współpracy kontrolują,
-koordynują oraz „usprawniają przepływy rzeczowe i informacje
-od dostawców do ostatecznych użytkowników” w celu
-wytworzenia wartości dodanej. Wartość dodana powinna stanowić
-korzyść dla wszystkich ogniw łańcucha.
-Ze względu na fakt, iż łańcuch dostaw jest zbiorem wielu różnych elementów oraz ich wzajemnych powiązań, zachodzi konieczność częstego rozwiązywania problemów decyzyjnych. Praktyczna
-sfera podejmowania decyzji skupia się przede wszystkim na ważeniu alternatyw spełniających zbiór poszukiwanych celów. Decyzją
-jest dokonanie wyboru jednej spośród tych alternatyw. Każdy problem decyzyjny posiada przynajmniej jedną decyzję „optymalną”,
-w odniesieniu do której można w sposób obiektywny stwierdzić,
-iż nie istnieje lepsza. Konieczne jest przy tym zachowanie neutralności wobec prowadzonego procesu decyzyjnego. Problem stanowi
-wybór alternatywy najmocniej spełniającej postawione cele. Rozróżnia się jedno- oraz wielokryterialne podejmowanie decyzji.W każdym przypadku poodejmowanie decyzji, w związku z wyborem danej alternatywy, służy optymalizacji danego procesu. Jednak
-klasyczne metody optymalizacji i rozwiązywania problemów decyzyjnych coraz częściej nie spełniają stawianych im oczekiwań.
-Szuka się w związku z tym nowych metod i narzędzi, które przede
-wszystkim pozwalają minimalizować czas potrzebny do rozwiązania
-danego problemu. Do takich metod należą m.in. algorytmy genetyczne.
-Algorytmy genetyczne, zaliczane do zbioru narzędzi optymalizujących oraz przeszukujących, z powodzeniem wykorzystuje się
-w wielu różnorodnych zagadnieniach, w tym także zagadnieniach
-logistycznych. Swoją pozycję algorytmy genetyczne zawdzięczają ich
-prostocie połączonej z dużą efektywnością. Dzięki wykorzystywaniu w
-algorytmie okrojonej informacji o danym zadaniu oraz przekazywaniu
-jej kolejnym „pokoleniom populacji” zbioru potencjalnych rozwiązań
-problemu, istnieje szeroki wachlarz ich zastosowań [11].
-Celem artykułu jest przedstawienie zasad działania algorytmów
-genetycznych oraz wskazanie sfer ich zastosowania w obszarze
-kształtowania łańcucha dostaw. 
+Machine learning, czyli uczenie maszynowe, to koncepcja w ramach sztucznej inteligencji. Termin ten dotyczy nowoczesnej technologii i często jest niewłaściwie rozumiany. Co właściwie oznacza?
+
+Czym jest uczenie maszynowe?
+Nazwa machine learning po raz pierwszy została użyta przez Arthura Samuela w 1959 roku. Tym określeniem zdefiniował zdolność komputerów do uczenia się programowania nowych umiejętności wprost (ang. field of study that gives computers the ability to learn without being explicitly programmed).
+
+Maszyny są wciąż rozwijane. Potrafią nie tylko wykonywać zadania, które im zaprogramowano. Mają również inną, ważną umiejętność, tj. uczenia się na podstawie zachowań, które zapisały, bazując na tym, z jakimi zadaniami musiały sobie dotąd radzić. Maszyna zbiera informacje, analizuje je i na tej podstawie podejmuje decyzje, które pomagają jej w rozwiązywaniu pojawiających się problemów. To, jak wiele może się nauczyć, zależy m.in. od tego, do jak dużych zasobów danych ma dostęp.
+
+Choć pojęcie „uczenie maszynowe” może się wydawać skomplikowane i kojarzyć się głównie z technologiami, z którymi będziemy mieć do czynienia w przyszłości, to w praktyce tak nie jest. Machine learning już teraz ma szereg zastosowań w rozwiązaniach, z których korzystamy na co dzień. Przykładem systemu bazującego na algorytmach uczenia maszynowego, jest dobrze znany nam GPS. Jest on świetnym nawigatorem w podróży, ale jednocześnie ogromnym źródłem danych. Pozwala weryfikować miejsce naszego zamieszkania, pracy, ulubionego sklepu, a następnie zbiera te dane, by m.in. sugerować czas uruchomienia budzika, czy informacji o odjeździe ostatniego autobusu. Pomaga również w tworzeniu spersonalizowanych ofert zakupowych od sklepów, które mijamy na trasie powrotnej z pracy do domu.

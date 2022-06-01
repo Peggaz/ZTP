@@ -1,20 +1,6 @@
-Postać graniczna algorytmu pozwala na dokładniejsze analizy związane z klasyfikacją
-algorytmów, a nawet wprowadzenie pewnej hierarchii w klasyfikacji. Równoważność
-algorytmów można rozpatrywać na gruncie macierzy przejścia, rozkładu granicznego, operatora granicznego, wektorów własnych operatora opisującego algorytm
-oraz entropii i porównywać z klasyfikacją taksonomiczną lub opartą na twierdzeniu o schematach albo metodach statystycznych. Ważną byłaby klasyfikacja oparta o
-uporządkowanie (trajektorię) populacji (permutację populacji), jak i kluczową teoretycznie entropię i wymiar fraktalny oraz jego przybliżenia.
-Dwa algorytmy genetyczne są równoważne, jeżeli mają tę samą macierz przejścia (operator Markowa).
-Dwa algorytmy genetyczne są równoważne, jeżeli ich operatory przejścia mają
-ten sam rozkład graniczny.
-Dwa algorytmy genetyczne są równoważne, jeśli generują ten sam operator
-graniczny.
-Algorytmy genetyczne są równoważne, jeśli mają tę samą entropię trajektorii.
-Dwa algorytmy genetyczne są równoważne, jeśli ich trajektorie mają ten sam
-wymiar fraktalny (Hausdorffa, pudełkowy, informacyjny, itd.).
-Dwa algorytmy genetyczne są równoważne, jeśli generują te same permutacje
-populacji (uporządkowanie).
-Klasyfikacja taka wykorzystuje wielkości probabilistyczne, takie jak rozkład prawdopodobieństwa, rozkład graniczny, wektory własne, macierze Markowa, wymiar fraktalny i wreszcie permutacja populacji oraz entropia. Są to wielkości probabilistyczne.
-Problemem jest, czy te wskaźniki klasyfikacji powinny być odpowiednio równe, a
-kiedy możemy dopuścić ich odchylenia. Ustalenie, które wielkości wskaźników i jakie
-zakresy tych odchyleń są odpowiednie dla każdego z nich, może być przedmiotem
-analizy.
+Jak działa uczenie maszynowe
+Uniwersytet UC Berkeley (odsyłacz prowadzi poza serwis IBM) dzieli system uczenia się algorytmu uczenia maszynowego na trzy główne części.
+
+Proces decyzyjny: Ogólnie algorytmy uczenia maszynowego są używane do predykcji lub klasyfikacji. W oparciu o pewne dane wejściowe, z etykietami lub bez nich, algorytm szacuje wzorzec występujący w danych.
+Funkcja błędu: Funkcja błędu służy do oceny predykcji modelu. Jeśli istnieją znane przykłady, funkcja błędu może dokonać porównania w celu oceny dokładności modelu.
+Proces optymalizacji modelu: Jeśli model może być lepiej dopasowany do punktów danych w zbiorze przeznaczonym do szkolenia, wówczas wagi są korygowane w celu zmniejszenia rozbieżności między znanym przykładem a oszacowaniem modelu. Algorytm będzie powtarzał tę ocenę i optymalizację procesu, aktualizując wagi autonomicznie aż do osiągnięcia progu dokładności.

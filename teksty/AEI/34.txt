@@ -1,22 +1,8 @@
-Do lepszego wyjaśnienia mechanizmów działania populacji, prześledzimy działanie jednej iteracji algorytmu genetycznego na przykładowym problemie. Będziemy dążyć do minimalizacji wartości funkcji na zbiorze liczb całkowitych z przedziału . Nasza funkcja jest dana następującym wzorem:
+Rodzaje machine learning
+Wyróżnia się cztery zasadnicze typy algorytmów machine learning: nadzorowane, półnadzorowane, nienadzorowane i wzmocnione. Specjaliści od ML uważają, że około 70% algorytmów ML, które są obecnie w użyciu, to algorytmy nadzorowane. Operują one na znanych lub oznakowanych zbiorach danych, na przykład zdjęciach psów i kotów. Te dwa gatunki zwierząt są znane, więc administratorzy mogą oznaczyć zdjęcia przed wprowadzeniem ich do algorytmu.
 
-Ponieważ poszukujemy najmniejszej wartości funkcji w przedziale , to osobnikiem w naszym algorytmie genetycznym będzie 5-bitowa liczba całkowita. Będzie to argument naszej funkcji zapisany w systemie dwójkowym.
-Parametry i metody naszego algorytmu genetycznego:
+Nienadzorowane algorytmy ML uczą się na podstawie nieznanych zbiorów danych. Weźmy na przykład filmy z serwisu TikTok. Jest ich tam tak wiele i obejmują tak wiele tematów, że nie da się wyszkolić algorytmu na ich podstawie w nadzorowany sposób. Te dane są jeszcze nieoznakowane.
 
-metoda selekcji: metoda koła ruletki,
+Częściowo nadzorowane algorytmy ML szkoli się wstępnie na niewielkiej próbce danych, która jest znana i oznakowana. Następnie kontynuuje się szkolenie z użyciem większych nieoznakowanych zbiorów danych.
 
-krzyżowanie: jednopunktowe,
-
-prawdopodobieństwo krzyżowania: 1,
-
-prawdopodobieństwo mutacji: 0,02,
-
-metoda sukcesji: sukcesja z całkowitym zastępowaniem,
-
-rozmiar populacji: 6.
-
-Pozostaje jeszcze kwestia wyboru populacji startowej algorytmu genetycznego. W tym przypadku została ona wygenerowana w sposób losowy. Przy użyciu generatora liczb pseudolosowych wylosowano sześć liczb całkowitych z przedziału .
-Po jednej iteracji algorytmu najmniejszą wartością funkcji  jaką udało nam się uzyskać w nowym pokoleniu jest . Jest to wynik gorszy niż w poprzednim pokoleniu, który wynosił . Taka sytuacja może się wydarzyć ze względu na losowość naszego algorytmu genetycznego. Można temu zapobiec, stosując inną metodę selekcji lub sukcesji. Innym możliwym rozwiązaniem jest zwiększenie liczby iteracji i zapisywanie najlepszego wyniku spośród wszystkich dotychczasowych populacji.
-Algorytmy genetyczne są najczęściej wykorzystywane do rozwiązywania problemów optymalizacyjnych. Wykorzystując element losowości, są one w stanie lepiej przeszukiwać duże przestrzenie rozwiązań w porównaniu do standardowych algorytmów deterministycznych.
-
-Natomiast problemy optymalizacyjne można znaleźć w wielu różnych dziedzinach. Może to być problem zaprojektowania skrzydła samolotu o pewnej powierzchni i jak najmniejszej wadze. Projektując układy bramek logicznych w układzie elektronicznym, warto optymalizować jego koszt budowy przy zachowaniu pewnej funkcjonalności. Algorytmy genetyczne można także zastosować przy doborze liczby neuronów w warstwach ukrytych sieci neuronowych. Wtedy parametrem poddawanym optymalizacji jest poprawność działania sieci.
+Wzmocnione algorytmy ML nie są wstępnie szkolone. Uczą się metodą prób i błędów na bieżąco. Wyobraź sobie robota, który uczy się jeździć pośród skał. Każdy upadek uczy go, co się nie sprawdza, dzięki czemu robot może zmieniać swoje zachowanie, aż mu się uda. Pomyśl o tresowaniu psa i stosowaniu gróźb w celu nauczenia go wykonywania różnych poleceń. Jeśli zastosujemy wzmocnienie pozytywne, to pies będzie wykonywał polecenia oraz będzie zmieniał te zachowania, które nie wywołują pozytywnej reakcji.  

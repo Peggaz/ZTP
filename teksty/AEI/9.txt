@@ -1,8 +1,10 @@
-Algorytmy genetyczne (z ang. Genetic Algorithms, GA) stanowią (naśladując naturalną ewolucję) metodę rozwiązywania problemów, głównie zadań optymalizacyjnych. Cechuje je duża uniwersalność oraz prostota procedur przeszukiwań najlepszych rozwiązań metodą stochastyczną. Algorytmy genetyczne są procedurami przeszukiwania opartymi na mechanizmach doboru naturalnego i dziedziczenia. Korzystają z ewolucyjnej zasady przeżycia osobników najlepiej przystosowanych. Od tradycyjnych metod optymalizacji różnią się
-kilkoma zasadniczymi elementami.
-Algorytmy genetyczne:
- nie przetwarzają bezpośrednio parametrów zadania, lecz ich zakodowaną postać,
- prowadzą przeszukiwanie, wychodząc nie z pojedynczego punktu, lecz z pewnej ich populacji,
- korzystają tylko z funkcji celu, nie zaś z jej pochodnych lub innych pomocniczych informacji,
- stosują probabilistyczne, a nie deterministyczne reguły wyboru [16].
-Celem pracy jest przedstawienie zasady działania algorytmów genetycznych jako doskonałego narzędzia optymalizacyjnego, które z powodzeniem może być zastosowane w przemyśle rolno-spożywczym.
+Wyzwania dotyczące uczenia maszynowego
+W poświęconej fałszywym korelacjom książce Spurious Correlations Tyler Vigan, absolwent Uniwersytetu Harvarda i naukowiec zajmujący się analizą danych, zauważa, że nie wszystkie korelacje wskazują na faktyczny związek przyczynowo-skutkowy. W ramach przykładu prezentuje wykres pokazujący rzekomą silną korelację między konsumpcją margaryny a liczbą rozwodów w amerykańskim stanie Maine. Wykres ma oczywiście charakter humorystyczny, ale uczenie maszynowe rzeczywiście jest podatne na błędy i stronniczość zarówno ludzi, jak i algorytmów. A ze względu na skłonność takich systemów do uczenia się i adaptacji błędy oraz fałszywe korelacje mogą szybko się rozpowszechniać i zniekształcać wyniki w całej sieci neuronowej.
+
+ 
+
+Dodatkowe wyzwanie stanowią modele uczenia maszynowego, w których algorytm i jego wyniki okazują się zbyt złożone, aby mogły zostać wyjaśnione oraz zrozumiane przez człowieka. Tak zwany model „czarnej skrzynki” może stanowić zagrożenie dla firmy, która nie będzie w stanie ustalić, w jaki sposób i dlaczego algorytm doszedł do konkretnego wniosku lub decyzji.
+
+ 
+
+Na szczęście rośnie nie tylko złożoność zbiorów danych i algorytmów uczenia maszynowego, ale i dostępność narzędzi oraz zasobów do zarządzania ryzykiem. Najlepsze firmy starają się eliminować błędy i potencjalną stronniczość systemów, określając szczegółowe, stale aktualizowane wytyczne dotyczące nadzoru nad technologią AI oraz protokoły oparte na sprawdzonych metodach postępowania.

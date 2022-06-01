@@ -1,25 +1,30 @@
-Algorytm genetyczny to rodzaj algorytmu przeszukującego przestrzeń alternatywnych rozwiązań problemu w celu wyszukania rozwiązań najlepszych.
-Sposób działania algorytmów genetycznych nieprzypadkowo przypomina zjawisko ewolucji
-biologicznej, ponieważ ich twórca John Henry Holland [1] właśnie z biologii czerpał inspiracje
-do swoich prac. Obecnie zalicza się je do grupy algorytmów ewolucyjnych.
-Problem definiuje środowisko, w którym istnieje pewna populacja osobników. Każdy z osobników ma przypisany pewien zbiór informacji stanowiących jego genotyp, a będących podstawą
-do utworzenia fenotypu. Fenotyp to zbiór cech podlegających ocenie funkcji przystosowania
-modelującej środowisko. Innymi słowy - genotyp opisuje proponowane rozwiązanie problemu,
-a funkcja przystosowania ocenia, jak dobre jest to rozwiązanie.
-Genotyp składa się z chromosomów, gdzie zakodowany jest fenotyp i ewentualnie pewne informacje pomocnicze dla algorytmu genetycznego. Chromosom składa się z genów.
-Wspólnymi cechami algorytmów ewolucyjnych, odróżniającymi je od innych, tradycyjnych
-metod optymalizacji, są:
-· stosowanie operatorów genetycznych, które dostosowane są do postaci rozwiązań,
-· przetwarzanie populacji rozwiązań, prowadzące do równoległego przeszukiwania przestrzeni
-rozwiązań z różnych punktów,
-· w celu ukierunkowania procesu przeszukiwania wystarczającą informacją jest jakość aktualnych rozwiązań,
-· celowe wprowadzenie elementów losowych.
-Najczęściej działanie algorytmu przebiega następująco:
-[1] Losowana jest pewna populacja początkowa.
-[2] Populacja poddawana jest ocenie (selekcja). Najlepiej przystosowane osobniki biorą udział
-w procesie reprodukcji.
-[3] Genotypy wybranych osobników poddawane są operatorom ewolucyjnym:
-a. są ze sobą kojarzone poprzez złączanie genotypów rodziców (krzyżowanie),
-b. przeprowadzana jest mutacja, czyli wprowadzenie drobnych losowych zmian.
-[4] Rodzi się drugie (kolejne) pokolenie i algorytm powraca do kroku drugiego, jeżeli nie
-znaleziono dostatecznie dobrego rozwiązania. W przeciwnym wypadku uzyskujemy wynik.
+Techniki machine learning (uczenia maszynowego, ML)
+Techniki ML rozwiązują problemy. Jedną z nich wybiera się na podstawie problemu, który trzeba rozwiązać. Oto sześć najczęściej używanych technik ML.
+
+Technika regresji
+
+Za pomocą regresji można przewidywać ceny na rynku nieruchomości lub określić optymalną cenę łopaty do śniegu w Minnesocie w grudniu. Regresja opiera się na zasadzie, że choć ceny mogą się wahać, zawsze wracają do pewnej wartości średniej. Mimo że z czasem ceny domów rosną, istnieje średnia cena, która zawsze będzie się powtarzać. Aby odkryć średnią na podstawie zmian cen w czasie, można je nanieść na wykres. Czerwona linia wykresu pnąca się w górę umożliwia formułowanie prognoz na przyszłość.
+
+Klasyfikacja
+
+Klasyfikacja służy do grupowania danych w znane kategorie. Można na przykład szukać takich osób, które prawdopodobnie zostaną dobrymi klientami (takimi, którzy zawsze wracają i wydają więcej pieniędzy) lub prawdopodobnie zmienią miejsce robienia zakupów. Jeśli dzięki retrospekcji uda Ci się znaleźć typowe cechy klientów należących do określonej grupy, będziesz mógł przewidywać, do której z nich trafi każdy nowy klient. To umożliwi Ci skuteczniejsze prowadzenie kampanii marketingowych i ewentualne zdobycie bardzo lojalnego klienta, który w innym przypadku poszedłby gdzieś indziej. To jest dobry przykład ML nadzorowanego.
+
+Grupowanie
+
+W odróżnieniu od klasyfikacji, technika grupowania należy do kategorii ML nienadzorowanego. W przypadku grupowania system znajdzie sposób na podzielenie na grupy danych, których Ty nie wiesz jak pogrupować. Ten rodzaj ML doskonale sprawdza się w analizie obrazów medycznych i media społecznościowych oraz w wyszukiwaniu anomalii.
+
+Google wykorzystuje grupowanie do generalizacji, kompresji danych i zachowywania prywatności w produktach, na przykład filmach na YouTube, aplikacjach w sklepie Play i utworach muzycznych.
+
+Wykrywanie anomalii
+
+Wykrywanie anomalii stosuje się w celu znalezienia nietypowych obiektów, na przykład czarnej owcy w stadzie. Ich znalezienie w ogromnej masie danych jest niemożliwe dla człowieka. Jeśli natomiast badacz wprowadzi do algorytmu wyszukiwania anomalii dane rozliczeniowe z systemu medycznego wielu szpitali, ten znajdzie sposób na ich pogrupowanie. Dzięki temu może wykryć anomalie będące oznakami oszustwa.
+
+Analiza koszyka rynkowego
+
+Logika analizy koszyka rynkowego umożliwia formułowanie prognoz. Prosty przykład: jeśli klienci włożą do swojego koszyka mieloną wołowinę, pomidory i taco, to można przewidywać, że dołożą do tego jeszcze ser i śmietanę. Na podstawie takich prognoz można stymulować dodatkową sprzedaż przez podsuwanie klientom sklepów internetowych atrakcyjnych propozycji zakupu produktów, o których mogliby zapomnieć lub można grupować produkty w sklepie.
+
+Z pomocą tej techniki dwóch profesorów z MIT odkryło „zwiastuny klapy”. Okazało się, że niektórzy klienci lubią kupować produkty, które są skazane na porażkę. Dzięki dostrzeżeniu ich obecności wiesz, czy kontynuować sprzedaż danego produktu oraz jakie działania promocyjne wdrożyć, aby zmaksymalizować sprzedaż w odpowiedniej grupie klientów.
+
+Szeregi czasowe
+
+Dane w postaci szeregów czasowych powszechnie gromadzą noszone przez nas na nadgarstkach monitory sprawności. Zapisują liczbę uderzeń serca na minutę, liczbę kroków robionych na minutę lub godzinę, a niektóre z nich mierzą już nawet saturację. Na podstawie takich danych można przewidzieć, kiedy ktoś będzie biegać. Można by było też zbierać dane maszyn, na przykład na temat poziomu wibracji, natężenia hałasu i ciśnienia, aby przewidywać awarie.

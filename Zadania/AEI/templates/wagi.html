@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block main_content %}
+
+<div id="semantyki" style="float:left; margin-right: 100px;">
+    <table border cellpadding=5 frame=void RULES=groups>
+        <COLGROUP SPAN=1 ALIGN=left>
+        <thead>
+        <tr><th>Nazwa roli</th><th>Słowo 1</th><th>Słowo 2</th><th>Słowo 3</th><th>Słowo 4</th><th>Słowo 5</th><th>Słowo 6</th></tr>
+        </thead>
+        <tbody>
+        {% for wiersz in wagi %}
+        <tr>
+            <td>{{ wiersz }}</td>
+            {% for slowo in wagi[wiersz] %}
+            <td>{{ slowo|safe }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock %}

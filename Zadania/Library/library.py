@@ -2,7 +2,11 @@ import math
 import datetime
 
 # Bardzo ważna zmienna określa czy użwać słownika CLP działa on poprawnie jedynie na wierzbie
-from Zadania.Library.global_varible import CLP_ON
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))+'/Library')
+from global_varible import CLP_ON
 
 if CLP_ON:
     from clp3 import clp

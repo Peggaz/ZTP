@@ -1,16 +1,25 @@
-Niech dany będzie problem optymalizacyjny: znaleźć maksimum funkcji rzeczywistej f(x) na pewnym zbiorze (przestrzeni stanów X). Algorytm genetyczny (klasyczny, z kodowaniem binarnym) rozwiązujący ten problem składa się z następujących etapów:
-Schemat algorytmu genetycznego:
-0. Etap wstępny: kodowanie problemu. W przypadku algorytmu genetycznego genotyp osobnika jest ciągiem binarnym stałej długości. Aby rozwiązać konkretne zadanie, musimy zakodować przestrzeń stanów (czyli wszystkie potencjalne rozwiązania) w języku binarnym, przy czym długość łańcuchów kodujących rozwiązania ustalamy z góry. Jeżeli zadanie polega na znalezieniu maksimum funkcji nieujemnej f(x), możemy owej funkcji użyć jako stopnia przystosowania osobnika do środowiska. W innych przypadkach musimy sami taką funkcję skonstruować; np. jeśli zadanie polega na minimalizacji kosztu c(x) przyjmującego wartości [0,20], wówczas możemy przyjąć funkcję przystosowania f(x) = 20 - c(x).
-1. Konstruujemy populację początkową składającą się z N osobników całkowicie losowych. Liczbę N dobieramy w zależności od czasu, jakim dysponujemy, oraz stopnia złożoności problemu. Typowe wartości to 20-50 osobników.
-2. Stosujemy operatory genetyczne, czyli pewne przekształcenia kodu genetycznego osobników. Wyróżniamy dwa podstawowe operatory: mutację i krzyżowanie. Mutacja działa następująco: losujemy osobnika, następnie jeden z jego bitów. Zamieniamy wartość tego bitu na przeciwną. Mutacja dotyka średnio 0.1% bitów w populacji.
-Drugim operatorem genetycznym jest krzyżowanie (crossing-over):
-Łączymy osobniki losowo w pary. Dla każdej pary ustalamy (w drodze losowania, prawdopodobieństwo rzędu 20-50%), czy dojdzie do ich skrzyżowania. Jeśli tak, losujemy miejsce (bit) w chromosomie jednego z rodziców, po czym zamieniamy miejscami fragmenty chromosomów poczynając od wylosowanego miejsca.
-3. Liczymy wartości funkcji celu osobników. W tym celu odczytujemy kod genetyczny każdego osobnika i odkodowujemy go (interpretujemy) jako element przestrzeni stanów, czyli przykładowe rozwiązanie zadania. Następnie oceniamy to rozwiązanie funkcją celu. (Uwaga: warto zauważyć, że to jedyny moment, gdy osobniki rozpatrujemy w kontekście naszego konkretnego problemu; pozostałe kroki to operacje na abstrakcyjnych ciągach bitów).
-4. Dokonujemy selekcji: zamieniamy wartości policzonej wcześniej funkcji celu na wartości przystosowania (często jest to ta sama funkcja). Następnie, spośród N osobników populacji pośredniej losujemy N osobników populacji końcowej (z powtórzeniami), za pomocą algorytmu “koła ruletki”:
-Selekcja za pomocą 'koła ruletki'
-- Liczymy sumę wartości funkcji celu: fsum = f(x1) + ... + f(xN).
-- Liczymy wkład każdego osobnika w sumę: p(xi) = f(xi) / fsum.
-- Traktujemy wartości p(xi) jako rozkład prawdopodobieństwa i dokonujemy N-krotnego losowania osobników zgodnie z tym rozkładem. Wylosowane w ten sposób osobniki dokładamy do populacji końcowej.
-5. Populacja końcowa staje się populacją bieżącą. Wracamy do punktu 2.
-Algorytm zatrzymuje się na żądanie użytkownika, po określonym czasie lub po osiągnięciu określonego progu jakości rozwiązania. Algorytm jet niedeterministyczny (losowe działanie mutacji, krzyżowania i selekcji), nie mamy gwarancji, że znalezione rozwiązanie jest optymalne.
-Uwaga: przedstawiony powyżej schemat jest najbardziej powszechny, ale nie jedyny możliwy. Często wykorzystuje się np. inne metody selekcji osobników, dodatkowe techniki wspomagające itp. (wkrótce poznamy przykłady takich modyfikacji).
+GitHub dla uczenia maszynowego. Amerykanie mocno podekscytowani pomysłem Polaków
+
+Karol Kopańko
+24.04.2022
+KOMENTARZE (0)
+Software development jest mniej więcej 10 lat przed machine learning – mówi Piotr Niedźwiedź, współtwórca Neptune.ai. Jego firma ma dać data scientistom taki poziom kontroli nad budową i dostarczaniem modeli, jaki mają programiści tworzący oprogramowanie.
+
+27 INTERAKCJI
+Jakie, największe wyzwanie towarzyszy dziś specjalistom uczenia maszynowego?
+
+Wytworzenie realnej wartości dla biznesu
+
+– mówi w rozmowie z Bizblog.pl Piotr Niedźwiedź.
+Przedsiębiorca podkreśla, że coraz więcej zespołów otwiera modele machine learning na świat, udostępniając je użytkownikom. Pozwala to na wyjście poza fazę proof-of-concept, ale wymaga również większej kontroli.
+
+Świat software development od lat jest w miejscu, w którym aplikacje są komercyjnie dostępne dla użytkowników. Dlatego narzędzia i procesy dostarczania oprogramowania szybko i bezpiecznie są dojrzałe
+
+– dodaje Niedźwiedź.
+Dojrzały jest np. rynek DevOps. Jego odpowiednik w świecie machine learning, MLOps, jest młody, choć dynamicznie rośnie. Coraz więcej firm wykorzystuje uczenie maszynowe, a standardy wykuwają się każdego dnia.
+Uczenie maszynowe nie jest dziś również domeną samotnych wilków, które samodzielnie eksperymentowałyby z nowymi algorytmami. Pracują nad nimi całe zespoły, jak np. wewnątrz firmy wewnątrz deepsense.ai. To właśnie jej inżynierowie napisali prostą wersję narzędzia na własne potrzeby. Dopiero później przerodziła się ona w Neptune.ai.
+
+Neptune.ai pomoże zapanować nad chaosem
+Mówiąc w dużym uproszczeniu, jeśli stworzymy oprogramowanie i ono działa, zwykle ta konkretna wersja będzie po prostu działać. W przypadku machine learning, żeby zbudować działający model, najpierw potrzeba wielu iteracji uczenia go, w różnych konfiguracjach. To są czasem tysiące eksperymentów, konfiguracji, wersji kodu, wersji środowiska, wersji danych
+
+– podkreśla Piotr Niedźwiedź.
