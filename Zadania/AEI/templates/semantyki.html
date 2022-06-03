@@ -5,19 +5,23 @@
     <table border cellpadding=5 frame=void RULES=groups>
         <COLGROUP SPAN=1 ALIGN=left>
         <thead>
-        <tr><th>Nazwa roli</th><th>Słowo 1</th><th>Słowo 2</th><th>Słowo 3</th><th>Słowo 4</th><th>Słowo 5</th><th>Słowo 6</th></tr>
+        <tr><th>Waga</th><th>rola 1</th><th>rola 2</th><th>rola 3</th><th>rola 4</th><th>rola 5</th><th>rola 6</th></tr>
         </thead>
         <tbody>
         {% for wiersz in semantyka %}
         <tr>
-            <td>{{ wiersz }}</td>
-            {% for slowo in semantyka[wiersz] %}
-            <td>{{ slowo|safe }}</td>
+
+            <td>{{ wiersz[1] }}</td>
+            {% for rola in wiersz[0] %}
+            <td>{{ rola|safe }}</td>
             {% endfor %}
+
         </tr>
         {% endfor %}
         </tbody>
     </table>
+    </br>
+</br>
 </div>
 
 {% endblock %}
