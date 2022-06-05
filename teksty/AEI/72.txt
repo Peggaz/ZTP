@@ -1,32 +1,3 @@
-Jak zrobić screena na laptopie i komputerze bez użycia Print Screen?
-W bardzo niewielkim odsetku laptopów - przede wszystkim niewielkich notebookach do użytku biurowego może brakować klawisza PrtSc. Niektórym kompaktowym klawiaturom komputerów stacjonarnych również może brakować klawisza służącego do robienia screenów. Niekiedy chodzi też po prostu o wygodę - PrtSc znajduje się po drugiej stronie klawiatury. Jak więc zrobić screenshot bez użycia Print Screena?
+Dziobak australijski[4], dziobak[5][a] (Ornithorhynchus anatinus) – prowadzący częściowo wodny tryb życia endemiczny dla wschodnich stanów Australii (w tym Tasmanii) gatunek ssaka z grupy stekowców, jedynych członków tej gromady składających jaja. Jest ostatnim istniejącym do dziś przedstawicielem swego rodzaju i rodziny, choć znaleziono skamieniałości licznych przedstawicieli tych taksonów.
 
-
-Jak nagrać ekran w Windows 11? Tej jednej funkcji z macOS Microsoftowi bardzo brakuje
-TECH
-Jak nagrać ekran w Windows 11? Tej jednej funkcji z macOS Microsoftowi bardzo brakuje
-Na komputerach z systemem Windows 10 i Windows 11 możesz wywołać program Narzędzie Wycinane za pomocą kombinacji klawiszy Windows + Shift + S, które pozwoli ci na zrobienie zrzutu tak całości ekranu, jak i jego części.
-
-
- 
-Po zaznaczeniu fragmentu ekranu, który cię interesuje, Narzędzie Wycinane zapisze screena do schowka i wyświetli powiadomienie. Kliknięcie powiadomienia przeniesie cię do Narzędzia Wycinanego, w którym możesz edytować zrzut (np. zakreślić markerem) lub po prostu zapisać.
-
-
- 
-Jak zrobić zrzut ekranu na Macu?
-Wydawać by się mogło, że zrobienie screenshota na Macu to nie lada sztuka - bo nie ma ani klawisza PrtSc, ani systemu Windows. Jednak Apple zadbało o to by robienie zrzutów ekranu na Macbookach i stacjonarnych Macach było równie proste co na systemach Microsoftu.
-
-
- 
-Zrzut pełnego ekranu na Macu wykonuje się za pomocą kombinacji klawiszy Shift+Command+3. Aby wykonać zrzut fragmentu ekranu, naciśnij razem Shift+Command+4. Kombinacja klawiszy Shift+Command+5 otworzy aplikację Zrzut ekranu, natomiast Shift+Command+6 wciśnięte na Macbooku zrobi zrzut paska Touch Bar.
-
-
-Jak zrobić zrzut ekranu na Macu? [Print Screen na Macu]
-Programy i aplikacje do robienia zrzutów ekranu
-Pomimo że zarówno Windows jak i Mac posiadają wbudowane opcje robienia zrzutów ekranu, które pozwalają nie tylko zrobić screenshot, ale i natychmiastowo go edytować, wiele osób decyduje się na instalacje dedykowanych aplikacji do robienia zrzutów ekranu. Programy takie jak ShareX, LightShot czy Greenshot to najpopularniejsze aplikacje do przechwytywania zrzutów ekranu na laptopie i komputerze. Oferują one - oprócz podstawowego zapisywania, edytowania i przechwytywania fragmentów - natychmiastowe udostępnianie screenów w formie linków, robienia zrzutu całej przewijanej strony internetowej czy integrację z pakietem Microsoft Office.
-
-
-ShareX - fajne programy które MUUUSISZ mieć do Win11 i nie tylko :D
-REKLAMA
-Jak zrobić screenshot na laptopie i komputerze? Podsumowanie
-Aby zrobić zrzut ekranu na laptopie czy komputerze nie potrzeba dodatkowego oprogramowania, bo jest to opcja domyślnie wbudowana w każdy system. Choć screenshoty najszybciej i najprościej wykonuje je się za pomocą przycisku PrtSc, istnieją alternatywne sposoby pozwalające ominąć możliwy brak tego klawisza - również na Macu. Aplikacje takie jak ShareX to idealne rozwiązanie dla osób, które potrzebują zaawansowanych opcji robienia i edycji zrzutów ekranu.
+Ma wiele nietypowych jak na ssaka cech: składa jaja, wydziela jad i ma dziób. Ujrzawszy go po raz pierwszy, europejscy przyrodnicy byli bardzo zdezorientowani, niektórzy sądzili nawet, że mają do czynienia z dobrze spreparowanym oszustwem. Należy do kilku jadowitych ssaków. Samiec posiada na tylnych łapach ostrogi wydzielające jad zdolny wywołać silny ból u człowieka. Unikatowe cechy dziobaka czynią go ważnym obiektem badań biologii ewolucyjnej i czynią zeń ikonę Australii. Wybierano go jako maskotkę imprez narodowych, przedstawia go też rewers australijskiej dwudziestocentówki. Stanowi także zwierzęcy symbol Nowej Południowej Walii[6].

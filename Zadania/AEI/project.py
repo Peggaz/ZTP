@@ -77,7 +77,7 @@ SEMANTICAL_RATING = {
     , ('Zdarzenie', 'Sprawca'): 0.4
     , ('Cel', 'Narzędzie'): 0.4
     , ('Sprawca', 'Cel'): 0.4
-    , ('Sprawca', 'Obiekt'): 0.4
+    , ('Sprawca', 'Obiekt'): 0.3
     , ('Obiekt', 'Narzędzie'): 0.4
     , ('Sprawca', 'Miejsce'): 0.4
     , ('Zdarzenie', 'Cel'): 0.3
@@ -97,7 +97,7 @@ SEMANTICAL_RATING = {
 
 MATCHING_RULES = {
     'Zdarzenie': ['zastosowanie', 'uczenie', 'learning', 'analiza'],
-    'Sprawca': ['model', 'oprogramowanie', 'machine', 'maszyna'],
+    'Sprawca': ['oprogramowanie', 'machine', 'maszyna'],
     'Cel': ['rozwiązanie', 'znalezienie', 'podejmowanie', 'decyzji', 'aplikacje'],
     'Obiekt': ['model', 'nadzorowane', 'nienadzorowane', 'dana', 'zbiór', 'maszynowy', 'neuron', 'wzorzec'],
     'Narzędzie': ['wzór', 'algorytm', 'reguła', 'neuronowe', 'funkcja', 'metoda', 'technologia'],
@@ -190,7 +190,7 @@ def make_text_out():
     files.pop(0)
     for file_id in range(len(files)):
         list, rating, text = tex_analize(files[file_id][3:])
-        text_list.append(Text(files[file_id][1:3], rating, text, list))
+        text_list.append(Text(int(files[file_id][1:3]), rating, text, list))
 
 
 def main():

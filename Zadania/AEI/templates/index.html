@@ -21,11 +21,26 @@
 <div id = "tekst">
 
     {% if data.rating > 50 %}
-        <h4 style='color:green;  float: left; margin-right:50px'>Tekst nr {{ data.id }}</h4><h4 style="margin-left: 300px"> Podobieństwo: {{ data.rating|safe }}%</h4>
+        <h4 style='color:green;  float: left; margin-right:50px'>Tekst nr {{ data.id }}
+         {% if data.id >= 50 %}
+            Nie
+         {% endif %}
+         Na Temat
+        </h4><h4 style="margin-left: 300px"> Podobieństwo: {{ data.rating|safe }}%</h4>
     {% elif data.rating == 50 %}
-        <h4 style='color:yellow;  float: left; margin-right:50px'>Tekst nr {{ data.id }}</h4><h4 style="margin-left: 300px"> Podobieństwo: {{ data.rating|safe }}%</h4>
+        <h4 style='color:yellow;  float: left; margin-right:50px'>Tekst nr {{ data.id }}
+        {% if data.id >= 50 %}
+            Nie
+         {% endif %}
+         Na Temat
+        </h4><h4 style="margin-left: 300px"> Podobieństwo: {{ data.rating|safe }}%</h4>
     {% else %}
-        <h4 style='color:red; float: left; margin-right:50px'>Tekst nr {{ data.id }}</h4> <h4 style="margin-left: 300px"> Podobieństwo: {{ data.rating|safe }}%</h4>
+        <h4 style='color:red; float: left; margin-right:50px'>Tekst nr {{ data.id }}
+        {% if data.id  >= 50 %}
+            Nie
+         {% endif %}
+         Na Temat
+        </h4> <h4 style="margin-left: 300px"> Podobieństwo: {{ data.rating|safe }}%</h4>
     {% endif%}
 
     <table border cellpadding=5 frame=void RULES=groups>

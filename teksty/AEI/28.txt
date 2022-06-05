@@ -1,20 +1,4 @@
-Korzyści płynące ze stosowania uczenia maszynowego
-Uczenie maszynowe ma wiele zastosowań, których liczba stale się zwiększa. Oto niektóre z najważniejszych korzyści, które zostały osiągnięte przez firmy w ich projektach uczenia maszynowego:
+CZYM JEST MACHINE LEARNING? – DEFINICJA
+Machine learning – w Polsce określane także mianem „uczenia maszynowego” – to termin, który bywa różnie rozumiany. Za pierwszą (i wciąż uważaną za aktualną) definicję tego pojęcia przywykło się uważać słowa Arthura Samuela, który w latach pięćdziesiątych ubiegłego wieku wprowadził termin machine learning, tłumacząc go jako „field of study that gives computers the ability to learn without being explicitly programmed”. Czyli w luźnym tłumaczeniu – pole nauki, która daje komputerom zdolność nauki rzeczy bez ich dokładnego zaprogramowania.
 
-Uzyskiwanie istotnych informacji
-Uczenie maszynowe ułatwia określanie wzorców lub struktur zarówno w danych strukturalnych, jak i danych niestrukturalnych, co pomaga rozpoznawać trendy w danych.
-
-Zwiększanie integralności danych
-Uczenie maszynowe doskonale nadaje się do wydobywania danych i po upływie pewnego czasu pozwala poszerzyć możliwości w tej dziedzinie.
-
-Udoskonalanie środowiska użytkownika
-Adaptacyjne interfejsy, dopasowana zawartość, czatboty i wirtualni asystenci z obsługą głosu to przykłady optymalizacji środowiska klienta za pomocą uczenia maszynowego.
-
-Zmniejszanie ryzyka
-Uczenie maszynowe pozwala nadążać za stale zmieniającymi się taktykami oszustw dzięki monitorowaniu danych i wykrywaniu nowych wzorców w celu przechwytywania podejmowanych prób takich działań.
-
-Przewidywanie zachowań klientów
-Uczenie maszynowe umożliwia wydobywanie danych klientów, co ułatwia odkrywanie wzorców i zachowań. To z kolei pozwala optymalizować zalecenia dotyczące produktów i zapewnić najwyższą jakość obsługi klientów.
-
-Niższe koszty
-Jednym z zastosowań aplikacji uczenia maszynowego jest automatyzacja procesów, która pozwala zwolnić czas i zasoby oraz dać zespołowi możliwość skupienia się na tym, co najważniejsze.
+Definicja Samuela, choć przydatna, nie w pełni oddaje to, w jaki sposób uczenie maszynowe działa obecnie. Bardziej akuratne będzie więc zdefiniowanie machine learning jako dostarczanie programowi zdolności do automatycznego uczenia się i samodoskonalenia na podstawie doświadczeń (czyli dostarczonych wcześniej danych i wzorów) bez dokładnego zaprogramowania. Ujmując to w prostszych słowach: program zapamiętuje dane i schematy, które mu „dostarczono” i na tej podstawie nabywa umiejętności analizowania nowych danych (oraz reagowania na nie) – bez konieczności dodatkowej interwencji programistów.

@@ -1,21 +1,4 @@
-Jak zrobić zrzut ekranu na laptopie i screena na komputerze? Poradnik i instrukcja krok po kroku
+Kuoki – poznaj najszczęśliwsze zwierzę w Australii
+Co jakiś czas internet obiegają zdjęcia słodkiego, choć dzikiego zwierzątka. Kuoka, bo o niej mowa, wygląda trochę jak miniaturowa krewna kangura (łączy ich dalekie pokrewieństwo). Zamieszkuje australijskie lasy tropikalne w południowo-zachodniej Australii i często… garnie się do ludzi. Efekt? Słodkie zdjęcia, na których te małe torbacze zawsze wyglądają rozczulająco i radośnie, często pozując niczym rasowi modele.
 
-MALWINA KUŚMIEREK
-21 MAJA 2022
-Zrzut ekranu to jedna z najprzydatniejszych funkcji każdego systemu operacyjnego. Jednak mimo swej popularności i przydatności, wiele osób nadal nie wie, jak zrobić zrzut ekranu. W tym artykule podpowiadamy jak zrobić screena na laptopie i komputerze.
-Zrobienie zrzutu ekranu to niezwykle praktyczna funkcja dająca szereg możliwości. Chcesz pokazać drugiej osobie obraz ze swojego ekranu bez robienia zdjęć? Zgłosić błąd na stronie, którą aktualnie przeglądasz? A może pokazać chwytliwy nagłówek bez linkowania artykułu? Screeny ekranu pozwalają na to i wiele więcej. W tym poradniku przedstawimy kilka sposób na to, jak zrobić zrzut ekranu na laptopie i komputerach z Windowsem oraz na Macach.
-
-Jak zrobić zrzut ekranu na laptopie i screena na komputerze? Uniwersalna metoda
-Robienie zrzutów ekranu posiada pewną, uniwersalną metodę, która jest niezmienna - niezależnie od wersji systemu Windows czy urządzenia, które posiadasz. Do zrobienia screena będziesz potrzebować najprostszego programu graficznego (chociażby Microsoft Paint) oraz klawisza Print Screen.
-
-Gdzie znaleźć owy klawisz Print Screen? Jego pozycja różni się w zależności od modelu laptopa i klawiatury podłączonej do komputera, jednakże klawisza Print Screen (oznaczanego obecnie najczęściej skrótem PrtSc) możesz szukać w prawym górnym rogu klawiatury. W niektórych klawiaturach PrtSc jest również klawiszem SysRq, lecz współcześnie systemy operacyjne ignorują użycie SysRq, przez co rola klawisza PrtSc/SysRq sprowadza się jedynie do robienia zrzutów ekranu.
-
-Wiedząc, gdzie znajduje się klawisz Print Screen, możesz zrobić zrzut ekranu, wykonując następujące czynności:
-
-Wciśnij klawisz PrtSc.
-Otwórz dowolny program graficzny (np. Microsoft Paint).
-Naciśnij kombinację klawiszy Ctrl + V.
-Z menu w lewej górnej części ekranu wybierz "Plik".
-Kliknij "Zapisz" lub wciśnij Ctrl + S.
-
-Warto wiedzieć, że po wciśnięciu klawisza PrtSc zrzut ekranu zapisuje się do tzw. schowka. Schowek to specjalnie wydzielona część pamięci, zarezerwowana w systemach operacyjnych na zapisywanie wskazanych przez użytkownika danych. Jeżeli chcesz zrobić zrzut ekranu tylko po to, aby wysłać go komuś na przykład na Messengerze, dzięki schowkowi nie musisz go zapisywać. Wystarczy, że wciśniesz Ctrl+V w oknie rozmowy.
+Kuoka krótkoogonowa, bo tak brzmi pełna nazwa tego zwierzątka, jest średniej wielkości – najczęściej jego długość sięga ok. 40- 55 centymetrów, a ogon do ok. 30 centymetrów. Waży tyle co mały pies – od 2,7 do niewiele ponad 4 kilogramów. Prowadzi nocny tryb życia, w ciągu dnia zaś zaszywa się w gęstych, leśnych zaroślach. Nie jest typem samotnika (pewnie stąd ten uśmiech na pyszczku) – kuoki spędzają czas w niewielkich grupach. Mają piękne, dość długie i gęste futro – na karku maści rudej, a na głowie szaro-brązowe. Żywią się roślinami (jak inne gatunki z rodziny kangurowatych), zaś same mogą stać się pożywieniem dla lisów. To ich główne zagrożenie, oczywiście oprócz człowieka, który przez sympatię do tych uroczych, uśmiechniętych zwierzątek, może nieświadomie zrobić im krzywdę.

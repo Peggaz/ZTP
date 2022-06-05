@@ -17,32 +17,3 @@ Karabinek MSBS Grot 5,56
 Karabinek Grot (karabinek MSBS 5,56) to polski karabinek automatyczny, opracowany w ramach programu badawczo-rozwojowego Modułowy System Broni Strzeleckiej kalibru 5,56 mm (MSBS-5,56) realizowanego w projekcie Tytan.
 
 Grot jest karabinkiem o konstrukcji modułowej, opartej na wspólnej komorze zamkowej zarówno dla układu klasycznego, jak i bezkolbowego (bullpup). Docelowo broń ta ma zastąpić w Wojsku Polskim karabinki AKM i ich pochodne oraz uzupełnić karabinki wz. 96 Beryl.
-
-
-Do karabinka stosuje się naboje 5,56x45 mm NATO oraz ich krajowe
-odpowiedniki. Karabinek jest zasilany nabojami z magazynków łukowych
-i pudełkowych.
-
-Ponadto, karabinek działa poprawnie na większości magazynków dedykowanych do karabinków systemu M16 (AR-15).
-
-Strzelanie prowadzi się ogniem pojedynczym, krótkimi seriami (2-3 strzały) oraz ogniem ciągłym. Zasięg ognia skutecznego do naziemnych celów punktowych z karabinka wynosi 500 m.
-
-Odległość celowania zależy od zastosowanych przyrządów celowniczych, a odległość strzału bezwzględnego do figury „popiersie” wynosi około 400 m. Prędkość początkowa pocisku wynosi około 890 m/s.
-
-Szybkostrzelność teoretyczna karabinka wynosi ok. 700-900 strz./min,
-szybkostrzelność praktyczna: ogniem ciągłym – do 100 strz./min; ogniem pojedynczym – do 40 strz./min.
-
-Masa broni to 3,4/3,7 kg (bezkolbowy / klasyczny układ broni). Długość to 720/980 mm (bezkolbowy/klasyczny układ broni, kolba wsunięta).
-
-Główne różnice pomiędzy karabinkami w wersji A1 do wersji A2
-Szczególną cechą konstrukcji karabinka jest całkowite przystosowanie broni do użytku przez strzelców prawo- i leworęcznych. Wszystkie manipulatory (skrzydełka przełącznika rodzaju ognia-bezpiecznika, zaczepu suwadła, zatrzasku magazynka oraz rączkę napinacza) umieszczono obustronnie.
-
-
-Karabinek posiada mechanizm wymiany lufy, umożliwiający jej odłączenie
-i przyłączenie do komory zamkowej na poziomie użytkownika. Konstrukcja mechanizmu zapewnia wymianę lufy przez użytkownika, a jedynym narzędziem niezbędnym do uruchomienia mechanizmu wymiany lufy jest standardowy klucz sześciokątny, znajdujący się w zestawie eksploatacyjnym broni.
-
-REKLAMA
-Nazwa handlowa broni to 5,56 mm karabinek MSBS Grot C16 FB A2
-w układzie konstrukcyjnym kolbowym. Ostatni człon nazwy A2 wskazuje, że jest to kolejna odmiana modyfikacyjna karabinka standardowego. W strukturach Wojska Polskiego funkcjonuje również karabinek MSBS Grot w wersji A1.
-
-Główne różnice pomiędzy karabinkami w wersji A1 do wersji A2 to: zespół łoża krótkiego w systemie MOE z 3 szynami (w tym jedna szyna z gniazdem przyłącza pasa QD), zespół zamka i sama iglica, pas nośny 1 / 2 punktowy, chwyt przedni przyłączany do szyny, rękojeść handlowa. Poza zespołem zamka i iglicą wymienione elementy są między wersjami A1 i A2 zamienne.
