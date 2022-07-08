@@ -5,7 +5,7 @@ Rozwiązanie wielu zadań w oparciu o bibliotekę uczelnianą <code>clp</code>, 
 
 w repozytorium znajduje się miedzy innymi:
 <ol>
-<li>Autokorekta języka<a href = "https://github.com/Peggaz/ZTP/blob/masterZadania/autokorekta/autokorekta.py">
+<li>Autokorekta języka<a href = "https://github.com/Peggaz/ZTP/blob/master/Zadania/autokorekta/autokorekta.py">
     <code>Zadania/autokorekta/autokorekta.py</code>
 </a>
 </li>
