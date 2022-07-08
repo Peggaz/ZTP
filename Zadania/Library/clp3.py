@@ -83,7 +83,7 @@ class CLP:
             if formid in self.vec(id, f):
                 return f
 
-    def MakePolCHarDick(self):
+    def MakePolCHarDict(self):
         '''
         Tworzy słownik mający odpowiedniki polskich znaków dla liter alfabetu angielskiego
         :return: słownik zawierający odpowiedniki poskich znaków bez ż oraz ź
@@ -96,7 +96,7 @@ class CLP:
         return ret
 
     def allWords(self, word, prefix=""):
-        charDict = self.MakePolCHarDick()
+        charDict = self.MakePolCHarDict()
         ret = [prefix + word]  # lista słów do wykorzystania
 
         def extendRet(word, char):

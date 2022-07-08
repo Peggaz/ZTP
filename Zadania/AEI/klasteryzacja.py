@@ -1,11 +1,25 @@
+import os
 
-from Zadania.Library import library
+template_dir = os.path.dirname(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+template_dir = os.path.join(template_dir, 'templates')
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/Library')
+try:
+    import library
+except:
+    pass
+try:
+    from Zadania.Library import library
+except:
+    pass
 
 
 def klasteryzacja():
     lista = []
     mapa_adresow = []
-    plik = library.LoadText("../../teksty/klasteryzacja.txt")
+    plik = library.LoadText("../../teksty/klasteryzacjaK.txt")
     adresy = plik.split('\n')
     lista.append(adresy[0])
     mapa_adresow.append(lista)
@@ -16,8 +30,7 @@ def klasteryzacja():
         znaleziono = False
         it_nGramy = library.nGram(it, 3)
         for it1 in mapa_adresow:  # mapa adresow czyli posiada adres wzorcowy it[0] a w niem kilka adresow
-            if library.Cosinusowa(it_nGramy, library.nGram(it1[0],
-                                                           3)) < 0.3:  # rozniceNGramy(it, it1[0]):#czym mniejszy wynik tym wieksza zgodnosc
+            if library.Cosinusowa(it_nGramy, library.nGram(it1[0], 3)) < 0.3:  # rozniceNGramy(it, it1[0]):#czym mniejszy wynik tym wieksza zgodnosc
                 # library.Log(
                 #    str(library.Cosinusowa(Library.nGram(it, 3), Library.nGram(it1[0], 3))) + " "
                 #    + str(it) +"\n"+ str(it1[0]))

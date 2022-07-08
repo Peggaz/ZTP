@@ -1,4 +1,19 @@
-from Zadania.Library import library
+import os
+
+template_dir = os.path.dirname(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
+template_dir = os.path.join(template_dir, 'templates')
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + '/Library')
+try:
+    import library
+except:
+    pass
+try:
+    from Zadania.Library import library
+except:
+    pass
 
 
 class Answer:
@@ -55,6 +70,7 @@ class Konkordancja:
 
 
     def printAnswer(self):
+
         for it in self.answer:
             print(it)
 
