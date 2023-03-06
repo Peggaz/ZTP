@@ -245,25 +245,34 @@ def AttendanceListCLP(string, attendance_list=None):
     return attendance_list
 
 
-def LevenshteinDistance(s, t):
+def LevenshteinDistance(self, s, t):
     '''
     Funkcja metryki cosinusowej ze wzoru odleglosc n-gramów
     @:param s - słowo porównywane
     @:param t - słowo do porównania
     @:return - ilosc operacji które są wymagane do korekty
     '''
-    n = len(t)
-    m = len(s)
-    ret = [[0] * n for i in range(m)]
-    for i in range(m):
-        for j in range(n):
-            r = 1
-            if s[i] == t[j]:
-                r = 0
-            ret[i][j] = min(ret[i - 1][j] + 1,  # usuwanie liter
-                            ret[i][j - 1] + 1,  # wstawianie
-                            ret[i - 1][j - 1] + r)  # zamiana
-    return ret[m - 1][n - 1]
+    m, n = len(s), len(t)
+    ret = [[0] * (n + 1) for _ in range(m + 1)]
+
+    for i in range(m + 1):
+        ret[i][0] = i
+
+    for j in range(n + 1):
+        ret[0][j] = j
+
+    for j in range(1, n + 1):
+        for i in range(1, m + 1):
+            if s[i - 1] == t[j - 1]:
+                substitution_cost = 0
+            else:
+                substitution_cost = 1
+
+            ret[i][j] = min(ret[i - 1][j] + 1,  # usunięcie
+                            ret[i][j - 1] + 1,  # wstawienie
+                            ret[i - 1][j - 1] + substitution_cost)  # zamiana/substitucja
+
+    return ret[m][n]
 
 
 def Atergo(file):
