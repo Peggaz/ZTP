@@ -58,19 +58,19 @@ w repozytorium znajduje się miedzy innymi:
     <ul>
         kolejne wersję projektu:
         <li>
-            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/project.py"><code>Zadania/AEI/app.py</code></a>
+            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/app.py"><code>Zadania/AEI/app.py</code></a>
         </li>
         <li>
-            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/project.py"><code>Zadania/AEI/app2.py</code></a>
+            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/app2.py"><code>Zadania/AEI/app2.py</code></a>
         </li>
         <li>
-            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/project.py"><code>Zadania/AEI/app3.py</code></a>
+            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/app3.py"><code>Zadania/AEI/app3.py</code></a>
         </li>
         <li>
-            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/project.py"><code>Zadania/AEI/app4.py</code></a>
+            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/app4.py"><code>Zadania/AEI/app4.py</code></a>
         </li>
         <li>
-            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/project.py"><code>Zadania/AEI/app5/app.py</code></a>
+            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/app5/app.py"><code>Zadania/AEI/app5/app.py</code></a>
         </li>
     </ul>
 </li>
