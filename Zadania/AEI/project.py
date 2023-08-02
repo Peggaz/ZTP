@@ -162,9 +162,7 @@ def tex_analize(text):
     list_fined_word = []
     list_fined_role = []
     list = []
-    rating = []
     text_out = text
-    first_for = True
     for rule in MATCHING_RULES:
         list_row = []
         for word in text.split(" "):

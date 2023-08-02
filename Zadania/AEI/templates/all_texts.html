@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teksty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Weronika Bałd</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Teksty</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/form">Formularz</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/points">Wagi</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container d-flex flex-column mt-4">
+        {% for i in range(length) %}
+        <div class="texts mb-5 p-5" style="background-color: {{text_list[i].color}};">
+            <div class="row">
+                <div class="col-md-8">
+                    <h4>
+                        <div class="text-center">
+                            Tekst: {{text_list[i].id}}
+                        </div>
+                    </h4>
+                    <div>
+                        {{ text_list[i]['text'] | safe }}
+                    </div>
+                </div>
+                <div class="col-md-1 separator"></div>
+                <div class="col-md-3">
+                    <div class="text-end">
+                        <h4>
+                            <b>Ocena: {{text_list[i]['rating']}}</b>
+                        </h4>
+                        <div class="roles">
+                            {% for key in text_list[i]['semantical_role'].keys() %}
+                            <br>
+                            <b>{{key}}:</b><br> {{', '.join(text_list[i]['semantical_role'][key])}}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+</html>
+
+
+</html>

@@ -1,0 +1,8 @@
+Bitcoin i początki kryptowalut
+Powszechnie uważa się, że to właśnie bitcoin (BTC) dał początek kryptowalutom i technologii blockchain. Powstał na początku 2009 roku, czyli tuż po wybuchu globalnego kryzysu gospodarczego, którego konsekwencje odczuwaliśmy przez kilka dobrych lat.
+
+Dla omawianego tematu istotny jest fakt, że ówczesny kryzys mocno nadszarpnął zaufanie do rządów i banków centralnych, które były odpowiedzialne m.in. za powstanie bańki na rynku nieruchomości czy późniejszy masowy dodruk pieniądza. Odpowiedzią na ich działania było stworzenie bitcoina, a więc waluty o z góry ograniczonej podaży (łącznie będzie w obiegu 21 mln BTC), która miała umożliwić szybkie, bezpieczne i tanie płatności bez udziału pośredników, a przy tym pozostać poza kontrolą rządów i instytucji finansowych.
+
+Co ciekawe, do dziś nie jest jasne, kto tak naprawdę stworzył bitcoina. Wiemy, że odpowiada za to wybitny programista lub grupa programistów o pseudonimie Satoshi Nakamoto. Nie znamy jednak jego (lub ich) prawdziwej tożsamości, nikt też nigdy nie dowiódł, że uczestniczył w tworzeniu pierwszej cyfrowej waluty.
+
+Warto dodać, że choć bitcoin oficjalnie jest uznawany za pierwszą kryptowalutę, to jednak tuż przed nim powstały podobne rozwiązania (m.in. bit gold czy hashcash), a pierwsze koncepcje zdecentralizowanych płatności elektronicznych pojawiły się już w latach 90. XX wieku.

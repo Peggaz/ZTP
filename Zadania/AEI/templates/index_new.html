@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block main_content %}
+<form method="post" action="/">
+    {% if desc_id == 1 %}
+        <input class="btn btn-light" type="submit" name="sort_value" value="Sortuj po id malejąco">
+    {% else %}
+        <input class="btn btn-light" type="submit" name="sort_value" value="Sortuj po id rosnąco">
+    {%  endif %}
+
+    {% if desc_rating == 1 %}
+        <input class="btn btn-light" type="submit" name="sort_value" value="Sortuj po ocenie malejąco">
+    {% else %}
+        <input class="btn btn-light" type="submit" name="sort_value" value="Sortuj po ocenie rosnąco">
+    {%  endif %}
+
+</form>
+
+<!--tekst-->
+{% for text in list_text %}
+
+<div id = "tekst">
+
+    {% if text.value > 0.5 %}
+        <h4 style='color:green;  float: left; margin-right:50px'>Tekst nr {{ text.id_text }}
+         {% if text.id_text >= 50 %}
+            Nie
+         {% endif %}
+         Na Temat
+        </h4><h4 style="margin-left: 300px"> Podobieństwo: {{ text.value|safe }}%</h4>
+    {% elif text.value == 0.5 %}
+        <h4 style='color:yellow;  float: left; margin-right:50px'>Tekst nr {{ text.id_text }}
+        {% if text.id_text>= 0.5 %}
+            Nie
+         {% endif %}
+         Na Temat
+        </h4><h4 style="margin-left: 300px"> Podobieństwo: {{ text.value|safe }}%</h4>
+    {% else %}
+        <h4 style='color:red; float: left; margin-right:50px'>Tekst nr {{ text.id_text }}
+        {% if text.id_text  >= 50 %}
+            Nie
+         {% endif %}
+         Na Temat
+        </h4> <h4 style="margin-left: 300px"> Podobieństwo: {{ text.value|safe }}%</h4>
+    {% endif%}
+
+    <table border cellpadding=5 frame=void RULES=groups>
+        <COLGROUP SPAN=1 ALIGN=left>
+        <tbody>
+        {% for wiersz in text.semantics_dict %}
+        <tr>
+            <td>{{ wiersz|safe }}</td>
+            {% for slowo in text.semantics_dict[wiersz] %}
+            <td>{{ slowo|safe }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    </br>
+
+    <p>{{ text.text|safe }}</p>
+
+
+    <hr>
+</div>
+{% endfor %}
+{% endblock %}

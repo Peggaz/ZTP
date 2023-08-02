@@ -1,0 +1,78 @@
+{
+ "colors": {
+    "Zdarzenie": "green",
+    "Sprawca": "red",
+    "Cel": "blue",
+    "Obiekt": "yellow",
+    "Narzędzie": "orange",
+    "Miejsce": "magenta"
+},
+  "semantical_ratings": [
+     {"semantical": ["Zdarzenie", "Sprawca", "Cel", "Obiekt", "Narzędzie", "Miejsce"], "value": 1}, 
+    {"semantical": ["Zdarzenie", "Sprawca", "Cel", "Obiekt", "Narzędzie"], "value": 0.95}, 
+    {"semantical":["Zdarzenie", "Sprawca", "Cel", "Obiekt", "Miejsce"], "value": 0.95}
+    , {"semantical":["Zdarzenie", "Sprawca", "Cel", "Obiekt", "Miejsce"], "value": 0.95}
+    , {"semantical":["Zdarzenie", "Sprawca", "Obiekt", "Narzędzie", "Miejsce"], "value": 0.95}
+    , {"semantical":["Zdarzenie", "Cel", "Obiekt", "Narzędzie", "Miejsce"], "value": 0.95}
+    , {"semantical":["Sprawca", "Cel", "Obiekt", "Narzędzie", "Miejsce"], "value": 0.95}
+    , {"semantical":["Zdarzenie", "Sprawca", "Cel", "Narzędzie"], "value": 0.9}
+    , {"semantical":["Zdarzenie", "Sprawca", "Obiekt", "Narzędzie"], "value": 0.9}
+    , {"semantical":["Zdarzenie", "Cel", "Obiekt", "Narzędzie"], "value": 0.9}
+    , {"semantical":["Sprawca", "Cel", "Obiekt", "Narzędzie"], "value": 0.9}
+    , {"semantical":["Zdarzenie", "Sprawca", "Cel", "Obiekt"], "value": 0.8}
+    , {"semantical":["Zdarzenie", "Sprawca", "Cel", "Miejsce"], "value": 0.8}
+    , {"semantical":["Zdarzenie", "Sprawca", "Obiekt", "Miejsce"], "value": 0.8}
+    , {"semantical":["Zdarzenie", "Cel", "Narzędzie", "Miejsce"], "value": 0.8}
+    , {"semantical":["Zdarzenie", "Cel", "Obiekt", "Miejsce"], "value": 0.75}
+    , {"semantical":["Sprawca", "Cel", "Obiekt", "Miejsce"], "value": 0.75}
+    , {"semantical":["Narzędzie", "Cel", "Obiekt", "Miejsce"], "value": 0.75}
+    , {"semantical":["Narzędzie", "Cel", "Sprawca", "Miejsce"], "value": 0.75}
+    , {"semantical":["Obiekt", "Zdarzenie", "Narzędzie", "Miejsce"], "value": 0.75}
+    , {"semantical":["Zdarzenie", "Sprawca", "Narzędzie"], "value": 0.7}
+    , {"semantical":["Zdarzenie", "Cel", "Narzędzie"], "value": 0.7}
+    , {"semantical":["Sprawca", "Cel", "Narzędzie"], "value": 0.7}
+    , {"semantical":["Obiekt", "Narzędzie", "Miejsce"], "value": 0.7}
+    , {"semantical":["Cel", "Obiekt", "Narzędzie"], "value": 0.6}
+    , {"semantical":["Zdarzenie", "Cel", "Miejsce"], "value": 0.65}
+    , {"semantical":["Sprawca", "Cel", "Miejsce"], "value": 0.65}
+    , {"semantical":["Zdarzenie", "Sprawca", "Cel"], "value": 0.65}
+    , {"semantical":["Zdarzenie", "Sprawca", "Obiekt"], "value": 0.65}
+    , {"semantical":["Sprawca", "Obiekt", "Narzędzie"], "value": 0.65}
+    , {"semantical":["Zdarzenie", "Cel", "Obiekt"], "value": 0.6}
+    , {"semantical":["Sprawca", "Cel", "Obiekt"], "value": 0.6}
+    , {"semantical":["Zdarzenie", "Sprawca", "Miejsce"], "value": 0.6}
+    , {"semantical":["Zdarzenie", "Narzędzie", "Miejsce"], "value": 0.6}
+    , {"semantical":["Zdarzenie", "Narzędzie", "Obiekt"], "value": 0.6}
+    , {"semantical":["Zdarzenie", "Narzędzie"], "value": 0.4}
+    , {"semantical":["Sprawca", "Narzędzie"], "value": 0.4}
+    , {"semantical":["Zdarzenie", "Sprawca"], "value": 0.4}
+    , {"semantical":["Cel", "Narzędzie"], "value": 0.4}
+    , {"semantical":["Sprawca", "Cel"], "value": 0.4}
+    , {"semantical":["Sprawca", "Obiekt"], "value": 0.3}
+    , {"semantical":["Obiekt", "Narzędzie"], "value": 0.4}
+    , {"semantical":["Sprawca", "Miejsce"], "value": 0.4}
+    , {"semantical":["Zdarzenie", "Cel"], "value": 0.3}
+    , {"semantical":["Zdarzenie", "Obiekt"], "value": 0.3}
+    , {"semantical":["Zdarzenie", "Miejsce"], "value": 0.3}
+    , {"semantical":["Narzędzie", "Miejsce"], "value": 0.3}
+    , {"semantical":["Cel", "Miejsce"], "value": 0.3}
+    , {"semantical":["Cel", "Obiekt"], "value": 0.3}
+    , {"semantical":["Obiekt", "Miejsce"], "value": 0.3}
+    , {"semantical":["Narzędzie"], "value": 0.2}
+    , {"semantical":["Sprawca"], "value": 0.2}
+    , {"semantical":["Cel"], "value": 0.1}
+    , {"semantical":["Zdarzenie"], "value": 0.1}
+    , {"semantical":["Miejsce"], "value": 0.1}
+    , {"semantical":["Obiekt"], "value": 0.1}
+  ],
+  "matching_rules":
+    {
+      "Zdarzenie": ["zastosowanie", "uczenie", "learning", "analiza"],
+      "Sprawca": ["oprogramowanie", "machine", "maszyna"],
+      "Cel": ["rozwiązanie", "znalezienie", "podejmowanie", "decyzji", "aplikacje"],
+      "Obiekt": ["model", "nadzorowane", "nienadzorowane", "dana", "zbiór", "maszynowy", "neuron", "wzorzec"],
+      "Narzędzie": ["wzór", "algorytm", "reguła", "neuronowe", "funkcja", "metoda", "technologia"],
+      "Miejsce": ["komputer", "uniwersytet"]
+    }
+
+}

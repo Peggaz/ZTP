@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Wszystkie teksty</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li><a href="{{ url_for ('txts')}}"> Teksty </a></li>
+            <li><a href="{{ url_for ('roles') }}"> Role </a> </li>
+            <li><a href="{{ url_for ('wght') }}"> Wagi </a> </li>
+        </ul>
+    </nav>
+    <br>
+    {%for i in range(length)%}
+        <div class="content" style="border: solid 5px {{text_list[i].color}}; margin-bottom: 10px; padding:20px">
+            <table>
+              <tr>
+                <th>Tekst</th>
+                <th>Ocena</th>
+              </tr>
+              <tr>
+                <td>{{ text_list[i].id|safe }}</td>
+                <td>{{ text_list[i].rating|safe }}</td>
+              </tr>
+            </table>
+            <div>
+                {% for key in text_list[i].list %}
+                    <br>
+                    <span style="color: {% if key == 'Zdarzenie' %}#FF69B4
+                    {% elif key == 'Sprawca' %}#DAA520
+                    {% elif key == 'Cel' %}#32CD32
+                    {% elif key == 'Obiekt' %}#FF4500
+                    {% elif key == 'Narzędzie' %}#0000CD
+                    {% elif key == 'Miejsce' %}#9932CC
+                    {% endif %};">
+                        {{ key|safe }} : {{ ', '.join(text_list[i].list[key])|safe }}
+                    </span>
+                {% endfor %}
+            </div>
+
+            <hr>
+            {{  text_list[i].text|safe }}
+
+        </div>
+    {% endfor %}
+
+    <footer>
+        <p>Automatyczna ekstrakcja informacji</p>
+        <p>Magdalena Blicharz</p>
+    </footer>
+</body>
+</html>

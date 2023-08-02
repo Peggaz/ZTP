@@ -1,0 +1,8 @@
+Na czym polega kopanie kryptowalut i ich decentralizacja?
+Jak widzisz, kryptowaluty i transakcje z ich udziałem wyglądają inaczej niż zwykłe waluty i operacje w klasycznym systemie finansowym. Wirtualne pieniądze nie potrzebują pośredników ani nie podlegają kontroli banku centralnego czy innych instytucji. Żadna zewnętrzna organizacja nie może też decydować o wielkości emisji krypto ani bezpośrednio wpływać na ich funkcjonowanie.
+
+Wspomniane korzyści zapewnia sam blockchain danej kryptowaluty, który stanowi zdecentralizowaną i rozproszoną bazę danych opartą na modelu peer-to-peer. Za obsługę transakcji i przechowywanie związanych z nimi informacji odpowiadają w tym przypadku użytkownicy sieci zwani górnikami (minerami). Proces, w którym weryfikują i dodają do publicznego rejestru transakcje, a także mechanizm wprowadzania do obiegu nowych jednostek kryptowaluty, nazywamy kopaniem (miningiem).
+
+Ponieważ swoją pracę wykonuje jednocześnie wielu minerów, działanie sieci danej kryptowaluty może przebiegać w sprawny i niezakłócony sposób. Gdy któryś z nich przestanie udostępniać swój komputer, nie wpłynie to na funkcjonalność systemu. Faktem jest jednak, że w przypadku najpopularniejszych walut na wykonanie transakcji trzeba czekać nierzadko nawet kilkadziesiąt minut. Rzadziej używane kryptowaluty co do zasady wiążą się ze znacznie szybszym zatwierdzaniem operacji.
+
+Trzeba podkreślić, że opisane mechanizmy nie występują we wszystkich wirtualnych aktywach. Wystarczy wspomnieć, że w części z nich nie zachodzi proces kopania, a niektóre kryptowaluty (np. ripple) nie mają w pełni zdecentralizowanego charakteru. Tego typu wyróżników może być więcej, ale nie są one istotne dla rozważań podjętych w tym artykule.

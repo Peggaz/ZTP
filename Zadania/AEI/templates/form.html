@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formularz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}"></head>
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Weronika Bałd</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Lista tekstów</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/form">Formularz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/points">Wagi</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container justify-content-center align-items-center mt-5">
+        <table class="table table-striped thead-dark">
+          <thead>
+            <tr>
+              <th scope="col">Rola</th>
+              <th scope="col">Pasujące wyrazy</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          {% for key in form %}
+          <tr>
+            <td>{{key}}</td>
+            <td>{{', '.join(form[key])}}</td>
+          </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+
+        <div class="div">
+            {%for keys in rating %}
+                <br>
+                {% for key in keys %}
+                    {{ key }}
+                {% endfor %}
+            <hr>
+            {% endfor %}
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

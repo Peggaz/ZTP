@@ -1,0 +1,6 @@
+Jak działają kryptowaluty? Technologia, kopanie i inne kwestie techniczne
+W tekście pojawiło się już kilka pojęć, które mogą być niezrozumiałe dla osoby niezaznajomionej z tematem kryptowalut. Wyjaśnijmy zatem, jak właściwie działają wirtualne aktywa i co różni cyfrowe waluty od tokenów.
+
+Zacznijmy od tego, że wiele kryptowalut korzysta z tej samej technologii i funkcjonuje w podobny sposób. Ich istotą jest zdecentralizowany system, który w większości przypadków bazuje na blockchainie (łańcuchu bloków). Ten ostatni stanowi publiczny rejestr transakcji w ramach sieci danej kryptowaluty, które są zawierane, weryfikowane i szyfrowane przy wykorzystaniu kryptografii, czyli skomplikowanych obliczeń matematycznych. Obliczenia te na bieżąco przeprowadza wielu użytkowników sieci (a raczej ich komputery o dużej mocy obliczeniowej), za co uzyskują wynagrodzenie w postaci jednostek kryptowaluty.
+
+Co ważne, technologia blockchain działa w taki sposób, który uniemożliwia fałszowanie zarówno kryptowalut, jak i operacji, w których uczestniczą. Nie wymaga obecności pośredników, ponieważ transakcja każdorazowo odbywa się bezpośrednio pomiędzy stroną wysyłająca i odbierającą środki. Warto też dodać, że tylko strony transakcji znają wszelkie jej szczegóły, choć sam rejestr księgowy i podstawowe dane o operacji są dostępne publicznie.
