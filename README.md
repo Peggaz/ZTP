@@ -55,6 +55,24 @@ w repozytorium znajduje się miedzy innymi:
 <li>Projekt automatycznej ekstrakcji informacji pozwalający zbadać czy badany tekst jest na interesujący nas temat
 <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/project.py"><code>Zadania/AEI/project.py</code></a>
 <br>projekt znajduję się <a href="http://wierzba.wzks.uj.edu.pl:5010/">tutaj</a>
+    <ul>
+        kolejne wersję projektu:
+        <li>
+            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/project.py"><code>Zadania/AEI/app.py</code></a>
+        </li>
+        <li>
+            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/project.py"><code>Zadania/AEI/app2.py</code></a>
+        </li>
+        <li>
+            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/project.py"><code>Zadania/AEI/app3.py</code></a>
+        </li>
+        <li>
+            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/project.py"><code>Zadania/AEI/app4.py</code></a>
+        </li>
+        <li>
+            <a href="https://github.com/Peggaz/ZTP/blob/master/Zadania/AEI/project.py"><code>Zadania/AEI/app5/app.py</code></a>
+        </li>
+    </ul>
 </li>
 
 <li>wielowątkowe
